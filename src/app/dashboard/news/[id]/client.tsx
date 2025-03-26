@@ -22,8 +22,7 @@ const EditNew = ({ news }: EditNewProps) => {
     subtitle: news.title_two || '',
     content: news.content || '',
     description: news.description || '',
-    date: news.date || '',
-    imageSrc: news.imageSrc|| ''
+    imageSrc: news.image_url|| ''
   })
 
   useEffect(() => {
@@ -88,14 +87,14 @@ const EditNew = ({ news }: EditNewProps) => {
     try {
       const token = localStorage.getItem('access_token');
       
-      const response = await axios.post(
-        `http://localhost:9091/api/news/edit_detail/${news.id}`,
+      const response = await axios.put(
+        `http://localhost:9092/api/news/edit_detail`,
         {
+          id: news.id,  
           title_one: formData.title,
           title_two: formData.subtitle,
           content: formData.content,
           description: formData.description,
-          date: formData.date,
           imageSrc: formData.imageSrc,
         },
         {
