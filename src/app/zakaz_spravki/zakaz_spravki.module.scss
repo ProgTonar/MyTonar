@@ -1,0 +1,49 @@
+@import '@/styles/variables.scss';
+@import '@/styles/fonts.scss';
+
+
+.content {
+    max-width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+
+    @media (max-width: 1200px) {
+       width: 100%;
+    box-sizing: border-box;
+    padding: 5px;
+        
+
+    }
+
+}
+
+.spravka__header {
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.spravka__title {
+    display: flex;
+    align-items: baseline;
+
+    h1 {
+        @extend .title-1;
+        color: $Misty-1000;
+    }
+}
+
+.spravka__content {
+    display: flex;
+    flex-direction: row;
+    gap: 10;
+    padding-top: 20px;
+
+    @media (max-width: 1200px) {
+        flex-direction: column;
+       width: 100%;
+       box-sizing: border-box;
+    }
+}

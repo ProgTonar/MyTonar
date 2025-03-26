@@ -1,0 +1,233 @@
+/* [project]/src/components/UI/ModalSpravka/modalSpravka.module.scss.module.css [app-client] (css) */
+@font-face {
+  font-family: GolosText;
+  src: url("/fonts/GolosText-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: GolosText;
+  src: url("/fonts/GolosText-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+.modalSpravka-module-scss-module__nSvneG__title-1 {
+  font-family: GolosText, sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 32px;
+}
+
+.modalSpravka-module-scss-module__nSvneG__title-2 {
+  font-family: GolosText, sans-serif;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 36px;
+}
+
+.modalSpravka-module-scss-module__nSvneG__title-3 {
+  font-family: GolosText, sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.modalSpravka-module-scss-module__nSvneG__title-4 {
+  font-family: GolosText, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.modalSpravka-module-scss-module__nSvneG__title-5 {
+  font-family: GolosText, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.modalSpravka-module-scss-module__nSvneG__title-6 {
+  font-family: GolosText, sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 15.6px;
+}
+
+.modalSpravka-module-scss-module__nSvneG__head-1 {
+  font-family: GolosText, sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 27px;
+}
+
+.modalSpravka-module-scss-module__nSvneG__text {
+  font-family: GolosText, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.modalSpravka-module-scss-module__nSvneG__text-2 {
+  font-family: GolosText, sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 29x;
+}
+
+.modalSpravka-module-scss-module__nSvneG__description-13-regular {
+  font-family: GolosText, sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 17px;
+}
+
+.modalSpravka-module-scss-module__nSvneG__description-11-medium {
+  font-family: GolosText, sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 13.2px;
+}
+
+.modalSpravka-module-scss-module__nSvneG__button-14-medium {
+  font-family: GolosText, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.8px;
+}
+
+.modalSpravka-module-scss-module__nSvneG__button-14-regular {
+  font-family: GolosText, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.modalSpravka-module-scss-module__nSvneG__button-13-medium {
+  font-family: GolosText, sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 15.6px;
+}
+
+.modalSpravka-module-scss-module__nSvneG__button-16-medium {
+  font-family: GolosText, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 15.6px;
+}
+
+.modalSpravka-module-scss-module__nSvneG__plates-14-medium {
+  font-family: GolosText, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.modalSpravka-module-scss-module__nSvneG__plates-14-regular {
+  font-family: GolosText, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.modalSpravka-module-scss-module__nSvneG__pagination-16-regular, .modalSpravka-module-scss-module__nSvneG__content p {
+  font-family: GolosText, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.modalSpravka-module-scss-module__nSvneG__download-footer-13 {
+  font-family: GolosText, sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 14px;
+}
+
+.modalSpravka-module-scss-module__nSvneG__table-header-18 {
+  font-family: GolosText, sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.modalSpravka-module-scss-module__nSvneG__table-header-20 {
+  font-family: GolosText, sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.modalSpravka-module-scss-module__nSvneG__section {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #000000b3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity .3s, visibility .3s;
+}
+
+.modalSpravka-module-scss-module__nSvneG__section.modalSpravka-module-scss-module__nSvneG__active {
+  opacity: 1;
+  visibility: visible;
+  box-sizing: border-box;
+  padding: 5px;
+}
+
+.modalSpravka-module-scss-module__nSvneG__section__container {
+  background-color: #fff;
+  border-radius: 8px;
+  width: 600px;
+  min-height: 360px;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 26px;
+  overflow: hidden;
+  transform: scale(.8);
+  opacity: 0;
+  transition: transform .3s, opacity .3s;
+}
+
+.modalSpravka-module-scss-module__nSvneG__active .modalSpravka-module-scss-module__nSvneG__section__container {
+  transform: scale(1);
+  opacity: 1;
+}
+
+.modalSpravka-module-scss-module__nSvneG__header {
+  background-color: #ff5b4d;
+  min-width: 100%;
+  min-height: 140px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modalSpravka-module-scss-module__nSvneG__content {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.modalSpravka-module-scss-module__nSvneG__content p {
+  text-align: center;
+  max-width: 75%;
+}
+
+.modalSpravka-module-scss-module__nSvneG__button {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+/*# sourceMappingURL=src_components_UI_ModalSpravka_modalSpravka_module_scss_module_b52d8e88.css.map*/

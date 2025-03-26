@@ -1,0 +1,24 @@
+import EmergencyClient from "./client";
+import { getEmergencyNumbers } from "@/services/emergencyService";
+
+export default async function EmergencyPage() {
+  const ModalContent = {
+    block1: {
+      title: "Поиск по ФИО",
+      description:
+        "Ищет по имени/фамилии/отчеству.Можно искать по всему ФИО или по-отдельности. Примеры: Александр, Мишин, Лапкин Павел Сергеевич.",
+    },
+    block2: {
+      title: "Поиск по названию отдела",
+      description:
+        "«Электро» покажет сотрудников, у которых в названии отдела есть слово «электро».",
+    },
+    block3: {
+      title: "Поиск по должности",
+      description:
+        "«Сварщик» покажет сотрудников, у которых в названии должности есть слово «сварщик».",
+    },
+  };
+  const emergencyData = await getEmergencyNumbers();
+  return <EmergencyClient ModalContent={ModalContent} data={emergencyData} />;
+}

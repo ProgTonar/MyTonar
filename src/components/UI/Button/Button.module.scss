@@ -1,0 +1,33 @@
+@import '@/styles/variables.scss';
+@import '@/styles/fonts.scss';
+
+.button {
+	padding: 14px 24px;
+	@extend .button-14-medium;
+	border: none;
+	border-radius: 16px;
+	cursor: pointer;
+	background-color: white;
+	color: $Red-orange-500;
+	@extend .text;
+	transition: all 0.3s ease;
+	max-width: 100%;
+}
+
+.button:hover {
+	background-color: $Red-orange-500;
+	color: white;
+}
+
+.button:focus {
+	outline: none;
+	border: 2px solid $Red-orange-500;
+	color: $Red-orange-500;
+	background-color: white;
+}
+
+.button:disabled {
+	background-color: white;
+	color: $Misty-300;
+	cursor: not-allowed;
+}

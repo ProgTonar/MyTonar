@@ -1,0 +1,313 @@
+/* [project]/src/components/Buses/buses.module.scss.module.css [app-client] (css) */
+@font-face {
+  font-family: GolosText;
+  src: url("/fonts/GolosText-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: GolosText;
+  src: url("/fonts/GolosText-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+.buses-module-scss-module__t28HVG__title-1 {
+  font-family: GolosText, sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 32px;
+}
+
+.buses-module-scss-module__t28HVG__title-2 {
+  font-family: GolosText, sans-serif;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 36px;
+}
+
+.buses-module-scss-module__t28HVG__title-3, .buses-module-scss-module__t28HVG__title, .buses-module-scss-module__t28HVG__arrival_time, .buses-module-scss-module__t28HVG__stops > div:first-child, .buses-module-scss-module__t28HVG__navigate > div:first-child {
+  font-family: GolosText, sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.buses-module-scss-module__t28HVG__title-4 {
+  font-family: GolosText, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.buses-module-scss-module__t28HVG__title-5, .buses-module-scss-module__t28HVG__no_route {
+  font-family: GolosText, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.buses-module-scss-module__t28HVG__title-6 {
+  font-family: GolosText, sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 15.6px;
+}
+
+.buses-module-scss-module__t28HVG__head-1 {
+  font-family: GolosText, sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 27px;
+}
+
+.buses-module-scss-module__t28HVG__text {
+  font-family: GolosText, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.buses-module-scss-module__t28HVG__text-2 {
+  font-family: GolosText, sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 29x;
+}
+
+.buses-module-scss-module__t28HVG__description-13-regular {
+  font-family: GolosText, sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 17px;
+}
+
+.buses-module-scss-module__t28HVG__description-11-medium {
+  font-family: GolosText, sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 13.2px;
+}
+
+.buses-module-scss-module__t28HVG__button-14-medium {
+  font-family: GolosText, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.8px;
+}
+
+.buses-module-scss-module__t28HVG__button-14-regular {
+  font-family: GolosText, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.buses-module-scss-module__t28HVG__button-13-medium {
+  font-family: GolosText, sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 15.6px;
+}
+
+.buses-module-scss-module__t28HVG__button-16-medium {
+  font-family: GolosText, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 15.6px;
+}
+
+.buses-module-scss-module__t28HVG__plates-14-medium {
+  font-family: GolosText, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.buses-module-scss-module__t28HVG__plates-14-regular {
+  font-family: GolosText, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.buses-module-scss-module__t28HVG__pagination-16-regular, .buses-module-scss-module__t28HVG__stop_name {
+  font-family: GolosText, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.buses-module-scss-module__t28HVG__download-footer-13 {
+  font-family: GolosText, sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 14px;
+}
+
+.buses-module-scss-module__t28HVG__table-header-18 {
+  font-family: GolosText, sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.buses-module-scss-module__t28HVG__table-header-20 {
+  font-family: GolosText, sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.buses-module-scss-module__t28HVG__section__map {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 26px;
+  box-shadow: 0 2px 10px #91affc40;
+}
+
+@media (width <= 1200px) {
+  .buses-module-scss-module__t28HVG__section__map {
+    box-shadow: 0 0 10px 5px #0000001a;
+    padding: 20px;
+  }
+}
+
+.buses-module-scss-module__t28HVG__disable__transform:hover {
+  transform: none;
+}
+
+.buses-module-scss-module__t28HVG__section__bus {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+}
+
+@media (width <= 1200px) {
+  .buses-module-scss-module__t28HVG__section__bus {
+    flex-direction: column;
+  }
+}
+
+.buses-module-scss-module__t28HVG__select__section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  min-width: 320px;
+}
+
+.buses-module-scss-module__t28HVG__navigate > div:first-child {
+  color: #152738;
+  margin-bottom: 16px;
+}
+
+.buses-module-scss-module__t28HVG__stops > div:first-child {
+  color: #152738;
+  margin-bottom: 16px;
+}
+
+.buses-module-scss-module__t28HVG__stops_list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  background-color: #ecf0f6;
+  border-radius: 16px;
+  min-height: 370px;
+  padding: 10px;
+}
+
+.buses-module-scss-module__t28HVG__stop_item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 12px 30px;
+  cursor: pointer;
+  transition: all .3s;
+  border-width: 75px;
+  border-bottom: .7px solid #c5d2de;
+}
+
+.buses-module-scss-module__t28HVG__stop_item:hover {
+  background-color: #d6e0ea;
+  border-radius: 16px;
+}
+
+.buses-module-scss-module__t28HVG__stop_item.buses-module-scss-module__t28HVG__selected {
+  background-color: #e1f2ff;
+  color: #196bdf;
+  border-radius: 16px;
+}
+
+.buses-module-scss-module__t28HVG__stop_item.buses-module-scss-module__t28HVG__selected .buses-module-scss-module__t28HVG__arrival_time {
+  color: #196bdf;
+}
+
+.buses-module-scss-module__t28HVG__stop_info {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.buses-module-scss-module__t28HVG__stop_number {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #00a764;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  color: #49667e;
+  flex-shrink: 0;
+}
+
+.buses-module-scss-module__t28HVG__selected .buses-module-scss-module__t28HVG__stop_number {
+  background-color: #196bdf;
+  color: #fff;
+}
+
+.buses-module-scss-module__t28HVG__stop_name {
+  color: #152738;
+}
+
+.buses-module-scss-module__t28HVG__arrival_time {
+  color: #152738;
+}
+
+.buses-module-scss-module__t28HVG__no_route {
+  color: #152738;
+  text-align: center;
+  padding: 24px;
+}
+
+.buses-module-scss-module__t28HVG__title {
+  padding-bottom: 30px;
+  color: #152738;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+@media (width <= 1200px) {
+  .buses-module-scss-module__t28HVG__title {
+    font-size: 15px;
+    line-height: 18px;
+  }
+}
+
+.buses-module-scss-module__t28HVG__title__icon {
+  width: 16px;
+  height: 16px;
+  background-color: #152738;
+  border-radius: 50%;
+}
+
+.buses-module-scss-module__t28HVG__disabled__title {
+  display: none;
+}
+
+/*# sourceMappingURL=src_components_Buses_buses_module_scss_module_b52d8e88.css.map*/

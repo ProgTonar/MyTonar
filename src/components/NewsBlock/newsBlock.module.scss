@@ -1,0 +1,111 @@
+@import '@/styles/variables.scss';
+@import '@/styles/fonts.scss';
+
+.section {
+
+	box-shadow: $Lift-300;;
+	display: flex;
+	flex-direction: row-reverse;
+	border-radius: 16px;
+	min-width: 645px;
+	width: 100%;
+	min-height: 300px;
+	margin: 0 auto;
+	@extend .text;
+	transition: transform 0.3s ease-in-out;
+	will-change: transform;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	box-sizing: border-box;
+
+	@media (max-width: 1200px) {
+		min-width: 100%;
+        min-height: 300px;
+		
+		
+	}
+
+		
+
+}
+
+.overlay {
+	display: flex;
+	flex-direction: column;
+	cursor: pointer;
+	width: 85%;
+	justify-content: space-between;
+	box-sizing: border-box;
+}
+
+
+.section:hover {
+	transform: scale(1.01);
+}
+
+.head {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 30px 30px ;
+	@media (max-width: 1200px) {
+		    padding: 20px 20px 0;
+	}
+}
+
+.buttonHead {
+	display: flex;
+	padding: 30px 30px;
+	justify-content: flex-end;
+	width: 15%;
+	height: 25%;
+}
+
+.headIcon {
+	width: 16px;
+	height: 16px;
+	background-color: $Misty-900;
+	border-radius: 50%;
+}
+
+.headTitle {
+	@extend .title-3;
+	color: $Misty-900;
+	@media (max-width: 1200px) {
+		font-size: 15px;
+		line-height: 18px;
+	}
+
+	
+
+}
+
+.footer {
+	@extend .title-1;
+	padding-left: 30px;
+	padding-bottom: 30px;
+	max-width: 400px;
+	color: $Misty-1000;
+	@media (max-width: 1200px) {
+			font-size: 25px;
+			font-weight: 600;
+			line-height: 28px;
+			letter-spacing: 0%;
+			padding: 150px 20px 0;
+
+		}
+}
+
+.description {
+	@extend .title-4;
+	color: $Misty-700;
+	padding-left: 30px;
+	padding-top: 15px;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	@media (max-width: 1200px) {
+		padding-top: 5px;
+		padding-left: 20px;
+
+	}
+}

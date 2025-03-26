@@ -1,0 +1,224 @@
+/* [project]/src/app/emergency_number/emergency_number.module.scss.module.css [app-client] (css) */
+@font-face {
+  font-family: GolosText;
+  src: url("/fonts/GolosText-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: GolosText;
+  src: url("/fonts/GolosText-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+.emergency_number-module-scss-module__rvag1W__title-1, .emergency_number-module-scss-module__rvag1W__emergency__title h1 {
+  font-family: GolosText, sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 32px;
+}
+
+.emergency_number-module-scss-module__rvag1W__title-2 {
+  font-family: GolosText, sans-serif;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 36px;
+}
+
+.emergency_number-module-scss-module__rvag1W__title-3 {
+  font-family: GolosText, sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.emergency_number-module-scss-module__rvag1W__title-4 {
+  font-family: GolosText, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.emergency_number-module-scss-module__rvag1W__title-5 {
+  font-family: GolosText, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.emergency_number-module-scss-module__rvag1W__title-6 {
+  font-family: GolosText, sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 15.6px;
+}
+
+.emergency_number-module-scss-module__rvag1W__head-1 {
+  font-family: GolosText, sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 27px;
+}
+
+.emergency_number-module-scss-module__rvag1W__text {
+  font-family: GolosText, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.emergency_number-module-scss-module__rvag1W__text-2 {
+  font-family: GolosText, sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 29x;
+}
+
+.emergency_number-module-scss-module__rvag1W__description-13-regular {
+  font-family: GolosText, sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 17px;
+}
+
+.emergency_number-module-scss-module__rvag1W__description-11-medium {
+  font-family: GolosText, sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 13.2px;
+}
+
+.emergency_number-module-scss-module__rvag1W__button-14-medium {
+  font-family: GolosText, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.8px;
+}
+
+.emergency_number-module-scss-module__rvag1W__button-14-regular {
+  font-family: GolosText, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.emergency_number-module-scss-module__rvag1W__button-13-medium {
+  font-family: GolosText, sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 15.6px;
+}
+
+.emergency_number-module-scss-module__rvag1W__button-16-medium {
+  font-family: GolosText, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 15.6px;
+}
+
+.emergency_number-module-scss-module__rvag1W__plates-14-medium {
+  font-family: GolosText, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.emergency_number-module-scss-module__rvag1W__plates-14-regular {
+  font-family: GolosText, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.emergency_number-module-scss-module__rvag1W__pagination-16-regular {
+  font-family: GolosText, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.emergency_number-module-scss-module__rvag1W__download-footer-13 {
+  font-family: GolosText, sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 14px;
+}
+
+.emergency_number-module-scss-module__rvag1W__table-header-18 {
+  font-family: GolosText, sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.emergency_number-module-scss-module__rvag1W__table-header-20 {
+  font-family: GolosText, sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.emergency_number-module-scss-module__rvag1W__content {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+@media (width <= 1200px) {
+  .emergency_number-module-scss-module__rvag1W__content {
+    padding: 5px;
+  }
+}
+
+.emergency_number-module-scss-module__rvag1W__emergency__header {
+  display: flex;
+  flex-direction: column;
+}
+
+.emergency_number-module-scss-module__rvag1W__emergency__title {
+  display: flex;
+  align-items: baseline;
+}
+
+.emergency_number-module-scss-module__rvag1W__emergency__title h1 {
+  color: #041221;
+}
+
+@media (width <= 1200px) {
+  .emergency_number-module-scss-module__rvag1W__emergency__title {
+    flex-direction: column;
+    padding: 10px;
+  }
+}
+
+.emergency_number-module-scss-module__rvag1W__emergency__content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 15px;
+  padding-top: 30px;
+}
+
+.emergency_number-module-scss-module__rvag1W__block {
+  flex-basis: calc(50% - 10px);
+  box-sizing: border-box;
+}
+
+@media (width <= 1200px) {
+  .emergency_number-module-scss-module__rvag1W__block {
+    flex-basis: auto;
+    width: 100%;
+  }
+}
+
+.emergency_number-module-scss-module__rvag1W__block__footer {
+  margin-top: 15px;
+  width: 100%;
+}
+
+/*# sourceMappingURL=src_app_emergency_number_emergency_number_module_scss_module_b52d8e88.css.map*/

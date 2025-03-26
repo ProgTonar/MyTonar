@@ -1,0 +1,85 @@
+@import '@/styles/variables.scss';
+@import '@/styles/fonts.scss';
+
+.userInfo {
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-right: 8px;
+	min-width: 320px;
+	cursor: pointer;
+	will-change: transform;
+	transition: transform 0.3s ease-in-out;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+
+	.img {
+		width: 16px;
+		height: 16px;
+		transition: transform 0.2s ease;
+		margin-left: auto;
+	}
+}
+
+.user {
+	display: flex;
+	flex-direction: row;
+	gap: 12px;
+	align-items: center;
+	flex: 1;
+	justify-content: flex-end;
+}
+
+.userAvatar {
+	border-radius: 50%;
+	object-fit: cover;
+}
+
+.userDetails {
+	text-align: left;
+	flex: 1;
+}
+
+.userName {
+	font-weight: 500;
+	font-size: 14px;
+	color: #1b1b1b;
+	@extend .plates-14-medium;
+	margin-bottom: 2px;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.userPosition {
+	font-size: 12px;
+	color: #6f6f6f;
+	@extend .description-13-regular;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.rotate {
+	transform: rotate(180deg);
+}
+
+.dropdown {
+	position: absolute;
+	top: calc(100% + 8px);
+	right: 0;
+
+	background: #ffffff;
+	box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+	border-radius: 8px;
+	padding: 8px 0;
+	z-index: 1000;
+}
+
+
+.buttonLogin {
+	display: flex;
+	justify-content: end;
+	@extend .plates-14-medium;
+	&:hover {color: $Blue-500;}
+
+}

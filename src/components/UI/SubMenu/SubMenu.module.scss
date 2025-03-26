@@ -1,0 +1,96 @@
+@import '@/styles/variables.scss';
+@import '@/styles/fonts.scss';
+
+.content {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: $Misty-20;
+    padding: 30px;
+    z-index: 100;
+    transition: all 0.3s ease;
+    overflow: hidden;
+
+    
+}
+
+
+.social {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+    border-bottom: 0.7 solid $Misty-300;
+    padding-bottom: 20px;
+
+
+    span {
+        @extend .button-14-regular;
+        color: $Misty-700;
+    }
+
+    .icon {
+        display: flex;
+        gap: 15;
+    }
+}
+
+.menu {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+    
+}
+
+.menuItem {
+    display: flex;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: $Misty-900;
+    @extend .pagination-16-regular;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-bottom: 0.7 solid $Misty-300;
+
+
+    .icon {
+        width: 18px;
+        height: 18px;
+        margin-right: 16px;
+        filter: brightness(0) saturate(100%) invert(19%) sepia(14%) saturate(1111%) hue-rotate(176deg) brightness(94%) contrast(88%);
+        transition: all 0.3s ease;
+    }
+
+    &:hover,
+    &.active {
+        color: $Blue-500;
+
+        .icon {
+            filter: brightness(0) saturate(100%) invert(37%) sepia(74%) saturate(1045%) hue-rotate(199deg) brightness(91%) contrast(107%);
+        }
+    }
+
+    
+}
+
+.link {
+    display: flex;
+    flex-direction: column;
+    gap: 20;
+    margin-top: 30px;
+
+    span {
+        @extend .button-14-regular;
+        color: $Misty-700;
+    }
+}

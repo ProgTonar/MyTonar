@@ -1,0 +1,2818 @@
+/* [project]/src/assets/images/newsBack.svg (static in css) */
+/* embedded static asset "/_next/static/media/newsBack.56a954a9.svg" */
+
+/* [project]/src/assets/images/bg-mobile.png (static in css) */
+/* embedded static asset "/_next/static/media/bg-mobile.bdfe83d3.png" */
+
+/* [project]/src/components/NewsBlock/newsBlock.module.scss.module.css [app-client] (css) */
+@font-face {
+  font-family: GolosText;
+  src: url("/fonts/GolosText-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: GolosText;
+  src: url("/fonts/GolosText-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+.newsBlock-module-scss-module__BX8h0a__title-1, .newsBlock-module-scss-module__BX8h0a__footer {
+  font-family: GolosText, sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 32px;
+}
+
+.newsBlock-module-scss-module__BX8h0a__title-2 {
+  font-family: GolosText, sans-serif;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 36px;
+}
+
+.newsBlock-module-scss-module__BX8h0a__title-3, .newsBlock-module-scss-module__BX8h0a__headTitle {
+  font-family: GolosText, sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.newsBlock-module-scss-module__BX8h0a__title-4, .newsBlock-module-scss-module__BX8h0a__description {
+  font-family: GolosText, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.newsBlock-module-scss-module__BX8h0a__title-5 {
+  font-family: GolosText, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.newsBlock-module-scss-module__BX8h0a__title-6 {
+  font-family: GolosText, sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 15.6px;
+}
+
+.newsBlock-module-scss-module__BX8h0a__head-1 {
+  font-family: GolosText, sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 27px;
+}
+
+.newsBlock-module-scss-module__BX8h0a__text, .newsBlock-module-scss-module__BX8h0a__section {
+  font-family: GolosText, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.newsBlock-module-scss-module__BX8h0a__text-2 {
+  font-family: GolosText, sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 29x;
+}
+
+.newsBlock-module-scss-module__BX8h0a__description-13-regular {
+  font-family: GolosText, sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 17px;
+}
+
+.newsBlock-module-scss-module__BX8h0a__description-11-medium {
+  font-family: GolosText, sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 13.2px;
+}
+
+.newsBlock-module-scss-module__BX8h0a__button-14-medium {
+  font-family: GolosText, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.8px;
+}
+
+.newsBlock-module-scss-module__BX8h0a__button-14-regular {
+  font-family: GolosText, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.newsBlock-module-scss-module__BX8h0a__button-13-medium {
+  font-family: GolosText, sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 15.6px;
+}
+
+.newsBlock-module-scss-module__BX8h0a__button-16-medium {
+  font-family: GolosText, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 15.6px;
+}
+
+.newsBlock-module-scss-module__BX8h0a__plates-14-medium {
+  font-family: GolosText, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.newsBlock-module-scss-module__BX8h0a__plates-14-regular {
+  font-family: GolosText, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.newsBlock-module-scss-module__BX8h0a__pagination-16-regular {
+  font-family: GolosText, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.newsBlock-module-scss-module__BX8h0a__download-footer-13 {
+  font-family: GolosText, sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 14px;
+}
+
+.newsBlock-module-scss-module__BX8h0a__table-header-18 {
+  font-family: GolosText, sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.newsBlock-module-scss-module__BX8h0a__section {
+  background-image: url("../media/newsBack.56a954a9.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  align-items: center;
+  box-shadow: 0 4px 10px #0000000d;
+  cursor: pointer;
+  border-radius: 16px;
+  max-width: 100%;
+  min-height: 300px;
+}
+
+@media (width <= 768px) {
+  .newsBlock-module-scss-module__BX8h0a__section {
+    background-image: url("../media/bg-mobile.bdfe83d3.png");
+    min-width: 100%;
+    min-height: 300px;
+  }
+}
+
+.newsBlock-module-scss-module__BX8h0a__head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+}
+
+@media (width <= 768px) {
+  .newsBlock-module-scss-module__BX8h0a__head {
+    padding: 20px 20px 0;
+  }
+}
+
+.newsBlock-module-scss-module__BX8h0a__headIcon {
+  width: 16px;
+  height: 16px;
+  background-color: #152738;
+  border-radius: 50%;
+}
+
+.newsBlock-module-scss-module__BX8h0a__headTitle {
+  color: #152738;
+}
+
+@media (width <= 768px) {
+  .newsBlock-module-scss-module__BX8h0a__headTitle {
+    font-size: 15px;
+    line-height: 18px;
+  }
+}
+
+.newsBlock-module-scss-module__BX8h0a__footer {
+  padding: 70px 30px 0;
+  max-width: 400px;
+  color: #041221;
+}
+
+@media (width <= 768px) {
+  .newsBlock-module-scss-module__BX8h0a__footer {
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0%;
+    padding: 150px 20px 0;
+  }
+}
+
+.newsBlock-module-scss-module__BX8h0a__description {
+  color: #385167;
+  padding-left: 30px;
+  padding-top: 15px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@media (width <= 768px) {
+  .newsBlock-module-scss-module__BX8h0a__description {
+    padding-top: 5px;
+    padding-left: 20px;
+  }
+}
+
+
+/* [project]/src/components/UI/ButtonSecond/Button.module.scss.module.css [app-client] (css) */
+@font-face {
+  font-family: GolosText;
+  src: url("/fonts/GolosText-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: GolosText;
+  src: url("/fonts/GolosText-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+.Button-module-scss-module__mzsPdG__title-1 {
+  font-family: GolosText, sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 32px;
+}
+
+.Button-module-scss-module__mzsPdG__title-2 {
+  font-family: GolosText, sans-serif;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 36px;
+}
+
+.Button-module-scss-module__mzsPdG__title-3 {
+  font-family: GolosText, sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.Button-module-scss-module__mzsPdG__title-4 {
+  font-family: GolosText, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.Button-module-scss-module__mzsPdG__title-5 {
+  font-family: GolosText, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.Button-module-scss-module__mzsPdG__title-6 {
+  font-family: GolosText, sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 15.6px;
+}
+
+.Button-module-scss-module__mzsPdG__head-1 {
+  font-family: GolosText, sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 27px;
+}
+
+.Button-module-scss-module__mzsPdG__text {
+  font-family: GolosText, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.Button-module-scss-module__mzsPdG__text-2 {
+  font-family: GolosText, sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 29x;
+}
+
+.Button-module-scss-module__mzsPdG__description-13-regular {
+  font-family: GolosText, sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 17px;
+}
+
+.Button-module-scss-module__mzsPdG__description-11-medium {
+  font-family: GolosText, sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 13.2px;
+}
+
+.Button-module-scss-module__mzsPdG__button-14-medium {
+  font-family: GolosText, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.8px;
+}
+
+.Button-module-scss-module__mzsPdG__button-14-regular {
+  font-family: GolosText, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.Button-module-scss-module__mzsPdG__button-13-medium, .Button-module-scss-module__mzsPdG__button {
+  font-family: GolosText, sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 15.6px;
+}
+
+.Button-module-scss-module__mzsPdG__button-16-medium {
+  font-family: GolosText, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 15.6px;
+}
+
+.Button-module-scss-module__mzsPdG__plates-14-medium {
+  font-family: GolosText, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.Button-module-scss-module__mzsPdG__plates-14-regular {
+  font-family: GolosText, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.Button-module-scss-module__mzsPdG__pagination-16-regular {
+  font-family: GolosText, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.Button-module-scss-module__mzsPdG__download-footer-13 {
+  font-family: GolosText, sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 14px;
+}
+
+.Button-module-scss-module__mzsPdG__table-header-18 {
+  font-family: GolosText, sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.Button-module-scss-module__mzsPdG__button {
+  padding: 8px 14px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: #fff6;
+  color: #196bdf;
+  transition: background-color .3s cubic-bezier(.4, 0, .2, 1);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-height: 32px;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.Button-module-scss-module__mzsPdG__button .Button-module-scss-module__mzsPdG__arrow {
+  transition: transform .3s cubic-bezier(.4, 0, .2, 1);
+  filter: brightness(0) saturate() invert(37%) sepia(74%) saturate(1045%) hue-rotate(199deg) brightness(91%) contrast(107%);
+  flex-shrink: 0;
+}
+
+.Button-module-scss-module__mzsPdG__button:hover {
+  background-color: #fff;
+  color: #196bdf;
+}
+
+.Button-module-scss-module__mzsPdG__button:hover .Button-module-scss-module__mzsPdG__arrow {
+  transform: translateX(4px);
+}
+
+.Button-module-scss-module__mzsPdG__button:focus {
+  outline: none;
+  border: 2px solid #88b8f0;
+  color: #196bdf;
+  background-color: #fff6;
+}
+
+.Button-module-scss-module__mzsPdG__button:disabled {
+  background-color: #fff;
+  color: #b3c3d2;
+  cursor: not-allowed;
+}
+
+.Button-module-scss-module__mzsPdG__button:disabled .Button-module-scss-module__mzsPdG__arrow {
+  filter: opacity(.5);
+}
+
+.Button-module-scss-module__mzsPdG__disabled {
+  opacity: .5;
+  cursor: not-allowed;
+}
+
+
+/* [project]/src/components/UI/ModalNews/modal.module.scss.module.css [app-client] (css) */
+@font-face {
+  font-family: GolosText;
+  src: url("/fonts/GolosText-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: GolosText;
+  src: url("/fonts/GolosText-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+.modal-module-scss-module__xdkk1a__title-1 {
+  font-family: GolosText, sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 32px;
+}
+
+.modal-module-scss-module__xdkk1a__title-2 {
+  font-family: GolosText, sans-serif;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 36px;
+}
+
+.modal-module-scss-module__xdkk1a__title-3 {
+  font-family: GolosText, sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.modal-module-scss-module__xdkk1a__title-4 {
+  font-family: GolosText, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.modal-module-scss-module__xdkk1a__title-5 {
+  font-family: GolosText, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.modal-module-scss-module__xdkk1a__title-6 {
+  font-family: GolosText, sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 15.6px;
+}
+
+.modal-module-scss-module__xdkk1a__head-1 {
+  font-family: GolosText, sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 27px;
+}
+
+.modal-module-scss-module__xdkk1a__text {
+  font-family: GolosText, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.modal-module-scss-module__xdkk1a__text-2 {
+  font-family: GolosText, sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 29x;
+}
+
+.modal-module-scss-module__xdkk1a__description-13-regular {
+  font-family: GolosText, sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 17px;
+}
+
+.modal-module-scss-module__xdkk1a__description-11-medium {
+  font-family: GolosText, sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 13.2px;
+}
+
+.modal-module-scss-module__xdkk1a__button-14-medium {
+  font-family: GolosText, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.8px;
+}
+
+.modal-module-scss-module__xdkk1a__button-14-regular {
+  font-family: GolosText, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.modal-module-scss-module__xdkk1a__button-13-medium {
+  font-family: GolosText, sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 15.6px;
+}
+
+.modal-module-scss-module__xdkk1a__button-16-medium {
+  font-family: GolosText, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 15.6px;
+}
+
+.modal-module-scss-module__xdkk1a__plates-14-medium {
+  font-family: GolosText, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.modal-module-scss-module__xdkk1a__plates-14-regular {
+  font-family: GolosText, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.modal-module-scss-module__xdkk1a__pagination-16-regular {
+  font-family: GolosText, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.modal-module-scss-module__xdkk1a__download-footer-13 {
+  font-family: GolosText, sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 14px;
+}
+
+.modal-module-scss-module__xdkk1a__table-header-18 {
+  font-family: GolosText, sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.modal-module-scss-module__xdkk1a__section {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #000000b3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.modal-module-scss-module__xdkk1a__section__container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  min-width: 500px;
+  min-height: 500px;
+  max-width: 100%;
+  position: relative;
+}
+
+.modal-module-scss-module__xdkk1a__close__button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #000;
+}
+
+
+/* [project]/src/app/home/home.module.scss.module.css [app-client] (css) */
+@font-face {
+  font-family: GolosText;
+  src: url("/fonts/GolosText-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: GolosText;
+  src: url("/fonts/GolosText-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+.home-module-scss-module__cCNkGa__title-1 {
+  font-family: GolosText, sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 32px;
+}
+
+.home-module-scss-module__cCNkGa__title-2 {
+  font-family: GolosText, sans-serif;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 36px;
+}
+
+.home-module-scss-module__cCNkGa__title-3 {
+  font-family: GolosText, sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.home-module-scss-module__cCNkGa__title-4 {
+  font-family: GolosText, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.home-module-scss-module__cCNkGa__title-5 {
+  font-family: GolosText, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.home-module-scss-module__cCNkGa__title-6 {
+  font-family: GolosText, sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 15.6px;
+}
+
+.home-module-scss-module__cCNkGa__head-1 {
+  font-family: GolosText, sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 27px;
+}
+
+.home-module-scss-module__cCNkGa__text {
+  font-family: GolosText, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.home-module-scss-module__cCNkGa__text-2 {
+  font-family: GolosText, sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 29x;
+}
+
+.home-module-scss-module__cCNkGa__description-13-regular {
+  font-family: GolosText, sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 17px;
+}
+
+.home-module-scss-module__cCNkGa__description-11-medium {
+  font-family: GolosText, sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 13.2px;
+}
+
+.home-module-scss-module__cCNkGa__button-14-medium {
+  font-family: GolosText, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.8px;
+}
+
+.home-module-scss-module__cCNkGa__button-14-regular {
+  font-family: GolosText, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.home-module-scss-module__cCNkGa__button-13-medium {
+  font-family: GolosText, sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 15.6px;
+}
+
+.home-module-scss-module__cCNkGa__button-16-medium {
+  font-family: GolosText, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 15.6px;
+}
+
+.home-module-scss-module__cCNkGa__plates-14-medium {
+  font-family: GolosText, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.home-module-scss-module__cCNkGa__plates-14-regular {
+  font-family: GolosText, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.home-module-scss-module__cCNkGa__pagination-16-regular {
+  font-family: GolosText, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.home-module-scss-module__cCNkGa__download-footer-13 {
+  font-family: GolosText, sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 14px;
+}
+
+.home-module-scss-module__cCNkGa__table-header-18 {
+  font-family: GolosText, sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.home-module-scss-module__cCNkGa__content {
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+
+/* [project]/src/components/UI/SelectNavigate/SelectNavigate.module.scss.module.css [app-client] (css) */
+@font-face {
+  font-family: GolosText;
+  src: url("/fonts/GolosText-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: GolosText;
+  src: url("/fonts/GolosText-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+.SelectNavigate-module-scss-module__yaLfZa__title-1 {
+  font-family: GolosText, sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 32px;
+}
+
+.SelectNavigate-module-scss-module__yaLfZa__title-2 {
+  font-family: GolosText, sans-serif;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 36px;
+}
+
+.SelectNavigate-module-scss-module__yaLfZa__title-3 {
+  font-family: GolosText, sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.SelectNavigate-module-scss-module__yaLfZa__title-4 {
+  font-family: GolosText, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.SelectNavigate-module-scss-module__yaLfZa__title-5 {
+  font-family: GolosText, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.SelectNavigate-module-scss-module__yaLfZa__title-6 {
+  font-family: GolosText, sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 15.6px;
+}
+
+.SelectNavigate-module-scss-module__yaLfZa__head-1 {
+  font-family: GolosText, sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 27px;
+}
+
+.SelectNavigate-module-scss-module__yaLfZa__text, .SelectNavigate-module-scss-module__yaLfZa__placeholder, .SelectNavigate-module-scss-module__yaLfZa__selectedValue {
+  font-family: GolosText, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.SelectNavigate-module-scss-module__yaLfZa__text-2 {
+  font-family: GolosText, sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 29x;
+}
+
+.SelectNavigate-module-scss-module__yaLfZa__description-13-regular {
+  font-family: GolosText, sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 17px;
+}
+
+.SelectNavigate-module-scss-module__yaLfZa__description-11-medium {
+  font-family: GolosText, sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 13.2px;
+}
+
+.SelectNavigate-module-scss-module__yaLfZa__button-14-medium {
+  font-family: GolosText, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.8px;
+}
+
+.SelectNavigate-module-scss-module__yaLfZa__button-14-regular {
+  font-family: GolosText, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.SelectNavigate-module-scss-module__yaLfZa__button-13-medium {
+  font-family: GolosText, sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 15.6px;
+}
+
+.SelectNavigate-module-scss-module__yaLfZa__button-16-medium {
+  font-family: GolosText, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 15.6px;
+}
+
+.SelectNavigate-module-scss-module__yaLfZa__plates-14-medium {
+  font-family: GolosText, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.SelectNavigate-module-scss-module__yaLfZa__plates-14-regular {
+  font-family: GolosText, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.SelectNavigate-module-scss-module__yaLfZa__pagination-16-regular, .SelectNavigate-module-scss-module__yaLfZa__routePoint {
+  font-family: GolosText, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.SelectNavigate-module-scss-module__yaLfZa__download-footer-13 {
+  font-family: GolosText, sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 14px;
+}
+
+.SelectNavigate-module-scss-module__yaLfZa__table-header-18 {
+  font-family: GolosText, sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.SelectNavigate-module-scss-module__yaLfZa__selectContainer {
+  position: relative;
+  width: 100%;
+}
+
+.SelectNavigate-module-scss-module__yaLfZa__select {
+  background-color: #ecf0f6;
+  border-radius: 16px;
+  padding: 12px 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: all .3s;
+}
+
+.SelectNavigate-module-scss-module__yaLfZa__select:hover {
+  background-color: #d6e0ea;
+}
+
+.SelectNavigate-module-scss-module__yaLfZa__select.SelectNavigate-module-scss-module__yaLfZa__open {
+  border-radius: 16px 16px 0 0;
+  background-color: #d6e0ea;
+}
+
+.SelectNavigate-module-scss-module__yaLfZa__selectedValue {
+  flex: 1;
+}
+
+.SelectNavigate-module-scss-module__yaLfZa__placeholder {
+  color: #49667e;
+}
+
+.SelectNavigate-module-scss-module__yaLfZa__routeDisplay {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.SelectNavigate-module-scss-module__yaLfZa__routePoint {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #152738;
+}
+
+.SelectNavigate-module-scss-module__yaLfZa__routePoint:first-child {
+  color: #152738;
+}
+
+.SelectNavigate-module-scss-module__yaLfZa__circle {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #00a764;
+  flex-shrink: 0;
+}
+
+.SelectNavigate-module-scss-module__yaLfZa__routeArrow {
+  flex-shrink: 0;
+}
+
+.SelectNavigate-module-scss-module__yaLfZa__arrow {
+  transition: transform .3s;
+}
+
+.SelectNavigate-module-scss-module__yaLfZa__arrow.SelectNavigate-module-scss-module__yaLfZa__rotated {
+  transform: rotate(180deg);
+}
+
+.SelectNavigate-module-scss-module__yaLfZa__dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  margin-top: 4px;
+  background-color: #fff;
+  border-radius: 16px;
+  overflow: hidden;
+  z-index: 10;
+  max-height: 300px;
+  overflow-y: auto;
+  border: 1px solid #c5d2de;
+  box-shadow: 0 4px 20px #0000001a;
+  padding: 5px;
+}
+
+.SelectNavigate-module-scss-module__yaLfZa__dropdown::-webkit-scrollbar {
+  width: 4px;
+}
+
+.SelectNavigate-module-scss-module__yaLfZa__dropdown::-webkit-scrollbar-track {
+  background: none;
+}
+
+.SelectNavigate-module-scss-module__yaLfZa__dropdown::-webkit-scrollbar-thumb {
+  background: #b3c3d2;
+  border-radius: 2px;
+}
+
+.SelectNavigate-module-scss-module__yaLfZa__option {
+  padding: 12px 16px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: all .3s;
+  border-top: 1px solid #c5d2de;
+  background-color: #fff;
+  border-radius: 16px;
+}
+
+.SelectNavigate-module-scss-module__yaLfZa__option:first-child {
+  border-top: none;
+}
+
+.SelectNavigate-module-scss-module__yaLfZa__option:hover {
+  background-color: #ecf0f6;
+}
+
+.SelectNavigate-module-scss-module__yaLfZa__option.SelectNavigate-module-scss-module__yaLfZa__selected {
+  background-color: #e1f2ff;
+}
+
+.SelectNavigate-module-scss-module__yaLfZa__option.SelectNavigate-module-scss-module__yaLfZa__selected .SelectNavigate-module-scss-module__yaLfZa__routePoint:first-child {
+  color: #152738;
+}
+
+
+/* [project]/src/components/UI/YandexMap/Map.module.scss.module.css [app-client] (css) */
+@font-face {
+  font-family: GolosText;
+  src: url("/fonts/GolosText-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: GolosText;
+  src: url("/fonts/GolosText-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+.Map-module-scss-module__4AJn8a__title-1 {
+  font-family: GolosText, sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 32px;
+}
+
+.Map-module-scss-module__4AJn8a__title-2 {
+  font-family: GolosText, sans-serif;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 36px;
+}
+
+.Map-module-scss-module__4AJn8a__title-3 {
+  font-family: GolosText, sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.Map-module-scss-module__4AJn8a__title-4 {
+  font-family: GolosText, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.Map-module-scss-module__4AJn8a__title-5 {
+  font-family: GolosText, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.Map-module-scss-module__4AJn8a__title-6 {
+  font-family: GolosText, sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 15.6px;
+}
+
+.Map-module-scss-module__4AJn8a__head-1 {
+  font-family: GolosText, sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 27px;
+}
+
+.Map-module-scss-module__4AJn8a__text {
+  font-family: GolosText, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.Map-module-scss-module__4AJn8a__text-2 {
+  font-family: GolosText, sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 29x;
+}
+
+.Map-module-scss-module__4AJn8a__description-13-regular {
+  font-family: GolosText, sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 17px;
+}
+
+.Map-module-scss-module__4AJn8a__description-11-medium {
+  font-family: GolosText, sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 13.2px;
+}
+
+.Map-module-scss-module__4AJn8a__button-14-medium {
+  font-family: GolosText, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.8px;
+}
+
+.Map-module-scss-module__4AJn8a__button-14-regular {
+  font-family: GolosText, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.Map-module-scss-module__4AJn8a__button-13-medium {
+  font-family: GolosText, sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 15.6px;
+}
+
+.Map-module-scss-module__4AJn8a__button-16-medium {
+  font-family: GolosText, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 15.6px;
+}
+
+.Map-module-scss-module__4AJn8a__plates-14-medium {
+  font-family: GolosText, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.Map-module-scss-module__4AJn8a__plates-14-regular {
+  font-family: GolosText, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.Map-module-scss-module__4AJn8a__pagination-16-regular {
+  font-family: GolosText, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.Map-module-scss-module__4AJn8a__download-footer-13 {
+  font-family: GolosText, sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 14px;
+}
+
+.Map-module-scss-module__4AJn8a__table-header-18 {
+  font-family: GolosText, sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.Map-module-scss-module__4AJn8a__map__section {
+  position: relative;
+  border-radius: 16px;
+  overflow: hidden;
+  width: 570px;
+  height: 540px;
+}
+
+@media (width <= 768px) {
+  .Map-module-scss-module__4AJn8a__map__section {
+    max-width: 100%;
+    max-height: 336px;
+  }
+}
+
+.Map-module-scss-module__4AJn8a__map__content {
+  opacity: 0;
+  animation: .5s ease-in-out forwards Map-module-scss-module__4AJn8a__fadeIn;
+}
+
+@keyframes Map-module-scss-module__4AJn8a__fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+
+/* [project]/src/components/UI/Loader/Loader.module.scss.module.css [app-client] (css) */
+@font-face {
+  font-family: GolosText;
+  src: url("/fonts/GolosText-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: GolosText;
+  src: url("/fonts/GolosText-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+.Loader-module-scss-module__ae0pTq__title-1 {
+  font-family: GolosText, sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 32px;
+}
+
+.Loader-module-scss-module__ae0pTq__title-2 {
+  font-family: GolosText, sans-serif;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 36px;
+}
+
+.Loader-module-scss-module__ae0pTq__title-3 {
+  font-family: GolosText, sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.Loader-module-scss-module__ae0pTq__title-4 {
+  font-family: GolosText, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.Loader-module-scss-module__ae0pTq__title-5 {
+  font-family: GolosText, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.Loader-module-scss-module__ae0pTq__title-6 {
+  font-family: GolosText, sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 15.6px;
+}
+
+.Loader-module-scss-module__ae0pTq__head-1 {
+  font-family: GolosText, sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 27px;
+}
+
+.Loader-module-scss-module__ae0pTq__text {
+  font-family: GolosText, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.Loader-module-scss-module__ae0pTq__text-2 {
+  font-family: GolosText, sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 29x;
+}
+
+.Loader-module-scss-module__ae0pTq__description-13-regular {
+  font-family: GolosText, sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 17px;
+}
+
+.Loader-module-scss-module__ae0pTq__description-11-medium {
+  font-family: GolosText, sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 13.2px;
+}
+
+.Loader-module-scss-module__ae0pTq__button-14-medium {
+  font-family: GolosText, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.8px;
+}
+
+.Loader-module-scss-module__ae0pTq__button-14-regular {
+  font-family: GolosText, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.Loader-module-scss-module__ae0pTq__button-13-medium {
+  font-family: GolosText, sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 15.6px;
+}
+
+.Loader-module-scss-module__ae0pTq__button-16-medium {
+  font-family: GolosText, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 15.6px;
+}
+
+.Loader-module-scss-module__ae0pTq__plates-14-medium {
+  font-family: GolosText, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.Loader-module-scss-module__ae0pTq__plates-14-regular {
+  font-family: GolosText, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.Loader-module-scss-module__ae0pTq__pagination-16-regular {
+  font-family: GolosText, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.Loader-module-scss-module__ae0pTq__download-footer-13 {
+  font-family: GolosText, sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 14px;
+}
+
+.Loader-module-scss-module__ae0pTq__table-header-18 {
+  font-family: GolosText, sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.Loader-module-scss-module__ae0pTq__loaderContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  border-radius: 16px;
+  gap: 16px;
+  box-shadow: 0 4px 20px #0000001a;
+  animation: .5s ease-in-out forwards Loader-module-scss-module__ae0pTq__fadeOut;
+  animation-play-state: paused;
+}
+
+.Loader-module-scss-module__ae0pTq__loader {
+  display: flex;
+  gap: 8px;
+}
+
+.Loader-module-scss-module__ae0pTq__circle {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #196bdf;
+  animation: .5s ease-in-out infinite Loader-module-scss-module__ae0pTq__bounce;
+}
+
+.Loader-module-scss-module__ae0pTq__circle:nth-child(2) {
+  animation-delay: .1s;
+}
+
+.Loader-module-scss-module__ae0pTq__circle:nth-child(3) {
+  animation-delay: .2s;
+}
+
+.Loader-module-scss-module__ae0pTq__text {
+  color: #152738;
+}
+
+@keyframes Loader-module-scss-module__ae0pTq__bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes Loader-module-scss-module__ae0pTq__fadeOut {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+
+
+/* [project]/src/components/Buses/buses.module.scss.module.css [app-client] (css) */
+@font-face {
+  font-family: GolosText;
+  src: url("/fonts/GolosText-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: GolosText;
+  src: url("/fonts/GolosText-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+.buses-module-scss-module__t28HVG__title-1 {
+  font-family: GolosText, sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 32px;
+}
+
+.buses-module-scss-module__t28HVG__title-2 {
+  font-family: GolosText, sans-serif;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 36px;
+}
+
+.buses-module-scss-module__t28HVG__title-3, .buses-module-scss-module__t28HVG__title, .buses-module-scss-module__t28HVG__arrival_time, .buses-module-scss-module__t28HVG__stops > div:first-child, .buses-module-scss-module__t28HVG__navigate > div:first-child {
+  font-family: GolosText, sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.buses-module-scss-module__t28HVG__title-4 {
+  font-family: GolosText, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.buses-module-scss-module__t28HVG__title-5, .buses-module-scss-module__t28HVG__no_route {
+  font-family: GolosText, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.buses-module-scss-module__t28HVG__title-6 {
+  font-family: GolosText, sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 15.6px;
+}
+
+.buses-module-scss-module__t28HVG__head-1 {
+  font-family: GolosText, sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 27px;
+}
+
+.buses-module-scss-module__t28HVG__text {
+  font-family: GolosText, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.buses-module-scss-module__t28HVG__text-2 {
+  font-family: GolosText, sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 29x;
+}
+
+.buses-module-scss-module__t28HVG__description-13-regular {
+  font-family: GolosText, sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 17px;
+}
+
+.buses-module-scss-module__t28HVG__description-11-medium {
+  font-family: GolosText, sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 13.2px;
+}
+
+.buses-module-scss-module__t28HVG__button-14-medium {
+  font-family: GolosText, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.8px;
+}
+
+.buses-module-scss-module__t28HVG__button-14-regular {
+  font-family: GolosText, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.buses-module-scss-module__t28HVG__button-13-medium {
+  font-family: GolosText, sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 15.6px;
+}
+
+.buses-module-scss-module__t28HVG__button-16-medium {
+  font-family: GolosText, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 15.6px;
+}
+
+.buses-module-scss-module__t28HVG__plates-14-medium {
+  font-family: GolosText, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.buses-module-scss-module__t28HVG__plates-14-regular {
+  font-family: GolosText, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.buses-module-scss-module__t28HVG__pagination-16-regular, .buses-module-scss-module__t28HVG__stop_name {
+  font-family: GolosText, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.buses-module-scss-module__t28HVG__download-footer-13 {
+  font-family: GolosText, sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 14px;
+}
+
+.buses-module-scss-module__t28HVG__table-header-18 {
+  font-family: GolosText, sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.buses-module-scss-module__t28HVG__section__map {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 26px;
+}
+
+@media (width <= 768px) {
+  .buses-module-scss-module__t28HVG__section__map {
+    box-shadow: 0 0 10px 5px #0000001a;
+    padding: 20px;
+  }
+}
+
+.buses-module-scss-module__t28HVG__disable__transform:hover {
+  transform: none;
+}
+
+.buses-module-scss-module__t28HVG__section__bus {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+}
+
+@media (width <= 768px) {
+  .buses-module-scss-module__t28HVG__section__bus {
+    flex-direction: column;
+  }
+}
+
+.buses-module-scss-module__t28HVG__select__section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  min-width: 320px;
+}
+
+.buses-module-scss-module__t28HVG__navigate > div:first-child {
+  color: #152738;
+  margin-bottom: 16px;
+}
+
+.buses-module-scss-module__t28HVG__stops > div:first-child {
+  color: #152738;
+  margin-bottom: 16px;
+}
+
+.buses-module-scss-module__t28HVG__stops_list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  background-color: #ecf0f6;
+  border-radius: 16px;
+  min-height: 370px;
+  padding: 10px;
+}
+
+.buses-module-scss-module__t28HVG__stop_item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 12px 30px;
+  cursor: pointer;
+  transition: all .3s;
+  border-width: 75px;
+  border-bottom: .7px solid #c5d2de;
+}
+
+.buses-module-scss-module__t28HVG__stop_item:hover {
+  background-color: #d6e0ea;
+  border-radius: 16px;
+}
+
+.buses-module-scss-module__t28HVG__stop_item.buses-module-scss-module__t28HVG__selected {
+  background-color: #e1f2ff;
+  color: #196bdf;
+}
+
+.buses-module-scss-module__t28HVG__stop_item.buses-module-scss-module__t28HVG__selected .buses-module-scss-module__t28HVG__arrival_time {
+  color: #196bdf;
+}
+
+.buses-module-scss-module__t28HVG__stop_info {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.buses-module-scss-module__t28HVG__stop_number {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #00a764;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  color: #49667e;
+  flex-shrink: 0;
+}
+
+.buses-module-scss-module__t28HVG__selected .buses-module-scss-module__t28HVG__stop_number {
+  background-color: #196bdf;
+  color: #fff;
+}
+
+.buses-module-scss-module__t28HVG__stop_name {
+  color: #152738;
+}
+
+.buses-module-scss-module__t28HVG__arrival_time {
+  color: #152738;
+}
+
+.buses-module-scss-module__t28HVG__no_route {
+  color: #152738;
+  text-align: center;
+  padding: 24px;
+}
+
+.buses-module-scss-module__t28HVG__title {
+  padding-bottom: 30px;
+  color: #152738;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+@media (width <= 768px) {
+  .buses-module-scss-module__t28HVG__title {
+    font-size: 15px;
+    line-height: 18px;
+  }
+}
+
+.buses-module-scss-module__t28HVG__title__icon {
+  width: 16px;
+  height: 16px;
+  background-color: #152738;
+  border-radius: 50%;
+}
+
+.buses-module-scss-module__t28HVG__disabled__title {
+  display: none;
+}
+
+
+/* [project]/src/components/UI/ButtonDefault/ButtonDefault.module.scss.module.css [app-client] (css) */
+@font-face {
+  font-family: GolosText;
+  src: url("/fonts/GolosText-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: GolosText;
+  src: url("/fonts/GolosText-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+.ButtonDefault-module-scss-module__UDRp5W__title-1 {
+  font-family: GolosText, sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 32px;
+}
+
+.ButtonDefault-module-scss-module__UDRp5W__title-2 {
+  font-family: GolosText, sans-serif;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 36px;
+}
+
+.ButtonDefault-module-scss-module__UDRp5W__title-3 {
+  font-family: GolosText, sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.ButtonDefault-module-scss-module__UDRp5W__title-4 {
+  font-family: GolosText, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.ButtonDefault-module-scss-module__UDRp5W__title-5 {
+  font-family: GolosText, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.ButtonDefault-module-scss-module__UDRp5W__title-6 {
+  font-family: GolosText, sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 15.6px;
+}
+
+.ButtonDefault-module-scss-module__UDRp5W__head-1 {
+  font-family: GolosText, sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 27px;
+}
+
+.ButtonDefault-module-scss-module__UDRp5W__text, .ButtonDefault-module-scss-module__UDRp5W__button {
+  font-family: GolosText, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.ButtonDefault-module-scss-module__UDRp5W__text-2 {
+  font-family: GolosText, sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 29x;
+}
+
+.ButtonDefault-module-scss-module__UDRp5W__description-13-regular {
+  font-family: GolosText, sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 17px;
+}
+
+.ButtonDefault-module-scss-module__UDRp5W__description-11-medium {
+  font-family: GolosText, sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 13.2px;
+}
+
+.ButtonDefault-module-scss-module__UDRp5W__button-14-medium, .ButtonDefault-module-scss-module__UDRp5W__button {
+  font-family: GolosText, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.8px;
+}
+
+.ButtonDefault-module-scss-module__UDRp5W__button-14-regular {
+  font-family: GolosText, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.ButtonDefault-module-scss-module__UDRp5W__button-13-medium {
+  font-family: GolosText, sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 15.6px;
+}
+
+.ButtonDefault-module-scss-module__UDRp5W__button-16-medium {
+  font-family: GolosText, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 15.6px;
+}
+
+.ButtonDefault-module-scss-module__UDRp5W__plates-14-medium {
+  font-family: GolosText, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.ButtonDefault-module-scss-module__UDRp5W__plates-14-regular {
+  font-family: GolosText, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.ButtonDefault-module-scss-module__UDRp5W__pagination-16-regular {
+  font-family: GolosText, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.ButtonDefault-module-scss-module__UDRp5W__download-footer-13 {
+  font-family: GolosText, sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 14px;
+}
+
+.ButtonDefault-module-scss-module__UDRp5W__table-header-18 {
+  font-family: GolosText, sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.ButtonDefault-module-scss-module__UDRp5W__button {
+  padding: 14px 24px;
+  max-width: 300px;
+  border: none;
+  border-radius: 16px;
+  cursor: pointer;
+  background-color: #196bdf;
+  color: #fff;
+}
+
+.ButtonDefault-module-scss-module__UDRp5W__button:hover {
+  background-color: #145fc4;
+  color: #fff;
+}
+
+.ButtonDefault-module-scss-module__UDRp5W__button:focus {
+  outline: none;
+  border: 2px solid #88b8f0;
+  color: #fff;
+  background-color: #196bdf;
+}
+
+.ButtonDefault-module-scss-module__UDRp5W__button:disabled {
+  background-color: #c5d2de;
+  color: #fff;
+  cursor: not-allowed;
+}
+
+
+/* [project]/src/components/InfoBlock/infoBlock.module.scss.module.css [app-client] (css) */
+@font-face {
+  font-family: GolosText;
+  src: url("/fonts/GolosText-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: GolosText;
+  src: url("/fonts/GolosText-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+.infoBlock-module-scss-module__nQIaja__title-1 {
+  font-family: GolosText, sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 32px;
+}
+
+.infoBlock-module-scss-module__nQIaja__title-2 {
+  font-family: GolosText, sans-serif;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 36px;
+}
+
+.infoBlock-module-scss-module__nQIaja__title-3, .infoBlock-module-scss-module__nQIaja__headTitle {
+  font-family: GolosText, sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.infoBlock-module-scss-module__nQIaja__title-4, .infoBlock-module-scss-module__nQIaja__portal_title, .infoBlock-module-scss-module__nQIaja__description {
+  font-family: GolosText, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.infoBlock-module-scss-module__nQIaja__title-5 {
+  font-family: GolosText, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.infoBlock-module-scss-module__nQIaja__title-6 {
+  font-family: GolosText, sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 15.6px;
+}
+
+.infoBlock-module-scss-module__nQIaja__head-1 {
+  font-family: GolosText, sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 27px;
+}
+
+.infoBlock-module-scss-module__nQIaja__text {
+  font-family: GolosText, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.infoBlock-module-scss-module__nQIaja__text-2 {
+  font-family: GolosText, sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 29x;
+}
+
+.infoBlock-module-scss-module__nQIaja__description-13-regular {
+  font-family: GolosText, sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 17px;
+}
+
+.infoBlock-module-scss-module__nQIaja__description-11-medium {
+  font-family: GolosText, sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 13.2px;
+}
+
+.infoBlock-module-scss-module__nQIaja__button-14-medium {
+  font-family: GolosText, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.8px;
+}
+
+.infoBlock-module-scss-module__nQIaja__button-14-regular {
+  font-family: GolosText, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.infoBlock-module-scss-module__nQIaja__button-13-medium {
+  font-family: GolosText, sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 15.6px;
+}
+
+.infoBlock-module-scss-module__nQIaja__button-16-medium {
+  font-family: GolosText, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 15.6px;
+}
+
+.infoBlock-module-scss-module__nQIaja__plates-14-medium {
+  font-family: GolosText, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.infoBlock-module-scss-module__nQIaja__plates-14-regular {
+  font-family: GolosText, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.infoBlock-module-scss-module__nQIaja__pagination-16-regular, .infoBlock-module-scss-module__nQIaja__portal_description {
+  font-family: GolosText, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.infoBlock-module-scss-module__nQIaja__download-footer-13 {
+  font-family: GolosText, sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 14px;
+}
+
+.infoBlock-module-scss-module__nQIaja__table-header-18 {
+  font-family: GolosText, sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.infoBlock-module-scss-module__nQIaja__section {
+  display: flex;
+  flex-direction: row;
+}
+
+@media (width <= 768px) {
+  .infoBlock-module-scss-module__nQIaja__section {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+
+.infoBlock-module-scss-module__nQIaja__list {
+  width: 30%;
+  background-color: #fff;
+  min-height: 260px;
+  border-radius: 26px;
+  will-change: transform;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+@media (width <= 768px) {
+  .infoBlock-module-scss-module__nQIaja__list {
+    margin-top: 20px;
+    width: 100%;
+    box-shadow: 0 0 10px 5px #0000001a;
+    margin-left: 0;
+    gap: 0;
+    justify-content: normal;
+    min-height: auto;
+  }
+}
+
+.infoBlock-module-scss-module__nQIaja__head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 30px;
+  padding-left: 30px;
+}
+
+@media (width <= 768px) {
+  .infoBlock-module-scss-module__nQIaja__head {
+    flex-direction: column;
+    align-items: start;
+    padding-top: 20px;
+  }
+}
+
+.infoBlock-module-scss-module__nQIaja__headIcon {
+  width: 16px;
+  height: 16px;
+  background-color: #152738;
+  border-radius: 50%;
+}
+
+.infoBlock-module-scss-module__nQIaja__headTitle {
+  color: #152738;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@media (width <= 768px) {
+  .infoBlock-module-scss-module__nQIaja__headTitle {
+    font-size: 15px;
+    line-height: 18px;
+  }
+}
+
+.infoBlock-module-scss-module__nQIaja__description {
+  color: #385167;
+  padding-left: 30px;
+  padding-bottom: 60px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@media (width <= 768px) {
+  .infoBlock-module-scss-module__nQIaja__description {
+    padding-bottom: 20px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    padding-top: 10px;
+  }
+}
+
+.infoBlock-module-scss-module__nQIaja__button {
+  align-self: flex-start;
+  padding-left: 30px;
+  padding-bottom: 30px;
+}
+
+@media (width <= 768px) {
+  .infoBlock-module-scss-module__nQIaja__button {
+    display: none;
+  }
+}
+
+.infoBlock-module-scss-module__nQIaja__dining {
+  width: 70%;
+  background-color: #fff;
+  border-radius: 26px;
+  margin-left: 15px;
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+}
+
+@media (width <= 768px) {
+  .infoBlock-module-scss-module__nQIaja__dining {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    box-shadow: 0 0 10px 5px #0000001a;
+    margin-left: 0;
+    gap: 0;
+  }
+}
+
+.infoBlock-module-scss-module__nQIaja__menuDiner {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+@media (width <= 768px) {
+  .infoBlock-module-scss-module__nQIaja__menuDiner {
+    width: 100%;
+  }
+}
+
+.infoBlock-module-scss-module__nQIaja__detail {
+  width: 70%;
+  padding-right: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+@media (width <= 768px) {
+  .infoBlock-module-scss-module__nQIaja__detail {
+    width: 100%;
+    padding-right: 0;
+    padding-bottom: 20px;
+    gap: 5px;
+  }
+}
+
+.infoBlock-module-scss-module__nQIaja__portal {
+  background-color: #fff;
+  border-radius: 26px;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}
+
+@media (width <= 768px) {
+  .infoBlock-module-scss-module__nQIaja__portal {
+    padding: 20px;
+    box-shadow: 0 0 10px 5px #0000001a;
+    max-height: none;
+  }
+}
+
+.infoBlock-module-scss-module__nQIaja__portal_title {
+  color: #053b74;
+  padding-left: 30px;
+  padding-top: 30px;
+}
+
+@media (width <= 768px) {
+  .infoBlock-module-scss-module__nQIaja__portal_title {
+    padding-left: 20px;
+    padding-top: 20px;
+  }
+}
+
+.infoBlock-module-scss-module__nQIaja__portal_description {
+  color: #385167;
+  padding-left: 30px;
+}
+
+@media (width <= 768px) {
+  .infoBlock-module-scss-module__nQIaja__portal_description {
+    padding-left: 20px;
+  }
+}
+
+.infoBlock-module-scss-module__nQIaja__portal_item {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 282px);
+  grid-auto-flow: column;
+  grid-auto-rows: 200px;
+  gap: 10px;
+  padding-top: 30px;
+  cursor: pointer;
+  justify-content: start;
+}
+
+@media (width <= 768px) {
+  .infoBlock-module-scss-module__nQIaja__portal_item {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    grid-auto-rows: auto;
+    grid-auto-flow: row;
+  }
+}
+
+.infoBlock-module-scss-module__nQIaja__portal_icon {
+  width: 50px;
+  height: 50px;
+  background-color: #e1e8f0;
+  border-radius: 12px;
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+
+.infoBlock-module-scss-module__nQIaja__item_block {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #ecf0f6;
+  border-radius: 16px;
+  width: 282px;
+  height: 200px;
+}
+
+@media (width <= 768px) {
+  .infoBlock-module-scss-module__nQIaja__item_block {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.infoBlock-module-scss-module__nQIaja__item_block:hover {
+  background-color: #e1f2ff;
+}
+
+.infoBlock-module-scss-module__nQIaja__item_block:focus {
+  border: 3px solid #88b8f0;
+}
+
+.infoBlock-module-scss-module__nQIaja__disabled_block {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: none;
+  border-radius: 16px;
+  border: 1px dashed #b3c3d2;
+  width: 282px;
+  height: 200px;
+}
+
+@media (width <= 768px) {
+  .infoBlock-module-scss-module__nQIaja__disabled_block {
+    width: 100%;
+    height: auto;
+  }
+}
+
+
+/* [project]/src/components/UI/BlockExpenses/expenses.module.scss.module.css [app-client] (css) */
+@font-face {
+  font-family: GolosText;
+  src: url("/fonts/GolosText-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: GolosText;
+  src: url("/fonts/GolosText-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+.expenses-module-scss-module__YEJDnG__title-1, .expenses-module-scss-module__YEJDnG__expenses_sum {
+  font-family: GolosText, sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 32px;
+}
+
+.expenses-module-scss-module__YEJDnG__title-2 {
+  font-family: GolosText, sans-serif;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 36px;
+}
+
+.expenses-module-scss-module__YEJDnG__title-3 {
+  font-family: GolosText, sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.expenses-module-scss-module__YEJDnG__title-4, .expenses-module-scss-module__YEJDnG__expenses_title {
+  font-family: GolosText, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.expenses-module-scss-module__YEJDnG__title-5 {
+  font-family: GolosText, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.expenses-module-scss-module__YEJDnG__title-6 {
+  font-family: GolosText, sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 15.6px;
+}
+
+.expenses-module-scss-module__YEJDnG__head-1 {
+  font-family: GolosText, sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 27px;
+}
+
+.expenses-module-scss-module__YEJDnG__text {
+  font-family: GolosText, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.expenses-module-scss-module__YEJDnG__text-2 {
+  font-family: GolosText, sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 29x;
+}
+
+.expenses-module-scss-module__YEJDnG__description-13-regular {
+  font-family: GolosText, sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 17px;
+}
+
+.expenses-module-scss-module__YEJDnG__description-11-medium {
+  font-family: GolosText, sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 13.2px;
+}
+
+.expenses-module-scss-module__YEJDnG__button-14-medium {
+  font-family: GolosText, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.8px;
+}
+
+.expenses-module-scss-module__YEJDnG__button-14-regular {
+  font-family: GolosText, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.expenses-module-scss-module__YEJDnG__button-13-medium {
+  font-family: GolosText, sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 15.6px;
+}
+
+.expenses-module-scss-module__YEJDnG__button-16-medium {
+  font-family: GolosText, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 15.6px;
+}
+
+.expenses-module-scss-module__YEJDnG__plates-14-medium {
+  font-family: GolosText, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.expenses-module-scss-module__YEJDnG__plates-14-regular {
+  font-family: GolosText, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.expenses-module-scss-module__YEJDnG__pagination-16-regular {
+  font-family: GolosText, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.expenses-module-scss-module__YEJDnG__download-footer-13 {
+  font-family: GolosText, sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 14px;
+}
+
+.expenses-module-scss-module__YEJDnG__table-header-18 {
+  font-family: GolosText, sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.expenses-module-scss-module__YEJDnG__expenses {
+  width: 50%;
+  min-height: 200px;
+  background-color: #ecf0f6;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 15px;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.expenses-module-scss-module__YEJDnG__expenses:hover {
+  background-color: #e1f2ff;
+}
+
+.expenses-module-scss-module__YEJDnG__expenses:focus {
+  border: 3px solid #88b8f0;
+}
+
+@media (width <= 768px) {
+  .expenses-module-scss-module__YEJDnG__expenses {
+    margin-left: 20px;
+    justify-content: normal;
+    min-height: 140px;
+  }
+}
+
+.expenses-module-scss-module__YEJDnG__expenses_title {
+  color: #053b74;
+  padding-top: 15px;
+}
+
+@media (width <= 768px) {
+  .expenses-module-scss-module__YEJDnG__expenses_title {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+  }
+}
+
+.expenses-module-scss-module__YEJDnG__expenses_sum {
+  color: #152738;
+  padding-bottom: 15px;
+}
+
+@media (width <= 768px) {
+  .expenses-module-scss-module__YEJDnG__expenses_sum {
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 20px;
+    padding-top: 50px;
+  }
+}
+
+
+/* [project]/src/components/UI/BlockCheks/cheks.module.scss.module.css [app-client] (css) */
+@font-face {
+  font-family: GolosText;
+  src: url("/fonts/GolosText-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: GolosText;
+  src: url("/fonts/GolosText-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+.cheks-module-scss-module__v_JSbG__title-1, .cheks-module-scss-module__v_JSbG__expenses_sum {
+  font-family: GolosText, sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 32px;
+}
+
+.cheks-module-scss-module__v_JSbG__title-2 {
+  font-family: GolosText, sans-serif;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 36px;
+}
+
+.cheks-module-scss-module__v_JSbG__title-3 {
+  font-family: GolosText, sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.cheks-module-scss-module__v_JSbG__title-4, .cheks-module-scss-module__v_JSbG__expenses_title {
+  font-family: GolosText, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.cheks-module-scss-module__v_JSbG__title-5 {
+  font-family: GolosText, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.cheks-module-scss-module__v_JSbG__title-6 {
+  font-family: GolosText, sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 15.6px;
+}
+
+.cheks-module-scss-module__v_JSbG__head-1 {
+  font-family: GolosText, sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 27px;
+}
+
+.cheks-module-scss-module__v_JSbG__text {
+  font-family: GolosText, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.cheks-module-scss-module__v_JSbG__text-2 {
+  font-family: GolosText, sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 29x;
+}
+
+.cheks-module-scss-module__v_JSbG__description-13-regular {
+  font-family: GolosText, sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 17px;
+}
+
+.cheks-module-scss-module__v_JSbG__description-11-medium {
+  font-family: GolosText, sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 13.2px;
+}
+
+.cheks-module-scss-module__v_JSbG__button-14-medium {
+  font-family: GolosText, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.8px;
+}
+
+.cheks-module-scss-module__v_JSbG__button-14-regular {
+  font-family: GolosText, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.cheks-module-scss-module__v_JSbG__button-13-medium {
+  font-family: GolosText, sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 15.6px;
+}
+
+.cheks-module-scss-module__v_JSbG__button-16-medium {
+  font-family: GolosText, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 15.6px;
+}
+
+.cheks-module-scss-module__v_JSbG__plates-14-medium {
+  font-family: GolosText, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.cheks-module-scss-module__v_JSbG__plates-14-regular {
+  font-family: GolosText, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.cheks-module-scss-module__v_JSbG__pagination-16-regular {
+  font-family: GolosText, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.cheks-module-scss-module__v_JSbG__download-footer-13 {
+  font-family: GolosText, sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 14px;
+}
+
+.cheks-module-scss-module__v_JSbG__table-header-18 {
+  font-family: GolosText, sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.cheks-module-scss-module__v_JSbG__expenses {
+  width: 50%;
+  min-height: 200px;
+  background-color: #ecf0f6;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 15px;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.cheks-module-scss-module__v_JSbG__expenses:hover {
+  background-color: #e1f2ff;
+}
+
+.cheks-module-scss-module__v_JSbG__expenses:focus {
+  border: 3px solid #88b8f0;
+}
+
+@media (width <= 768px) {
+  .cheks-module-scss-module__v_JSbG__expenses {
+    margin-right: 20px;
+    min-height: 140px;
+  }
+}
+
+.cheks-module-scss-module__v_JSbG__expenses_title {
+  color: #053b74;
+  padding-top: 15px;
+}
+
+@media (width <= 768px) {
+  .cheks-module-scss-module__v_JSbG__expenses_title {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+  }
+}
+
+.cheks-module-scss-module__v_JSbG__expenses_sum {
+  color: #152738;
+  padding-bottom: 15px;
+}
+
+
+/*# sourceMappingURL=src_5743dead._.css.map*/

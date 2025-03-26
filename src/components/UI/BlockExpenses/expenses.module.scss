@@ -1,0 +1,61 @@
+@import '@/styles/variables.scss';
+@import '@/styles/fonts.scss';
+
+
+
+.expenses {
+    width: 50%;
+    min-height: 200px;
+    background-color: $Misty-50;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
+    justify-content: space-between;
+    cursor: pointer;
+
+
+    &:hover {
+        background-color: $Blue-100;
+    }
+
+    &:focus {
+        border: 3px solid $Blue-300;
+    }
+
+    @media (max-width: 1200px) {
+        margin-left: 20px;
+        justify-content: normal;
+        min-height: 140px;
+   
+    }
+
+}
+
+
+.expenses_title {
+    @extend .title-4;
+    color: #053b74;
+    padding-top: 15px;
+
+
+    @media (max-width: 1200px) {
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 16px;
+    }
+}
+
+.expenses_sum {
+    @extend .title-1;
+    color: $Misty-900;
+    padding-bottom: 15px;
+
+    @media (max-width: 1200px) {
+            font-size: 35px;
+            font-weight: 400;
+            line-height: 20px;
+            padding-top: 50px;
+        }
+
+}

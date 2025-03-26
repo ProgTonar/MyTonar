@@ -1,0 +1,25 @@
+@import './variables.scss';
+@import './reset.scss';
+@import './fonts.scss';
+
+
+body {
+    font-family: 'GolosText', sans-serif !important;
+}
+
+
+.icon {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.body-main{
+	width: 100vw;
+	height: 100vh;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-image: url('/images/guestBackground.png')
+}

@@ -1,0 +1,49 @@
+@import '@/styles/variables.scss';
+@import '@/styles/fonts.scss';
+
+.section {
+
+    display: flex;
+    flex-direction: row;
+   width: 160px;
+   height: 65px;
+   padding: 0 5px;
+    background-color: $Misty-50;
+    border-radius: 16px;
+    justify-content: space-between;
+    max-height: 160px;
+    cursor: pointer;
+    align-items: center;
+
+    &:hover {
+        background-color: $Blue-100;
+    }
+
+
+
+}
+
+.section_disabled {
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    background-color: none;
+    border-radius: 26px;
+    justify-content: space-between;
+    min-height: 160px;
+    border: 1px dashed $Misty-500;
+}
+
+.header {
+    @extend .button-14-medium;
+    color: $Blue-900;
+    padding-left: 10px;
+}
+
+.icon {
+    width: 45px;
+    height: 45px;
+    border-radius: 25%;
+    background-color: #E1E8F0;
+
+}

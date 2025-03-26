@@ -1,0 +1,60 @@
+@import '@/styles/variables.scss';
+@import '@/styles/fonts.scss';
+
+.content {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    box-sizing: border-box;
+
+    @media (max-width: 1200px) {
+        padding: 5px;
+    }
+}
+
+.emergency__header {
+    display: flex;
+    flex-direction: column;
+}
+
+.emergency__title {
+    display: flex;
+    align-items: baseline;
+
+    h1 {
+        @extend .title-1;
+        color: $Misty-1000;
+    }
+
+        @media (max-width: 1200px) {
+           flex-direction: column;
+           padding: 10px;
+        }
+}
+
+.emergency__content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding-top: 30px;
+}
+
+.block {
+    flex-basis: calc(50% - 10px); 
+    box-sizing: border-box; 
+
+    @media (max-width: 1200px) {
+        flex-basis: auto;
+        width: 100%;
+    }
+}
+
+.block__footer {
+    margin-top: 15px;
+    width: 100%;
+}
+
+

@@ -1,0 +1,171 @@
+@import '@/styles/variables.scss';
+@import '@/styles/fonts.scss';
+
+
+
+
+.section__map {
+	display: flex;
+	flex-direction: column;
+	background-color: white;
+	padding: 30px;
+	border-radius: 26px;
+	box-shadow: $Lift-300;
+
+	@media (max-width: 1200px) {
+		box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.1);
+		padding: 20px;
+	}
+
+
+
+}
+.disable__transform {
+	&:hover {
+		transform: none;
+	}
+}
+.section__bus {
+	
+	display: flex;
+	flex-direction: row;
+	gap: 24px;
+
+	@media (max-width: 1200px) {
+		flex-direction: column;
+	}
+}
+
+.select__section {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	gap: 24px;
+	min-width: 320px;
+}
+
+.navigate {
+
+	> div:first-child {
+		@extend .title-3;
+		color: $Misty-900;
+		margin-bottom: 16px;
+	}
+}
+
+.stops {
+	
+
+	> div:first-child {
+        @extend .title-3;
+        color: $Misty-900;
+        margin-bottom: 16px;
+	}
+}
+
+.stops_list {
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+    background-color: $Misty-50;
+    border-radius: 16px;
+    min-height: 370px;
+    padding: 10px 10px;
+   
+}
+
+.stop_item {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 12px 12px 30px 12px;
+	cursor: pointer;
+	transition: all 0.3s ease;
+    border-width: 75px;
+    border-bottom: 0.7px solid $Misty-200;
+    
+
+	&:hover {
+		background-color: $Misty-100;
+        border-radius: 16px;
+	}
+
+	&.selected {
+		background-color: $Blue-100;
+		color: $Blue-500;
+		border-radius: 16px;
+
+		.arrival_time {
+			color: $Blue-500;
+		}
+	}
+}
+
+.stop_info {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+}
+
+.stop_number {
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background-color: $Emerald-500;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 12px;
+	color: $Misty-600;
+	flex-shrink: 0;
+
+	.selected & {
+		background-color: $Blue-500;
+		color: white;
+	}
+}
+
+.stop_name {
+    @extend .pagination-16-regular;
+    color: #152738;
+}
+
+.arrival_time {
+	@extend .title-3;
+	color: $Misty-900;
+}
+
+.no_route {
+    @extend .title-5;
+    color: #152738;
+	text-align: center;
+	padding: 24px;
+}
+
+
+.title {
+	@extend .title-3;
+
+	padding-bottom: 30px;
+	color: $Misty-900;
+	display: flex;
+	align-items: center;
+	gap: 6px;
+
+	@media (max-width: 1200px) {
+		font-size: 15px;
+		line-height: 18px;
+	}
+
+}
+
+.title__icon {
+	width: 16px;
+	height: 16px;
+	background-color: $Misty-900;
+	border-radius: 50%;
+}
+
+.disabled__title {
+	display: none;
+}

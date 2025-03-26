@@ -1,0 +1,39 @@
+@import '@/styles/variables.scss';
+@import '@/styles/fonts.scss';
+
+
+
+.infoBlok__content {
+    display: flex;
+    flex-direction: column;
+    
+    @media (max-width: 1200px) {
+            font-size: 21px;
+            line-height: 24px;
+            width: 100%;
+            padding: 5px;
+            box-sizing: border-box;
+        }
+}
+
+ .infoBlock__header {
+     @extend .head-1;
+     color: $Misty-900;
+     padding-top: 50px;
+     padding-bottom: 30px;
+     border-bottom: 1px solid $Misty-200;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     align-items: center;
+
+     @media (max-width: 1200px) {
+         font-size: 21px;
+         line-height: 24px;
+     }
+
+     span {
+        @extend .pagination-16-regular;
+        color: $Misty-900;
+     }
+ }

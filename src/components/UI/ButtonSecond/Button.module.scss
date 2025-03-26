@@ -1,0 +1,59 @@
+@import '@/styles/variables.scss';
+@import '@/styles/fonts.scss';
+
+.button {
+	padding: 8px 14px;
+	@extend .button-13-medium;
+	border: none;
+	border-radius: 8px;
+	cursor: pointer;
+	background-color: rgba(255, 255, 255, 0.4);
+	color: $Blue-500;
+	transition: background-color 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	gap: 8px;
+	min-height: 32px;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+
+	.arrow {
+		transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+		filter: brightness(0) saturate(100%) invert(37%) sepia(74%) saturate(1045%)
+			hue-rotate(199deg) brightness(91%) contrast(107%);
+		flex-shrink: 0;
+	}
+
+	&:hover {
+		background-color: white;
+		color: $Blue-500;
+
+		.arrow {
+			transform: translateX(4px);
+		}
+	}
+
+	&:focus {
+		outline: none;
+		border: 2px solid $Blue-300;
+		color: $Blue-500;
+		background-color: rgba(255, 255, 255, 0.4);
+	}
+
+	&:disabled {
+		background-color: white;
+		color: $Misty-300;
+		cursor: not-allowed;
+
+		.arrow {
+			filter: opacity(0.5);
+		}
+	}
+}
+
+.disabled {
+	opacity: 0.5;
+	cursor: not-allowed;
+}

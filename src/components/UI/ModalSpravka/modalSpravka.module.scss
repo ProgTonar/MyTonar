@@ -1,0 +1,73 @@
+@import '@/styles/variables.scss';
+@import '@/styles/fonts.scss';
+
+.section {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+
+    &.active {
+        opacity: 1;
+        visibility: visible;
+        box-sizing: border-box;
+        padding: 5px;
+    }
+}
+
+.section__container {
+    background-color: white;
+    border-radius: 8px;
+    width: 600px;
+    min-height: 360px;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 26px;
+    overflow: hidden;
+    transform: scale(0.8);
+    opacity: 0;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+
+    .active & {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.header {
+    background-color: #FF5B4D;
+    min-width: 100%;
+    min-height: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+
+    p {
+        text-align: center;
+        @extend .pagination-16-regular;
+        max-width: 75%;
+    }
+}
+
+.button {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    text-align: center;
+}

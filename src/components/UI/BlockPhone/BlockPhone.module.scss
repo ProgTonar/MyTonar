@@ -1,0 +1,51 @@
+@import '@/styles/variables.scss';
+@import '@/styles/fonts.scss';
+
+.section {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    background-color: white;
+    border-radius: 26px;
+    overflow: hidden;
+    box-shadow: $Lift-300;
+
+    span {
+        @extend .button-16-medium;
+        padding-top: 0px;
+        color: $Misty-700;
+        
+    }
+
+    ul {
+        padding-left: 30px;
+        padding-bottom: 30px;
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 50px;
+    }
+
+    li {
+        @extend .text-2;
+        color: $Misty-900;
+        padding-top: 10px;
+    }
+}
+
+.header {
+    @extend .head-1;
+    padding-top: 30px;
+    padding-left: 30px;
+    color: $Misty-900;
+}
+
+.icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    
+    
+}

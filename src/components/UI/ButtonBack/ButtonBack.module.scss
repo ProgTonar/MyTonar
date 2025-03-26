@@ -1,0 +1,32 @@
+@import '@/styles/variables.scss';
+@import '@/styles/fonts.scss';
+
+.button {
+    padding: 11px 15px;
+    @extend .button-14-medium;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    background-color: $Misty-75;
+    color: $Misty-900;
+    @extend .button-16-medium;
+    transition: all 0.3s ease;
+}
+
+.button:hover {
+    background-color: $Misty-100;
+    color: $Misty-900;
+}
+
+.button:focus {
+    outline: none;
+    border: 2px solid $Blue-200;
+    color: $Misty-900;
+    background-color: $Misty-75;
+}
+
+.button:disabled {
+    background-color: $Misty-50;
+    color: $Misty-200;
+    cursor: not-allowed;
+}

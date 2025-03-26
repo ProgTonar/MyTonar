@@ -1,0 +1,153 @@
+@import '@/styles/variables.scss';
+@import '@/styles/fonts.scss';
+
+
+.content {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    box-sizing: border-box;
+
+    @media (max-width: 1200px) {
+        max-width: 100%;
+        padding: 5px;
+
+    }
+
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.title {
+    display: flex;
+    align-items: baseline;
+
+    h1 {
+        @extend .title-1;
+        color: $Misty-1000;
+    }
+}
+
+.profile__content {
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    border-radius: 26px;
+    background-color: white;
+    padding: 30px 30px;
+    margin-top: 30px;
+
+    @media (max-width: 1200px) {
+        flex-direction: column;
+    }
+}
+
+.profile__photo {
+    border-radius: 16px;
+    border: 5px solid $Misty-300;
+
+    
+}
+
+.profile__icon {
+    background-color: $Misty-300;
+    min-width: 50px;
+    min-height: 50px;
+    border-radius: 50px;
+    z-index: 100;
+    position: absolute;
+    bottom: -18;
+    left: 68;
+
+    @media (max-width: 1200px) {
+        left: 155;
+    }
+}
+
+.userPhoto {
+    position: relative;
+    height: 20%;
+    width: 20%;
+
+    @media (max-width: 1200px) {
+            width: 100%;
+            text-align: center;
+        }
+}
+
+.userInfo {
+
+    
+    width: 80%;
+
+    @media (max-width: 1200px) {
+        width: 100%;
+    }
+
+    h2 {
+        @extend .head-1;
+        color: $Misty-900;
+       margin-top: 0;
+       
+    @media (max-width: 1200px) {
+        text-align: center;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        border-bottom: 0.7 solid $Misty-200;
+    }
+    }
+
+    p {
+        @extend .table-header-20;
+        padding-top: 30px;
+        padding-bottom: 50px;
+        color: $Misty-900;
+        border-bottom: 0.7 solid $Misty-200;
+
+        @media (max-width: 1200px) {
+                display: none;
+            }
+
+    }
+}
+
+.infoBlock__table {
+    padding-top: 30px;
+
+
+    th {
+        @extend .table-header-18;
+        color: $Misty-900;
+        text-align: left;
+        padding-bottom: 20px;
+        padding-right: 100px;
+
+        @media (max-width: 1200px) {
+                width: 100%;
+                padding: 0;
+                font-size: 14px;
+                line-height: 16px;
+                padding-bottom: 10px;
+            }
+    }
+
+    td {
+        @extend .pagination-16-regular;
+        color: $Misty-700;
+        text-align: left;
+        @media (max-width: 1200px) {
+                font-size: 14px;
+                line-height: 18px;
+                padding-bottom: 10px;
+
+            }
+    }
+
+}

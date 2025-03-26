@@ -1,0 +1,37 @@
+@import '@/styles/variables.scss';
+@import '@/styles/fonts.scss';
+
+.breadcrumbs {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	color: $Blue-500;
+	font-size: 14px;
+}
+
+.breadcrumbItem {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	@extend .description-13-regular;
+}
+
+.link {
+	color: $Blue-500;
+	transition: color 0.3s ease;
+	text-decoration: none;
+
+	&:hover {
+		color: $Blue-600;
+	}
+
+	&.current {
+		color: $Misty-600;
+		pointer-events: none;
+	}
+}
+
+.arrow {
+	opacity: 0.6;
+	margin: 0 4px;
+}

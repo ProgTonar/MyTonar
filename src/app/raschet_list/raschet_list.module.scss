@@ -1,0 +1,64 @@
+@import '@/styles/variables.scss';
+@import '@/styles/fonts.scss';
+
+
+.content {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    box-sizing: border-box;
+    
+    
+
+    @media (max-width: 1200px) {
+        max-width: 100%;
+        padding: 5px;
+
+    }
+
+}
+
+.list__header {
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.list__title {
+    display: flex;
+    align-items: baseline;
+
+    h1 {
+        @extend .title-1;
+        color: $Misty-1000;
+    }
+}
+
+
+.list__content {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 26px;
+    max-width: 100%;
+    min-height: 550px;
+    box-sizing: border-box;
+    box-shadow: $Lift-300;
+    
+
+}
+
+.list__header {
+    padding: 30px 30px;
+
+    
+
+    p {
+        padding-bottom: 30px; 
+        @extend .pagination-16-regular;
+        border-bottom: 0.7px solid $Misty-200;
+    }
+}

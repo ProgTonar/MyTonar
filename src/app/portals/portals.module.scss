@@ -1,0 +1,71 @@
+@import '@/styles/variables.scss';
+@import '@/styles/fonts.scss';
+
+
+.content {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    box-sizing: border-box;
+    
+
+    @media (max-width: 1200px) {
+            padding: 5px;
+        }
+
+}
+
+.portals__header {
+    display: flex;
+    flex-direction: column;
+    @media (max-width: 1200px) {
+            padding: 10px;
+        }
+
+}
+
+.portals__title {
+    display: flex;
+    align-items: baseline;
+
+    h1 {
+        @extend .title-1;
+        color: $Misty-1000;
+    }
+}
+
+
+
+
+
+.portals__content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding-top: 10px;
+    box-sizing: border-box;
+
+    @media (max-width: 1200px) {
+        width: 100%;
+    }
+}
+
+.block {
+    flex-basis: calc(100% / 2 - 10px);
+    cursor: pointer;
+    
+
+    @media (max-width: 1200px) {
+            width: 100%;
+            flex-basis: auto;
+        }
+
+}
+
+.block__footer {
+    margin-top: 15px;
+    width: 100%;
+}

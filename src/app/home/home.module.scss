@@ -1,0 +1,16 @@
+@import '@/styles/variables.scss';
+@import '@/styles/fonts.scss';
+
+.content {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+	box-sizing: border-box;
+
+	@media (max-width: 1200px) {
+		padding: 5px;
+	}
+
+}
+

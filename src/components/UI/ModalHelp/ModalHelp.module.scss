@@ -1,0 +1,113 @@
+@import '@/styles/variables.scss';
+@import '@/styles/fonts.scss';
+
+.section {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+
+    &.active {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    @media (max-width: 1200px) {
+        padding: 5px;
+    }
+}
+
+.section__container {
+    background-color: white;
+    border-radius: 8px;
+    width: 600px;
+    min-height: 360px;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 26px;
+    overflow: hidden;
+    transform: scale(0.8);
+    opacity: 0;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+
+    .active & {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.close__button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: $Misty-50;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    padding: 10px 12px;
+
+}
+
+
+.header {
+    min-width: 100%;
+    min-height: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    h2 {
+        @extend .title-1;
+        font-size: 21px;
+        color: $Misty-900;
+        font-weight: 600;
+        line-height: 24px;
+    }
+
+    p {
+        @extend .button-14-regular;
+        color: $Misty-700;
+        
+    }
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+
+
+
+    h3 {
+            @extend .title-1;
+            font-size: 21px;
+            color: $Misty-900;
+            font-weight: 600;
+            line-height: 24px;
+            font-weight: 500;
+        }
+
+    p {
+        @extend .button-14-regular;
+        text-align: center;
+        color: $Misty-700;
+        
+
+    }
+
+}
+

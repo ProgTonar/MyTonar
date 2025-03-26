@@ -1,0 +1,39 @@
+@import '@/styles/variables.scss';
+@import '@/styles/fonts.scss';
+
+
+.content {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    box-sizing: border-box;
+
+    @media (max-width: 1200px) {
+        padding: 5px;
+    }
+
+}
+
+.bus__header {
+    display: flex;
+    flex-direction: column;
+
+    @media (max-width: 1200px) {
+            padding: 10px;
+        }
+
+
+}
+
+.bus__title {
+    display: flex;
+    align-items: baseline;
+
+    h1 {
+        @extend .title-1;
+        color: $Misty-1000;
+    }
+}
+

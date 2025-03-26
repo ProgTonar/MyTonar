@@ -1,0 +1,133 @@
+@import '@/styles/variables.scss';
+@import '@/styles/fonts.scss';
+
+.selectContainer {
+	position: relative;
+	width: 100%;
+}
+
+.select {
+	background-color: $Misty-50;
+	border-radius: 16px;
+	padding: 12px 16px;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	transition: all 0.3s ease;
+
+	&:hover {
+		background-color: $Misty-100;
+
+	}
+
+	&.open {
+		border-radius: 16px 16px 0 0;
+		background-color: $Misty-100;
+	}
+}
+
+.selectedValue {
+	flex: 1;
+	@extend .text;
+}
+
+.placeholder {
+	color: $Misty-600;
+	@extend .text;
+}
+
+.routeDisplay {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+}
+
+.routePoint {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	@extend .pagination-16-regular;
+	color: $Misty-900;
+
+	&:first-child {
+		color: $Misty-900;
+	}
+}
+
+.circle {
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background-color: $Emerald-500;
+	flex-shrink: 0;
+}
+
+.routeArrow {
+	flex-shrink: 0;
+}
+
+.arrow {
+	transition: transform 0.3s ease;
+
+	&.rotated {
+		transform: rotate(180deg);
+	}
+}
+
+.dropdown {
+	position: absolute;
+	top: 100%;
+	left: 0;
+	right: 0;
+	margin-top: 4px;
+	background-color: white;
+	border-radius: 16px;
+	overflow: hidden;
+	z-index: 10;
+	max-height: 300px;
+	overflow-y: auto;
+	border: 1px solid $Misty-200;
+	box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+	padding: 5px;
+
+	&::-webkit-scrollbar {
+		width: 4px;
+	}
+
+	&::-webkit-scrollbar-track {
+		background: transparent;
+	}
+
+	&::-webkit-scrollbar-thumb {
+		background: $Misty-300;
+		border-radius: 2px;
+	}
+}
+
+.option {
+	padding: 12px 16px;
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+	transition: all 0.3s ease;
+	border-top: 1px solid $Misty-200;
+	background-color: white;
+	border-radius: 16px;
+
+	&:first-child {
+		border-top: none;
+	}
+
+	&:hover {
+		background-color: $Misty-50;
+	}
+
+	&.selected {
+		background-color: $Blue-100;
+
+		.routePoint:first-child {
+			color: $Misty-900;
+		}
+	}
+}

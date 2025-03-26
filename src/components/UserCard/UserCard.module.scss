@@ -1,0 +1,58 @@
+@import '@/styles/variables.scss';
+@import '@/styles/fonts.scss';
+
+
+.userCard {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 26px;
+    max-width: 393px;
+    max-height: 650px;
+    cursor: pointer;
+    box-shadow: $Lift-300;
+
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px;
+    border-bottom: 0.7 solid $Misty-200;
+
+}
+
+.avatar {
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.name {
+    padding-bottom: 30px;
+    padding-top: 30px;
+    @extend .title-3
+}
+
+.table {
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+        th {
+            @extend .button-14-medium;
+            color: $Misty-900;
+            text-align: left;
+            padding-right: 50px;
+            font-size: 13px;
+            padding-top: 5px;
+           
+        }
+    
+        td {
+            @extend .button-14-regular;
+            color: $Misty-700;
+            text-align: left;
+            font-size: 12px;
+        }
+}

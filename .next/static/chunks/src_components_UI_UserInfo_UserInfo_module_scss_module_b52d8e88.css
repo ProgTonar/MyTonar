@@ -1,0 +1,243 @@
+/* [project]/src/components/UI/UserInfo/UserInfo.module.scss.module.css [app-client] (css) */
+@font-face {
+  font-family: GolosText;
+  src: url("/fonts/GolosText-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: GolosText;
+  src: url("/fonts/GolosText-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+.UserInfo-module-scss-module__SWHq9G__title-1 {
+  font-family: GolosText, sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 32px;
+}
+
+.UserInfo-module-scss-module__SWHq9G__title-2 {
+  font-family: GolosText, sans-serif;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 36px;
+}
+
+.UserInfo-module-scss-module__SWHq9G__title-3 {
+  font-family: GolosText, sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.UserInfo-module-scss-module__SWHq9G__title-4 {
+  font-family: GolosText, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.UserInfo-module-scss-module__SWHq9G__title-5 {
+  font-family: GolosText, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.UserInfo-module-scss-module__SWHq9G__title-6 {
+  font-family: GolosText, sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 15.6px;
+}
+
+.UserInfo-module-scss-module__SWHq9G__head-1 {
+  font-family: GolosText, sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 27px;
+}
+
+.UserInfo-module-scss-module__SWHq9G__text {
+  font-family: GolosText, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.UserInfo-module-scss-module__SWHq9G__text-2 {
+  font-family: GolosText, sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 29x;
+}
+
+.UserInfo-module-scss-module__SWHq9G__description-13-regular, .UserInfo-module-scss-module__SWHq9G__userPosition {
+  font-family: GolosText, sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 17px;
+}
+
+.UserInfo-module-scss-module__SWHq9G__description-11-medium {
+  font-family: GolosText, sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 13.2px;
+}
+
+.UserInfo-module-scss-module__SWHq9G__button-14-medium {
+  font-family: GolosText, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.8px;
+}
+
+.UserInfo-module-scss-module__SWHq9G__button-14-regular {
+  font-family: GolosText, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.UserInfo-module-scss-module__SWHq9G__button-13-medium {
+  font-family: GolosText, sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 15.6px;
+}
+
+.UserInfo-module-scss-module__SWHq9G__button-16-medium {
+  font-family: GolosText, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 15.6px;
+}
+
+.UserInfo-module-scss-module__SWHq9G__plates-14-medium, .UserInfo-module-scss-module__SWHq9G__buttonLogin, .UserInfo-module-scss-module__SWHq9G__userName {
+  font-family: GolosText, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.UserInfo-module-scss-module__SWHq9G__plates-14-regular {
+  font-family: GolosText, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.UserInfo-module-scss-module__SWHq9G__pagination-16-regular {
+  font-family: GolosText, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.UserInfo-module-scss-module__SWHq9G__download-footer-13 {
+  font-family: GolosText, sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 14px;
+}
+
+.UserInfo-module-scss-module__SWHq9G__table-header-18 {
+  font-family: GolosText, sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.UserInfo-module-scss-module__SWHq9G__table-header-20 {
+  font-family: GolosText, sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.UserInfo-module-scss-module__SWHq9G__userInfo {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 8px;
+  min-width: 320px;
+  cursor: pointer;
+  will-change: transform;
+  transition: transform .3s ease-in-out;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.UserInfo-module-scss-module__SWHq9G__userInfo .UserInfo-module-scss-module__SWHq9G__img {
+  width: 16px;
+  height: 16px;
+  transition: transform .2s;
+  margin-left: auto;
+}
+
+.UserInfo-module-scss-module__SWHq9G__user {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  align-items: center;
+  flex: 1;
+  justify-content: flex-end;
+}
+
+.UserInfo-module-scss-module__SWHq9G__userAvatar {
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.UserInfo-module-scss-module__SWHq9G__userDetails {
+  text-align: left;
+  flex: 1;
+}
+
+.UserInfo-module-scss-module__SWHq9G__userName {
+  font-weight: 500;
+  font-size: 14px;
+  color: #1b1b1b;
+  margin-bottom: 2px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.UserInfo-module-scss-module__SWHq9G__userPosition {
+  font-size: 12px;
+  color: #6f6f6f;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.UserInfo-module-scss-module__SWHq9G__rotate {
+  transform: rotate(180deg);
+}
+
+.UserInfo-module-scss-module__SWHq9G__dropdown {
+  position: absolute;
+  top: calc(100% + 8px);
+  right: 0;
+  background: #fff;
+  box-shadow: 0 4px 12px #00000026;
+  border-radius: 8px;
+  padding: 8px 0;
+  z-index: 1000;
+}
+
+.UserInfo-module-scss-module__SWHq9G__buttonLogin {
+  display: flex;
+  justify-content: end;
+}
+
+.UserInfo-module-scss-module__SWHq9G__buttonLogin:hover {
+  color: #196bdf;
+}
+
+/*# sourceMappingURL=src_components_UI_UserInfo_UserInfo_module_scss_module_b52d8e88.css.map*/

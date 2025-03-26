@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///home/andrey/Projects/MyTonarFront/src/app/callback/page.tsx"],"sourcesContent":["\"use client\";\n\nimport { useSearchParams } from \"next/navigation\";\n\nconst CallbackPage = () => {\n  const searchParams = useSearchParams();\n  const accessToken = searchParams.get(\"access_token\");\n  const refreshToken = searchParams.get(\"refresh_token\");\n\n  if (accessToken) {\n    localStorage.setItem(\"access_token\", accessToken);\n    localStorage.setItem(\"refresh_token\", refreshToken);\n\n    \n  }\n\n  return (\n    <div>\n      <h1>Callback Page</h1>\n      {accessToken && <p>Access token received: {accessToken}</p>}\n      {accessToken && <p>Refresh token received: {refreshToken}</p>}\n    </div>\n  );\n};\n\nexport default CallbackPage;\n"],"names":[],"mappings":";;;;AAEA;AAFA;;;AAIA,MAAM,eAAe;IACnB,MAAM,eAAe,CAAA,GAAA,kIAAA,CAAA,kBAAe,AAAD;IACnC,MAAM,cAAc,aAAa,GAAG,CAAC;IACrC,MAAM,eAAe,aAAa,GAAG,CAAC;IAEtC,IAAI,aAAa;QACf,aAAa,OAAO,CAAC,gBAAgB;QACrC,aAAa,OAAO,CAAC,iBAAiB;IAGxC;IAEA,qBACE,8OAAC;;0BACC,8OAAC;0BAAG;;;;;;YACH,6BAAe,8OAAC;;oBAAE;oBAAwB;;;;;;;YAC1C,6BAAe,8OAAC;;oBAAE;oBAAyB;;;;;;;;;;;;;AAGlD;uCAEe","debugId":null}},
+    {"offset": {"line": 60, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

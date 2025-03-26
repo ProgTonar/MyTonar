@@ -1,0 +1,65 @@
+@import '@/styles/variables.scss';
+@import '@/styles/fonts.scss';
+
+.propertyContainer{
+    margin-top: 50px;
+}
+.propertyItem {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 30px;
+    border-radius: 16px;
+    padding: 30px;
+    border: 1px solid $Misty-900;
+    box-sizing: border-box;
+
+    h3 {
+       @extend .title-3;
+       color: $Misty-1000;
+    }
+}
+
+.infoBlock__table {
+    padding-top: 30px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    
+
+    tr {
+        
+
+        @media (max-width: 1200px) {
+            padding-bottom: 10px;
+        }
+    }
+
+    th {
+        @extend .table-header-18;
+        color: $Misty-900;
+        text-align: left;
+        padding-right: 50px;
+
+
+        @media (max-width: 1200px) {
+            width: 100%;
+            padding: 0;
+            font-size: 14px;
+            line-height: 16px;
+        }
+    }
+
+    td {
+        @extend .pagination-16-regular;
+        color: $Misty-700;
+        text-align: left;
+
+        @media (max-width: 1200px) {
+            font-size: 14px;
+            line-height: 18px;
+            padding-bottom: 20px;
+        }
+    }
+
+}

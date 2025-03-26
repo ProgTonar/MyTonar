@@ -1,0 +1,29 @@
+@import '@/styles/variables.scss';
+@import '@/styles/fonts.scss';
+
+.searchContainer {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	width: 50%;
+
+	background-color: white;
+	border-radius: 16px;
+	padding-left: 16px;
+	@extend .text;
+}
+
+.searchInput {
+	width: 100%;
+	height: 44px;
+	background: transparent;
+	border: none;
+	font-size: 14px;
+	color: $Misty-900;
+	outline: none;
+
+	&::placeholder {
+		@extend .text;
+		color: $Misty-700;
+	}
+}
