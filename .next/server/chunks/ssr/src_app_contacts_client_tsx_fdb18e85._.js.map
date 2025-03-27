@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///home/andrey/Projects/MyTonarFront/src/app/contacts/client.tsx"],"sourcesContent":["'use client'\n\nimport { IContacts } from \"@/type/Types\";\n\ninterface ContactsClientProps {\n    contacts: IContacts[]\n}\n\nexport default function ContactsClient({contacts}: ContactsClientProps) {\n    return (\n        <div>\n            {contacts.map((contact, index) => (\n                <div key={index}> \n                    <h2>{contact.name}</h2>\n                    <p>{contact.email}</p>\n                </div>\n            ))}\n        </div>\n    );\n}"],"names":[],"mappings":";;;;AAAA;;AAQe,SAAS,eAAe,EAAC,QAAQ,EAAsB;IAClE,qBACI,8OAAC;kBACI,SAAS,GAAG,CAAC,CAAC,SAAS,sBACpB,8OAAC;;kCACG,8OAAC;kCAAI,QAAQ,IAAI;;;;;;kCACjB,8OAAC;kCAAG,QAAQ,KAAK;;;;;;;eAFX;;;;;;;;;;AAO1B","debugId":null}},
+    {"offset": {"line": 43, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

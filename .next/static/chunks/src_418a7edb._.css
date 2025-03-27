@@ -1,0 +1,771 @@
+/* [project]/src/app/dashboard/contacts/contacts.module.scss.module.css [app-client] (css) */
+@font-face {
+  font-family: GolosText;
+  src: url("/fonts/GolosText-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: GolosText;
+  src: url("/fonts/GolosText-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+.contacts-module-scss-module__L1VaGq__title-1 {
+  font-family: GolosText, sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 32px;
+}
+
+.contacts-module-scss-module__L1VaGq__title-2 {
+  font-family: GolosText, sans-serif;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 36px;
+}
+
+.contacts-module-scss-module__L1VaGq__title-3 {
+  font-family: GolosText, sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.contacts-module-scss-module__L1VaGq__title-4, .contacts-module-scss-module__L1VaGq__contactsTable {
+  font-family: GolosText, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.contacts-module-scss-module__L1VaGq__title-5 {
+  font-family: GolosText, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.contacts-module-scss-module__L1VaGq__title-6 {
+  font-family: GolosText, sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 15.6px;
+}
+
+.contacts-module-scss-module__L1VaGq__head-1 {
+  font-family: GolosText, sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 27px;
+}
+
+.contacts-module-scss-module__L1VaGq__text {
+  font-family: GolosText, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.contacts-module-scss-module__L1VaGq__text-2 {
+  font-family: GolosText, sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 29x;
+}
+
+.contacts-module-scss-module__L1VaGq__description-13-regular {
+  font-family: GolosText, sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 17px;
+}
+
+.contacts-module-scss-module__L1VaGq__description-11-medium {
+  font-family: GolosText, sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 13.2px;
+}
+
+.contacts-module-scss-module__L1VaGq__button-14-medium {
+  font-family: GolosText, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.8px;
+}
+
+.contacts-module-scss-module__L1VaGq__button-14-regular {
+  font-family: GolosText, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.contacts-module-scss-module__L1VaGq__button-13-medium {
+  font-family: GolosText, sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 15.6px;
+}
+
+.contacts-module-scss-module__L1VaGq__button-16-medium {
+  font-family: GolosText, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 15.6px;
+}
+
+.contacts-module-scss-module__L1VaGq__plates-14-medium {
+  font-family: GolosText, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.contacts-module-scss-module__L1VaGq__plates-14-regular {
+  font-family: GolosText, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.contacts-module-scss-module__L1VaGq__pagination-16-regular {
+  font-family: GolosText, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.contacts-module-scss-module__L1VaGq__download-footer-13 {
+  font-family: GolosText, sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 14px;
+}
+
+.contacts-module-scss-module__L1VaGq__table-header-18 {
+  font-family: GolosText, sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.contacts-module-scss-module__L1VaGq__table-header-20 {
+  font-family: GolosText, sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.contacts-module-scss-module__L1VaGq__container {
+  padding: 20px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.contacts-module-scss-module__L1VaGq__title {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.contacts-module-scss-module__L1VaGq__adminActions {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.contacts-module-scss-module__L1VaGq__addButton {
+  padding: 10px 16px;
+  background-color: #196bdf;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color .2s;
+}
+
+.contacts-module-scss-module__L1VaGq__addButton:hover {
+  background-color: #0f53a9;
+}
+
+.contacts-module-scss-module__L1VaGq__tableContainer {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px #91affc40;
+  overflow: hidden;
+  overflow-x: auto;
+  margin-top: 20px;
+}
+
+.contacts-module-scss-module__L1VaGq__contactsTable {
+  width: 100%;
+  border-collapse: collapse;
+  font-weight: 300;
+}
+
+.contacts-module-scss-module__L1VaGq__contactsTable th {
+  text-align: left;
+  padding: 16px;
+  background: #f9fbff;
+  font-weight: 600;
+  color: #152738;
+  border-bottom: 2px solid #e0e0e0;
+  white-space: nowrap;
+}
+
+.contacts-module-scss-module__L1VaGq__contactsTable td {
+  padding: 16px;
+  border-bottom: 1px solid #eee;
+  vertical-align: middle;
+}
+
+.contacts-module-scss-module__L1VaGq__sortableHeader {
+  cursor: pointer;
+  user-select: none;
+  transition: background-color .2s;
+}
+
+.contacts-module-scss-module__L1VaGq__sortableHeader:hover {
+  background-color: #e9ecef;
+}
+
+.contacts-module-scss-module__L1VaGq__sortIcon {
+  margin-left: 5px;
+  font-size: 12px;
+  color: #196bdf;
+}
+
+.contacts-module-scss-module__L1VaGq__contactRow {
+  transition: background-color .2s;
+}
+
+.contacts-module-scss-module__L1VaGq__contactRow:hover {
+  background-color: #f8f9fa;
+}
+
+.contacts-module-scss-module__L1VaGq__phoneLink, .contacts-module-scss-module__L1VaGq__emailLink {
+  color: #196bdf;
+  text-decoration: none;
+  transition: color .2s;
+}
+
+.contacts-module-scss-module__L1VaGq__phoneLink:hover, .contacts-module-scss-module__L1VaGq__emailLink:hover {
+  color: #0f53a9;
+  text-decoration: underline;
+}
+
+.contacts-module-scss-module__L1VaGq__actionsCell {
+  white-space: nowrap;
+}
+
+.contacts-module-scss-module__L1VaGq__actionButton {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 6px;
+  background: #f5f5f5;
+  color: #333;
+  font-size: 13px;
+  cursor: pointer;
+  transition: background-color .2s;
+  margin-right: 8px;
+}
+
+.contacts-module-scss-module__L1VaGq__actionButton:hover {
+  background: #e0e0e0;
+}
+
+.contacts-module-scss-module__L1VaGq__deleteButton {
+  background: #f443361a;
+  color: #f44336;
+}
+
+.contacts-module-scss-module__L1VaGq__deleteButton:hover {
+  background: #f4433633;
+}
+
+.contacts-module-scss-module__L1VaGq__noContacts {
+  text-align: center;
+  padding: 40px;
+  color: #666;
+  font-style: italic;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px #91affc40;
+  margin-top: 20px;
+}
+
+.contacts-module-scss-module__L1VaGq__showMoreContainer {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+}
+
+.contacts-module-scss-module__L1VaGq__showMoreContainer > button {
+  width: 100%;
+  justify-content: center;
+}
+
+.contacts-module-scss-module__L1VaGq__showMoreButton {
+  width: 100%;
+  padding: 12px 20px;
+  background-color: #196bdf;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color .2s;
+  text-align: center;
+}
+
+.contacts-module-scss-module__L1VaGq__showMoreButton:hover {
+  background-color: #0f53a9;
+}
+
+.contacts-module-scss-module__L1VaGq__loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  font-size: 16px;
+  color: #666;
+}
+
+.contacts-module-scss-module__L1VaGq__accessDenied {
+  background: #fff;
+  border-radius: 12px;
+  padding: 30px;
+  text-align: center;
+  box-shadow: 0 2px 10px #91affc40;
+  margin: 20px 0;
+}
+
+.contacts-module-scss-module__L1VaGq__accessDenied h2 {
+  color: #ff9800;
+  margin-bottom: 15px;
+}
+
+.contacts-module-scss-module__L1VaGq__accessInfo {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #666;
+}
+
+@media (width <= 768px) {
+  .contacts-module-scss-module__L1VaGq__contactsTable th, .contacts-module-scss-module__L1VaGq__contactsTable td {
+    padding: 12px 8px;
+    font-size: 14px;
+  }
+}
+
+@media (width <= 576px) {
+  .contacts-module-scss-module__L1VaGq__contactsTable th:nth-child(2), .contacts-module-scss-module__L1VaGq__contactsTable td:nth-child(2), .contacts-module-scss-module__L1VaGq__contactsTable th:nth-child(4), .contacts-module-scss-module__L1VaGq__contactsTable td:nth-child(4) {
+    display: none;
+  }
+}
+
+.contacts-module-scss-module__L1VaGq__loadingOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #ffffffb3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  font-size: 18px;
+  color: #0f53a9;
+}
+
+
+/* [project]/src/components/UI/ButtonDefault/ButtonDefault.module.scss.module.css [app-client] (css) */
+@font-face {
+  font-family: GolosText;
+  src: url("/fonts/GolosText-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: GolosText;
+  src: url("/fonts/GolosText-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+.ButtonDefault-module-scss-module__UDRp5W__title-1 {
+  font-family: GolosText, sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 32px;
+}
+
+.ButtonDefault-module-scss-module__UDRp5W__title-2 {
+  font-family: GolosText, sans-serif;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 36px;
+}
+
+.ButtonDefault-module-scss-module__UDRp5W__title-3 {
+  font-family: GolosText, sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.ButtonDefault-module-scss-module__UDRp5W__title-4 {
+  font-family: GolosText, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.ButtonDefault-module-scss-module__UDRp5W__title-5 {
+  font-family: GolosText, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.ButtonDefault-module-scss-module__UDRp5W__title-6 {
+  font-family: GolosText, sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 15.6px;
+}
+
+.ButtonDefault-module-scss-module__UDRp5W__head-1 {
+  font-family: GolosText, sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 27px;
+}
+
+.ButtonDefault-module-scss-module__UDRp5W__text, .ButtonDefault-module-scss-module__UDRp5W__button {
+  font-family: GolosText, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.ButtonDefault-module-scss-module__UDRp5W__text-2 {
+  font-family: GolosText, sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 29x;
+}
+
+.ButtonDefault-module-scss-module__UDRp5W__description-13-regular {
+  font-family: GolosText, sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 17px;
+}
+
+.ButtonDefault-module-scss-module__UDRp5W__description-11-medium {
+  font-family: GolosText, sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 13.2px;
+}
+
+.ButtonDefault-module-scss-module__UDRp5W__button-14-medium, .ButtonDefault-module-scss-module__UDRp5W__button {
+  font-family: GolosText, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.8px;
+}
+
+.ButtonDefault-module-scss-module__UDRp5W__button-14-regular {
+  font-family: GolosText, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.ButtonDefault-module-scss-module__UDRp5W__button-13-medium {
+  font-family: GolosText, sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 15.6px;
+}
+
+.ButtonDefault-module-scss-module__UDRp5W__button-16-medium {
+  font-family: GolosText, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 15.6px;
+}
+
+.ButtonDefault-module-scss-module__UDRp5W__plates-14-medium {
+  font-family: GolosText, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.ButtonDefault-module-scss-module__UDRp5W__plates-14-regular {
+  font-family: GolosText, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.ButtonDefault-module-scss-module__UDRp5W__pagination-16-regular {
+  font-family: GolosText, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.ButtonDefault-module-scss-module__UDRp5W__download-footer-13 {
+  font-family: GolosText, sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 14px;
+}
+
+.ButtonDefault-module-scss-module__UDRp5W__table-header-18 {
+  font-family: GolosText, sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.ButtonDefault-module-scss-module__UDRp5W__table-header-20 {
+  font-family: GolosText, sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.ButtonDefault-module-scss-module__UDRp5W__button {
+  padding: 14px 24px;
+  max-width: 100%;
+  border: 2px solid #196bdf;
+  border-radius: 16px;
+  cursor: pointer;
+  background-color: #196bdf;
+  color: #fff;
+  transition: all .3s;
+  box-sizing: border-box;
+}
+
+.ButtonDefault-module-scss-module__UDRp5W__button:hover {
+  background-color: #145fc4;
+  color: #fff;
+}
+
+.ButtonDefault-module-scss-module__UDRp5W__button:focus {
+  border: 2px solid #88b8f0;
+}
+
+.ButtonDefault-module-scss-module__UDRp5W__button:disabled {
+  background-color: #c5d2de;
+  border: 2px solid #c5d2de;
+  color: #fff;
+  cursor: not-allowed;
+}
+
+
+/* [project]/src/components/UI/ButtonBack/ButtonBack.module.scss.module.css [app-client] (css) */
+@font-face {
+  font-family: GolosText;
+  src: url("/fonts/GolosText-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: GolosText;
+  src: url("/fonts/GolosText-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+.ButtonBack-module-scss-module__urkqYa__title-1 {
+  font-family: GolosText, sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 32px;
+}
+
+.ButtonBack-module-scss-module__urkqYa__title-2 {
+  font-family: GolosText, sans-serif;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 36px;
+}
+
+.ButtonBack-module-scss-module__urkqYa__title-3 {
+  font-family: GolosText, sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.ButtonBack-module-scss-module__urkqYa__title-4 {
+  font-family: GolosText, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.ButtonBack-module-scss-module__urkqYa__title-5 {
+  font-family: GolosText, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.ButtonBack-module-scss-module__urkqYa__title-6 {
+  font-family: GolosText, sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 15.6px;
+}
+
+.ButtonBack-module-scss-module__urkqYa__head-1 {
+  font-family: GolosText, sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 27px;
+}
+
+.ButtonBack-module-scss-module__urkqYa__text {
+  font-family: GolosText, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.ButtonBack-module-scss-module__urkqYa__text-2 {
+  font-family: GolosText, sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 29x;
+}
+
+.ButtonBack-module-scss-module__urkqYa__description-13-regular {
+  font-family: GolosText, sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 17px;
+}
+
+.ButtonBack-module-scss-module__urkqYa__description-11-medium {
+  font-family: GolosText, sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 13.2px;
+}
+
+.ButtonBack-module-scss-module__urkqYa__button-14-medium, .ButtonBack-module-scss-module__urkqYa__button {
+  font-family: GolosText, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.8px;
+}
+
+.ButtonBack-module-scss-module__urkqYa__button-14-regular {
+  font-family: GolosText, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.ButtonBack-module-scss-module__urkqYa__button-13-medium {
+  font-family: GolosText, sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 15.6px;
+}
+
+.ButtonBack-module-scss-module__urkqYa__button-16-medium, .ButtonBack-module-scss-module__urkqYa__button {
+  font-family: GolosText, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 15.6px;
+}
+
+.ButtonBack-module-scss-module__urkqYa__plates-14-medium {
+  font-family: GolosText, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.ButtonBack-module-scss-module__urkqYa__plates-14-regular {
+  font-family: GolosText, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.ButtonBack-module-scss-module__urkqYa__pagination-16-regular {
+  font-family: GolosText, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.ButtonBack-module-scss-module__urkqYa__download-footer-13 {
+  font-family: GolosText, sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 14px;
+}
+
+.ButtonBack-module-scss-module__urkqYa__table-header-18 {
+  font-family: GolosText, sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.ButtonBack-module-scss-module__urkqYa__table-header-20 {
+  font-family: GolosText, sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.ButtonBack-module-scss-module__urkqYa__button {
+  padding: 11px 15px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  background-color: #e1e8f0;
+  color: #152738;
+  transition: all .3s;
+}
+
+.ButtonBack-module-scss-module__urkqYa__button:hover {
+  background-color: #d6e0ea;
+  color: #152738;
+}
+
+.ButtonBack-module-scss-module__urkqYa__button:focus {
+  outline: none;
+  border: 2px solid #bfdff8;
+  color: #152738;
+  background-color: #e1e8f0;
+}
+
+.ButtonBack-module-scss-module__urkqYa__button:disabled {
+  background-color: #ecf0f6;
+  color: #c5d2de;
+  cursor: not-allowed;
+}
+
+
+/*# sourceMappingURL=src_418a7edb._.css.map*/

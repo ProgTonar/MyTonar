@@ -1582,7 +1582,7 @@ const pathLabels = {
     "/search": "Поиск сотрудников",
     "/bus": "Автобусы",
     "/competition": "Трудовое соревнование",
-    "/phonebook": "Телефонная книга",
+    "/contacts": "Телефонная книга",
     "/portals": "Порталы",
     "/emergency_number": "Экстренные номера",
     "/cheks": "Чеки",

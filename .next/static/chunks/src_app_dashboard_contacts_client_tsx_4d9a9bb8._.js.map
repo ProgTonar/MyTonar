@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///home/andrey/Projects/MyTonarFront/src/app/dashboard/contacts/client.tsx"],"sourcesContent":["'use client'\n\nexport default function ContactsClient() {\n    return (\n        <div>\n            Enter\n        </div>\n    );\n}"],"names":[],"mappings":";;;;AAAA;;AAEe,SAAS;IACpB,qBACI,6LAAC;kBAAI;;;;;;AAIb;KANwB","debugId":null}},
+    {"offset": {"line": 28, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

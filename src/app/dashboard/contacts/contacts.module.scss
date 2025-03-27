@@ -1,0 +1,255 @@
+@import '@/styles/variables.scss';
+@import '@/styles/fonts.scss';
+
+.container {
+  padding: 20px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.adminActions {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.addButton {
+  padding: 10px 16px;
+  background-color: #2196f3;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+
+  &:hover {
+    background-color: #1976d2;
+  }
+}
+
+.addButton {
+  padding: 10px 16px;
+  background-color: $Blue-500;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+
+  &:hover {
+    background-color: $Blue-700;
+  }
+}
+
+.tableContainer {
+  background: white;
+  border-radius: 12px;
+  box-shadow: $Lift-300;
+  overflow: hidden;
+  overflow-x: auto;
+  margin-top: 20px;
+}
+
+.contactsTable {
+  width: 100%;
+  border-collapse: collapse;
+  @extend .title-4;
+  font-weight: 300;
+  
+  th {
+    text-align: left;
+    padding: 16px;
+    background: #f9fbff;
+    font-weight: 600;
+    color: $Misty-900;
+    border-bottom: 2px solid #e0e0e0;
+    white-space: nowrap;
+  }
+
+  td {
+    padding: 16px;
+    border-bottom: 1px solid #eee;
+    vertical-align: middle;
+  }
+}
+
+.sortableHeader {
+  cursor: pointer;
+  user-select: none;
+  transition: background-color 0.2s;
+  
+  &:hover {
+    background-color: #e9ecef;
+  }
+}
+
+.sortIcon {
+  margin-left: 5px;
+  font-size: 12px;
+  color: $Blue-500;
+}
+
+.contactRow {
+  transition: background-color 0.2s;
+  
+  &:hover {
+    background-color: #f8f9fa;
+  }
+}
+
+.phoneLink, .emailLink {
+  color: $Blue-500;
+  text-decoration: none;
+  transition: color 0.2s;
+  
+  &:hover {
+    color: $Blue-700;
+    text-decoration: underline;
+  }
+}
+
+.actionsCell {
+  white-space: nowrap;
+}
+
+.actionButton {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 6px;
+  background: #f5f5f5;
+  color: #333;
+  font-size: 13px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  margin-right: 8px;
+
+  &:hover:not(:disabled) {
+    background: #e0e0e0;
+  }
+
+  &:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+}
+
+.deleteButton {
+  background: rgba(244, 67, 54, 0.1);
+  color: #f44336;
+
+  &:hover {
+    background: rgba(244, 67, 54, 0.2);
+  }
+}
+
+.noContacts {
+  text-align: center;
+  padding: 40px;
+  color: #666;
+  font-style: italic;
+  background: white;
+  border-radius: 12px;
+  box-shadow: $Lift-300;
+  margin-top: 20px;
+}
+
+.showMoreContainer {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  
+  > button {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+.showMoreButton {
+  width: 100%;
+  padding: 12px 20px;
+  background-color: $Blue-500;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  text-align: center;
+  
+  &:hover {
+    background-color: $Blue-700;
+  }
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  font-size: 16px;
+  color: #666;
+}
+
+.accessDenied {
+  background: white;
+  border-radius: 12px;
+  padding: 30px;
+  text-align: center;
+  box-shadow: $Lift-300;
+  margin: 20px 0;
+  
+  h2 {
+    color: #ff9800;
+    margin-bottom: 15px;
+  }
+}
+
+.accessInfo {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #666;
+}
+
+@media (max-width: 768px) {
+  .contactsTable {
+    th, td {
+      padding: 12px 8px;
+      font-size: 14px;
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .contactsTable {
+    th:nth-child(2), 
+    td:nth-child(2),
+    th:nth-child(4), 
+    td:nth-child(4) {
+      display: none;
+    }
+  }
+}
+
+.loadingOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  font-size: 18px;
+  color: $Blue-700;
+} 

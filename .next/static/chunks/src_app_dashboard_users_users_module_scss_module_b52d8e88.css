@@ -1,0 +1,243 @@
+/* [project]/src/app/dashboard/users/users.module.scss.module.css [app-client] (css) */
+.users-module-scss-module__YoBSZG__container {
+  padding: 20px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.users-module-scss-module__YoBSZG__title {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.users-module-scss-module__YoBSZG__tableContainer {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 4px #0000001a;
+  overflow: auto;
+}
+
+.users-module-scss-module__YoBSZG__table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.users-module-scss-module__YoBSZG__table th {
+  text-align: left;
+  padding: 16px;
+  background: #f5f5f5;
+  font-weight: 600;
+  color: #333;
+  border-bottom: 2px solid #e0e0e0;
+}
+
+.users-module-scss-module__YoBSZG__table td {
+  padding: 16px;
+  border-bottom: 1px solid #e0e0e0;
+  vertical-align: middle;
+}
+
+.users-module-scss-module__YoBSZG__tableRow:hover {
+  background-color: #f8f9fa;
+}
+
+.users-module-scss-module__YoBSZG__userCell {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.users-module-scss-module__YoBSZG__userAvatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #2196f3;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: 500;
+  flex-shrink: 0;
+}
+
+.users-module-scss-module__YoBSZG__userInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.users-module-scss-module__YoBSZG__userName {
+  font-weight: 500;
+  color: #333;
+}
+
+.users-module-scss-module__YoBSZG__userLogin {
+  font-size: 13px;
+  color: #666;
+}
+
+.users-module-scss-module__YoBSZG__roleTag {
+  display: inline-block;
+  padding: 4px 8px;
+  background: #2196f31a;
+  color: #2196f3;
+  border-radius: 12px;
+  font-size: 13px;
+}
+
+.users-module-scss-module__YoBSZG__permissionsList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+
+.users-module-scss-module__YoBSZG__permissionTag {
+  display: inline-block;
+  padding: 2px 6px;
+  background: #4caf501a;
+  color: #4caf50;
+  border-radius: 8px;
+  font-size: 12px;
+}
+
+.users-module-scss-module__YoBSZG__actions {
+  display: flex;
+  gap: 8px;
+}
+
+.users-module-scss-module__YoBSZG__actionButton {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 6px;
+  background: #f5f5f5;
+  color: #333;
+  font-size: 13px;
+  cursor: pointer;
+  transition: background-color .2s;
+}
+
+.users-module-scss-module__YoBSZG__actionButton:hover {
+  background: #e0e0e0;
+}
+
+.users-module-scss-module__YoBSZG__loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  font-size: 16px;
+  color: #666;
+}
+
+@media (width <= 1024px) {
+  .users-module-scss-module__YoBSZG__tableContainer {
+    margin: 0 -20px;
+    border-radius: 0;
+  }
+
+  .users-module-scss-module__YoBSZG__permissionsList {
+    max-width: 200px;
+  }
+}
+
+@media (width <= 768px) {
+  .users-module-scss-module__YoBSZG__table th, .users-module-scss-module__YoBSZG__table td {
+    padding: 12px;
+  }
+
+  .users-module-scss-module__YoBSZG__userAvatar {
+    width: 32px;
+    height: 32px;
+    font-size: 14px;
+  }
+
+  .users-module-scss-module__YoBSZG__actionButton {
+    padding: 4px 8px;
+    font-size: 12px;
+  }
+}
+
+.users-module-scss-module__YoBSZG__deleteButton {
+  background: #f443361a;
+  color: #f44336;
+  border: none;
+}
+
+.users-module-scss-module__YoBSZG__deleteButton:hover {
+  background: #f4433633;
+}
+
+.users-module-scss-module__YoBSZG__errorContainer, .users-module-scss-module__YoBSZG__accessDenied, .users-module-scss-module__YoBSZG__noData {
+  background: #fff;
+  border-radius: 12px;
+  padding: 30px;
+  text-align: center;
+  box-shadow: 0 2px 4px #0000001a;
+  margin: 20px 0;
+}
+
+.users-module-scss-module__YoBSZG__errorContainer h2, .users-module-scss-module__YoBSZG__accessDenied h2 {
+  color: #f44336;
+  margin-bottom: 15px;
+}
+
+.users-module-scss-module__YoBSZG__accessDenied h2 {
+  color: #ff9800;
+}
+
+.users-module-scss-module__YoBSZG__noData {
+  color: #666;
+  font-style: italic;
+  padding: 40px;
+}
+
+.users-module-scss-module__YoBSZG__adminActions {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.users-module-scss-module__YoBSZG__addButton {
+  padding: 10px 16px;
+  background-color: #2196f3;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color .2s;
+}
+
+.users-module-scss-module__YoBSZG__addButton:hover {
+  background-color: #1976d2;
+}
+
+.users-module-scss-module__YoBSZG__noPermissions {
+  color: #999;
+  font-style: italic;
+  font-size: 14px;
+}
+
+.users-module-scss-module__YoBSZG__accessInfo {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #666;
+}
+
+.users-module-scss-module__YoBSZG__accessDenied {
+  background: #fff;
+  border-radius: 12px;
+  padding: 30px;
+  text-align: center;
+  box-shadow: 0 2px 4px #0000001a;
+  margin: 20px 0;
+}
+
+.users-module-scss-module__YoBSZG__accessDenied h2 {
+  color: #ff9800;
+  margin-bottom: 15px;
+}
+
+/*# sourceMappingURL=src_app_dashboard_users_users_module_scss_module_b52d8e88.css.map*/

@@ -18,7 +18,7 @@ export interface IStop {
 export interface INews {
 	id: number
 	title_one: string
-	title_two?: string
+	title_two: string
 	imageSrc: string
 	imageContent?: string
 	content: string
@@ -46,3 +46,46 @@ export interface IProperty {
 	quanity: number
 	date: string
 }
+
+
+export interface IUser {
+	login: string
+	last_name: string
+	first_name: string
+	middle_name: string
+	email: string
+	phone: string
+	roles: string[]
+	permissions: string[]
+	active: boolean
+}
+
+
+export interface IRole {
+	id: number
+	name: string
+	guard_name: string
+	permissions: string[]
+}
+
+
+export interface IPermission {
+	id?: number;
+	name?: string;
+	guard_name?: string;
+	created_at?: string;
+	updated_at?: string;
+	pivot?: any;
+  }
+
+
+
+  export interface IContacts {
+	id?: number;
+	name?: string;
+	job_title?: string
+	v_phonenumber?: string
+	short_phonenumber?: string
+	mobile_phone?: string
+	email?: string
+  }

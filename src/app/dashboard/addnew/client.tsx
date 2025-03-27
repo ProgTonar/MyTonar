@@ -13,6 +13,8 @@ const AddNews = () => {
   const editorRef = useRef<HTMLDivElement>(null)
   const quillRef = useRef<any>(null)
   const [isLoading, setIsLoading] = useState(false)
+  const [imageUrl, setImageUrl] = useState('')
+  const [isUploading, setIsUploading] = useState(false)
   const [formData, setFormData] = useState({
     title: '',
     subtitle: '',
@@ -65,26 +67,56 @@ const AddNews = () => {
     setFormData(prev => ({ ...prev, [name]: value }))
   }
 
+  const uploadImage = async (file: File) => {
+    const formData = new FormData();
+    formData.append('image', file);
+    setIsUploading(true)
+    try {
+      const response = await axios.post('http://localhost:9092/api/images/upload', formData, 
+        {
+          headers: {
+            'Content-Type': 'multipart/form-data',
+          },
+          withCredentials: true
+        } 
+
+      )
+      setImageUrl(response.data.image_url)
+    } catch (error) {
+      
+    }
+  }
+
+  const handleImageChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const file = e.target.files?.[0]
+    if (file) uploadImage(file)
+  }
+
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsLoading(true);
   
     try {
       const token = localStorage.getItem('access_token');
+        
+        if (!token) {
+          throw new Error('Токен авторизации не найден');
+        }
       const response = await axios.post(
-        'http://localhost:9092/api/news_add',
+        'http://localhost:9091/api/news_add',
         {
           title_one: formData.title,
           title_two: formData.subtitle,
           content: formData.content,
           description: formData.description,
-          imageSrc: formData.imageSrc
+          imageSrc: imageUrl
         },
         {
           headers: {
             'Content-Type': 'application/json',
             Authorization: `Bearer ${token}`
-          }
+          },
+          withCredentials: true
         }
       );
   
@@ -149,17 +181,27 @@ const AddNews = () => {
             <div ref={editorRef}></div>
           </div>
         </div>
-
         <div className={styles.formGroup}>
-          <label className={styles.label}>Ссылка на изображение</label>
           <input
-            type="text"
+            type="file"
             name="imageSrc"
             value={formData.imageSrc}
-            onChange={handleInputChange}
+            onChange={handleImageChange}
             className={styles.input}
           />
         </div>
+       
+        {imageUrl && (
+          <div className={styles.formGroup}>
+          <input
+            type="text"
+            name="imageSrc"
+            value={imageUrl}
+            className={styles.input}
+          />
+        </div>
+        )}
+        
 
         <div className={styles.buttonGroup}>
           <button

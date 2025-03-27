@@ -22,7 +22,16 @@ export default function DashboardLayout({
               <a href="/dashboard/news">Новости</a>
             </li>
             <li>
-              <a href="/dashboard/settings">Настройки</a>
+              <a href="/dashboard/contacts">Телефоны</a>
+            </li>
+            <li>
+              <a href="/dashboard/users">Пользователи</a>
+            </li>
+            <li>
+              <a href="/dashboard/role">Роли</a>
+            </li>
+            <li>
+              <a href="/dashboard/permission">Разрешения</a>
             </li>
             <li>
               <a href="/">Вернуться на сайт</a>

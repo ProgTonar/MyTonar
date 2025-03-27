@@ -1,9 +1,10 @@
 {
-  "/page": "app/page.js",
-  "/dashboard/page": "app/dashboard/page.js",
+  "/dashboard/addnew/page": "app/dashboard/addnew/page.js",
   "/dashboard/news/page": "app/dashboard/news/page.js",
-  "/dashboard/news/[id]/page": "app/dashboard/news/[id]/page.js",
-  "/news/page": "app/news/page.js",
-  "/search/page": "app/search/page.js",
-  "/news/[id]/page": "app/news/[id]/page.js"
+  "/dashboard/page": "app/dashboard/page.js",
+  "/page": "app/page.js",
+  "/dashboard/contacts/page": "app/dashboard/contacts/page.js",
+  "/dashboard/users/page": "app/dashboard/users/page.js",
+  "/dashboard/role/page": "app/dashboard/role/page.js",
+  "/dashboard/permission/page": "app/dashboard/permission/page.js"
 }

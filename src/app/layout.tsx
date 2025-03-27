@@ -31,7 +31,7 @@ const menuItems = [
   { icon: SearchIcon, label: "Поиск сотрудников", path: "/search" },
   { icon: BusIcon, label: "Автобусы", path: "/bus" },
   { icon: CupIcon, label: "Трудовое соревнование", path: "/competition" },
-  { icon: PhoneIcon, label: "Телефонная книга", path: "/phonebook" },
+  { icon: PhoneIcon, label: "Телефонная книга", path: "/contacts" },
   { icon: WebIcon, label: "Порталы", path: "/portals" },
 ];
 
@@ -41,7 +41,7 @@ const SubMenu = [
   { icon: GiftIcon, label: "Дни рождения", path: "/birthdays" },
   { icon: BusIcon, label: "Автобусы", path: "/bus" },
   { icon: CupIcon, label: "Трудовое соревнование", path: "/competition" },
-  { icon: PhoneIcon, label: "Телефонная книга", path: "/phonebook" },
+  { icon: PhoneIcon, label: "Телефонная книга", path: "/contacts" },
   { icon: WebIcon, label: "Порталы", path: "/portals" },
 ];
 

@@ -1,0 +1,328 @@
+/* [project]/src/app/contacts/contacts.module.scss.module.css [app-client] (css) */
+@font-face {
+  font-family: GolosText;
+  src: url("/fonts/GolosText-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: GolosText;
+  src: url("/fonts/GolosText-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+.contacts-module-scss-module__Opcxya__title-1, .contacts-module-scss-module__Opcxya__portals__title h1 {
+  font-family: GolosText, sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 32px;
+}
+
+.contacts-module-scss-module__Opcxya__title-2 {
+  font-family: GolosText, sans-serif;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 36px;
+}
+
+.contacts-module-scss-module__Opcxya__title-3 {
+  font-family: GolosText, sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.contacts-module-scss-module__Opcxya__title-4, .contacts-module-scss-module__Opcxya__contactsTable {
+  font-family: GolosText, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.contacts-module-scss-module__Opcxya__title-5 {
+  font-family: GolosText, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.contacts-module-scss-module__Opcxya__title-6 {
+  font-family: GolosText, sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 15.6px;
+}
+
+.contacts-module-scss-module__Opcxya__head-1 {
+  font-family: GolosText, sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 27px;
+}
+
+.contacts-module-scss-module__Opcxya__text {
+  font-family: GolosText, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.contacts-module-scss-module__Opcxya__text-2 {
+  font-family: GolosText, sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 29x;
+}
+
+.contacts-module-scss-module__Opcxya__description-13-regular {
+  font-family: GolosText, sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 17px;
+}
+
+.contacts-module-scss-module__Opcxya__description-11-medium {
+  font-family: GolosText, sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 13.2px;
+}
+
+.contacts-module-scss-module__Opcxya__button-14-medium {
+  font-family: GolosText, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.8px;
+}
+
+.contacts-module-scss-module__Opcxya__button-14-regular {
+  font-family: GolosText, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.contacts-module-scss-module__Opcxya__button-13-medium {
+  font-family: GolosText, sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 15.6px;
+}
+
+.contacts-module-scss-module__Opcxya__button-16-medium {
+  font-family: GolosText, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 15.6px;
+}
+
+.contacts-module-scss-module__Opcxya__plates-14-medium {
+  font-family: GolosText, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.contacts-module-scss-module__Opcxya__plates-14-regular {
+  font-family: GolosText, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.contacts-module-scss-module__Opcxya__pagination-16-regular {
+  font-family: GolosText, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.contacts-module-scss-module__Opcxya__download-footer-13 {
+  font-family: GolosText, sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 14px;
+}
+
+.contacts-module-scss-module__Opcxya__table-header-18 {
+  font-family: GolosText, sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.contacts-module-scss-module__Opcxya__table-header-20 {
+  font-family: GolosText, sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.contacts-module-scss-module__Opcxya__contactsContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 30px 20px;
+}
+
+.contacts-module-scss-module__Opcxya__portals__header {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (width <= 1200px) {
+  .contacts-module-scss-module__Opcxya__portals__header {
+    padding: 10px;
+  }
+}
+
+.contacts-module-scss-module__Opcxya__portals__title {
+  display: flex;
+  align-items: baseline;
+}
+
+.contacts-module-scss-module__Opcxya__portals__title h1 {
+  color: #041221;
+}
+
+.contacts-module-scss-module__Opcxya__tabsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 25px;
+  justify-content: center;
+}
+
+.contacts-module-scss-module__Opcxya__tabButton {
+  padding: 8px 16px;
+  background-color: #f5f5f5;
+  border: none;
+  border-radius: 20px;
+  font-size: 14px;
+  color: #d6e0ea;
+  cursor: pointer;
+  transition: all .2s;
+}
+
+.contacts-module-scss-module__Opcxya__tabButton:hover {
+  background-color: #e0e0e0;
+}
+
+.contacts-module-scss-module__Opcxya__activeTab {
+  background-color: #196bdf;
+  color: #fff;
+}
+
+.contacts-module-scss-module__Opcxya__activeTab:hover {
+  background-color: #0f53a9;
+}
+
+.contacts-module-scss-module__Opcxya__tableContainer {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px #91affc40;
+  overflow: hidden;
+  overflow-x: auto;
+  margin-top: 20px;
+}
+
+.contacts-module-scss-module__Opcxya__contactsTable {
+  width: 100%;
+  border-collapse: collapse;
+  font-weight: 300;
+}
+
+.contacts-module-scss-module__Opcxya__contactsTable th {
+  text-align: left;
+  padding: 16px;
+  background: #f9fbff;
+  font-weight: 600;
+  color: #152738;
+  border-bottom: 2px solid #e0e0e0;
+  white-space: nowrap;
+}
+
+.contacts-module-scss-module__Opcxya__contactsTable td {
+  padding: 16px;
+  border-bottom: 1px solid #eee;
+  vertical-align: middle;
+}
+
+.contacts-module-scss-module__Opcxya__sortableHeader {
+  cursor: pointer;
+  user-select: none;
+  transition: background-color .2s;
+}
+
+.contacts-module-scss-module__Opcxya__sortableHeader:hover {
+  background-color: #e9ecef;
+}
+
+.contacts-module-scss-module__Opcxya__sortIcon {
+  margin-left: 5px;
+  font-size: 12px;
+  color: #196bdf;
+}
+
+.contacts-module-scss-module__Opcxya__contactRow {
+  transition: background-color .2s;
+}
+
+.contacts-module-scss-module__Opcxya__contactRow:hover {
+  background-color: #f8f9fa;
+}
+
+.contacts-module-scss-module__Opcxya__phoneLink, .contacts-module-scss-module__Opcxya__emailLink {
+  color: #196bdf;
+  text-decoration: none;
+  transition: color .2s;
+}
+
+.contacts-module-scss-module__Opcxya__phoneLink:hover, .contacts-module-scss-module__Opcxya__emailLink:hover {
+  color: #0f53a9;
+  text-decoration: underline;
+}
+
+.contacts-module-scss-module__Opcxya__noContacts {
+  text-align: center;
+  padding: 40px;
+  color: #666;
+  font-style: italic;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px #91affc40;
+  margin-top: 20px;
+}
+
+.contacts-module-scss-module__Opcxya__showMoreContainer {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+}
+
+.contacts-module-scss-module__Opcxya__showMoreContainer > button {
+  width: 100%;
+  justify-content: center;
+}
+
+@media (width <= 768px) {
+  .contacts-module-scss-module__Opcxya__contactsTable th, .contacts-module-scss-module__Opcxya__contactsTable td {
+    padding: 12px 8px;
+    font-size: 14px;
+  }
+}
+
+@media (width <= 576px) {
+  .contacts-module-scss-module__Opcxya__tabsContainer {
+    justify-content: flex-start;
+    overflow-x: auto;
+    padding-bottom: 10px;
+  }
+
+  .contacts-module-scss-module__Opcxya__contactsTable th:nth-child(2), .contacts-module-scss-module__Opcxya__contactsTable td:nth-child(2), .contacts-module-scss-module__Opcxya__contactsTable th:nth-child(4), .contacts-module-scss-module__Opcxya__contactsTable td:nth-child(4) {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=src_app_contacts_contacts_module_scss_module_b52d8e88.css.map*/

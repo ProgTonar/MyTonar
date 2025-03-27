@@ -724,7 +724,7 @@ const menuItems = [
     {
         icon: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$assets$2f$images$2f$phone$2d$icon$2e$svg$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$src$2f$assets$2f$images$2f$phone$2d$icon$2e$svg__$28$static__in__ecmascript$2922$__$7d$__$5b$app$2d$rsc$5d$__$28$structured__image__object$2c$__ecmascript$29$__["default"],
         label: "Телефонная книга",
-        path: "/phonebook"
+        path: "/contacts"
     },
     {
         icon: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$assets$2f$images$2f$web$2d$icon$2e$svg$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$src$2f$assets$2f$images$2f$web$2d$icon$2e$svg__$28$static__in__ecmascript$2922$__$7d$__$5b$app$2d$rsc$5d$__$28$structured__image__object$2c$__ecmascript$29$__["default"],
@@ -761,7 +761,7 @@ const SubMenu = [
     {
         icon: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$assets$2f$images$2f$phone$2d$icon$2e$svg$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$src$2f$assets$2f$images$2f$phone$2d$icon$2e$svg__$28$static__in__ecmascript$2922$__$7d$__$5b$app$2d$rsc$5d$__$28$structured__image__object$2c$__ecmascript$29$__["default"],
         label: "Телефонная книга",
-        path: "/phonebook"
+        path: "/contacts"
     },
     {
         icon: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$assets$2f$images$2f$web$2d$icon$2e$svg$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$src$2f$assets$2f$images$2f$web$2d$icon$2e$svg__$28$static__in__ecmascript$2922$__$7d$__$5b$app$2d$rsc$5d$__$28$structured__image__object$2c$__ecmascript$29$__["default"],
