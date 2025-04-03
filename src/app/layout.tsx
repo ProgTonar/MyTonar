@@ -21,6 +21,7 @@ import iconSearch from "@/assets/images/iconSearch.svg";
 import iconProfile from "@/assets/images/iconProfile.svg";
 import iconDining from "@/assets/images/iconDining.svg";
 import iconBurger from "@/assets/images/iconBurger.svg";
+import { Metadata } from "next";
 
 const menuItems = [
   { icon: HomeIcon, label: "Главная", path: "/" },
@@ -53,6 +54,11 @@ const menuMobileItems = [
   { icon: iconNumber, label: "Срочные номера", path: "/emergency_number" },
 ];
 
+export const metadata: Metadata = {
+  title: "Мой Тонар",
+  description: "Корпоративное приложение Мой Тонар",
+};
+
 export default function RootLayout({
   children,
 }: {
@@ -60,6 +66,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="ru">
+      <head>
+        <meta name="theme-color" content="#000000"></meta>
+      </head>
       <body style={{ margin: 0 }}>
         <Sidebar menuItems={menuItems}>
           <div className={styles.mobileHeader}>

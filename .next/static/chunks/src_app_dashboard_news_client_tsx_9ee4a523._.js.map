@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///home/andrey/Projects/MyTonarFront/src/app/dashboard/news/client.tsx"],"sourcesContent":["'use client'\n\n\nconst NewsDashboardClient = () => {\n    return (<div>Новости</div>)\n}\n\nexport default NewsDashboardClient"],"names":[],"mappings":";;;;AAAA;;AAGA,MAAM,sBAAsB;IACxB,qBAAQ,6LAAC;kBAAI;;;;;;AACjB;KAFM;uCAIS","debugId":null}},
-    {"offset": {"line": 29, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
-}

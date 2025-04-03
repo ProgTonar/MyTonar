@@ -1,7 +1,8 @@
-'use client'
+'use client';
 
 import { useState, useEffect } from 'react';
 import axios from 'axios';
+import Cookies from 'js-cookie';
 
 interface UserPermissionsState {
   isLoading: boolean;
@@ -17,11 +18,10 @@ export function useUserPermissions(resource: string): UserPermissionsState {
   });
 
   useEffect(() => {
-    if (typeof window === 'undefined') return;
-    
     const checkPermissions = async () => {
       try {
-        const token = localStorage.getItem('access_token');
+        // Получаем токен из куки
+        const token = Cookies.get('access_token');
         
         if (!token) {
           setState({
@@ -75,8 +75,11 @@ export function useUserPermissions(resource: string): UserPermissionsState {
       }
     };
 
-    checkPermissions();
+    // Проверяем, что код выполняется на клиенте
+    if (typeof window !== 'undefined') {
+      checkPermissions();
+    }
   }, [resource]);
 
   return state;
-} 
+}

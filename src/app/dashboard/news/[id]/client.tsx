@@ -1,127 +1,172 @@
-'use client'
+"use client";
 
-import { useState, useEffect, useRef } from 'react'
-import { useRouter } from 'next/navigation'
-import type { INews } from "@/type/Types"
-import styles from './edit.module.scss'
-import Quill from 'quill'
-import "quill/dist/quill.snow.css"
-import axios from 'axios'
+import { useState, useEffect, useRef } from "react";
+import { useRouter } from "next/navigation";
+import type { INews } from "@/type/Types";
+import styles from "./edit.module.scss";
+import Quill from "quill";
+import "quill/dist/quill.snow.css";
+import axios from "axios";
+import { toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 interface EditNewProps {
-  news: INews
+  news: INews;
 }
 
 const EditNew = ({ news }: EditNewProps) => {
-  const router = useRouter()
-  const editorRef = useRef<HTMLDivElement>(null)
-  const quillRef = useRef<Quill | null>(null)
-  const [isLoading, setIsLoading] = useState(false)
+  const router = useRouter();
+  const editorRef = useRef<HTMLDivElement>(null);
+  const quillRef = useRef<Quill | null>(null);
+  const [isLoading, setIsLoading] = useState(false);
+  const [file, setFile] = useState<File | null>(null);
+  const [previewUrl, setPreviewUrl] = useState<string | null>(null);
+  const [fileName, setFileName] = useState<string | null>(
+    news.image_url?.split("/")?.pop() || null
+  );
   const [formData, setFormData] = useState({
-    title: news.title_one || '',
-    subtitle: news.title_two || '',
-    content: news.content || '',
-    description: news.description || '',
-    imageSrc: news.image_url|| ''
-  })
+    title: news.title_one || "",
+    subtitle: news.title_two || "",
+    content: news.content || "",
+    description: news.description || "",
+    imageSrc: news.image_url || "",
+  });
 
   useEffect(() => {
     if (editorRef.current && !quillRef.current) {
       const toolbarOptions = [
-        ['bold', 'italic', 'underline', 'strike'],        // toggled buttons
-        ['blockquote', 'code-block'],
-
-        [{ 'list': 'ordered'}, { 'list': 'bullet' }],
-        [{ 'script': 'sub'}, { 'script': 'super' }],      // superscript/subscript
-        [{ 'indent': '-1'}, { 'indent': '+1' }],          // outdent/indent
-
-        [{ 'header': [1, 2, 3, 4, 5, 6, false] }],
-
-        [{ 'color': [] }, { 'background': [] }],          // dropdown with defaults
-        [{ 'font': [] }],
-        [{ 'align': [] }],
-
-        ['clean']                                         // remove formatting button
+        ["bold", "italic", "underline", "strike"],
+        ["blockquote", "code-block"],
+        [{ list: "ordered" }, { list: "bullet" }],
+        [{ script: "sub" }, { script: "super" }],
+        [{ indent: "-1" }, { indent: "+1" }],
+        [{ header: [1, 2, 3, 4, 5, 6, false] }],
+        [{ color: [] }, { background: [] }],
+        [{ font: [] }],
+        [{ align: [] }],
+        ["clean"],
       ];
 
       quillRef.current = new Quill(editorRef.current, {
-        modules: {
-           
-          toolbar: toolbarOptions
-        },
-        theme: 'snow'
+        modules: { toolbar: toolbarOptions },
+        theme: "snow",
       });
 
-      // Устанавливаем начальное содержимое
       if (formData.content) {
         quillRef.current.root.innerHTML = formData.content;
       }
 
-      // Подписываемся на изменения
-      quillRef.current.on('text-change', () => {
+      quillRef.current.on("text-change", () => {
         if (quillRef.current) {
-          setFormData(prev => ({
+          setFormData((prev) => ({
             ...prev,
-            content: quillRef.current?.root.innerHTML || ''
-          }))
+            content: quillRef.current?.root.innerHTML || "",
+          }));
         }
-      })
+      });
     }
 
     return () => {
       if (quillRef.current) {
-        quillRef.current = null
+        quillRef.current = null;
       }
+    };
+  }, []);
+
+  useEffect(() => {
+    if (news.image_url) {
+      setPreviewUrl(news.image_url);
     }
-  }, [])
+  }, [news.image_url]);
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    const { name, value } = e.target
-    setFormData(prev => ({ ...prev, [name]: value }))
-  }
+    const { name, value } = e.target;
+    setFormData((prev) => ({ ...prev, [name]: value }));
+  };
 
-  const handleSubmit = async (e: React.FormEvent) => {
+  const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const selectedFile = e.target.files?.[0];
+    if (selectedFile) {
+      setFile(selectedFile);
+      setFileName(selectedFile.name);
+      setPreviewUrl(URL.createObjectURL(selectedFile));
+      setFormData((prev) => ({ ...prev, imageSrc: "" }));
+    }
+  };
+
+  const handleDeleteImage = async () => {
+    if (formData.imageSrc && !file) {
+      try {
+        setIsLoading(true);
+        await axios.delete("http://localhost:9092/api/news/delete_image", {
+          data: { id: news.id },
+          withCredentials: true,
+        });
+        toast.success("Изображение успешно удалено");
+      } catch (error) {
+        console.error("Ошибка при удалении изображения:", error);
+        toast.error("Не удалось удалить изображение");
+      } finally {
+        setIsLoading(false);
+      }
+    }
+
+    setPreviewUrl(null);
+    setFile(null);
+    setFileName(null);
+    setFormData((prev) => ({ ...prev, imageSrc: "" }));
+  };
+
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setIsLoading(true);
-  
+
     try {
-      const token = localStorage.getItem('access_token');
-      
-      const response = await axios.put(
-        `http://localhost:9092/api/news/edit_detail`,
-        {
-          id: news.id,  
-          title_one: formData.title,
-          title_two: formData.subtitle,
-          content: formData.content,
-          description: formData.description,
-          imageSrc: formData.imageSrc,
-        },
+      const formDataToSend = new FormData();
+
+      formDataToSend.append("id", news.id.toString());
+      formDataToSend.append("title_one", formData.title);
+      formDataToSend.append("title_two", formData.subtitle);
+      formDataToSend.append("content", formData.content);
+      formDataToSend.append("description", formData.description);
+
+      if (file) {
+        formDataToSend.append("file", file);
+
+        const fileName = `${Date.now()}.${file.name.split(".").pop()}`;
+        formDataToSend.append("imageSrc", fileName);
+      } else if (formData.imageSrc) {
+        formDataToSend.append("imageSrc", formData.imageSrc);
+      }
+
+      const response = await axios.post(
+        "http://localhost:9092/api/news/edit_detail",
+        formDataToSend,
         {
           headers: {
-            'Content-Type': 'application/json',
-            'Authorization': `Bearer ${token}`
-          }
+            "Content-Type": "multipart/form-data",
+          },
+          withCredentials: true,
         }
       );
-  
+
       if (response.status >= 200 && response.status < 300) {
-        router.push('/dashboard/news');
+        toast.success("Изменения успешно сохранены");
+        router.push("/dashboard/news");
       } else {
-        throw new Error('Ошибка сохранения');
+        throw new Error("Ошибка сохранения");
       }
     } catch (error) {
-      console.error('Ошибка:', error);
-      alert('Не удалось сохранить изменения');
+      console.error("Ошибка:", error);
+      toast.error("Не удалось сохранить изменения");
     } finally {
       setIsLoading(false);
     }
   };
-
   return (
     <div className={styles.container}>
       <h1 className={styles.title}>Редактировать новость</h1>
-      
+
       <form onSubmit={handleSubmit} className={styles.form}>
         <div className={styles.formGroup}>
           <label className={styles.label}>Заголовок</label>
@@ -166,14 +211,57 @@ const EditNew = ({ news }: EditNewProps) => {
         </div>
 
         <div className={styles.formGroup}>
-          <label className={styles.label}>Ссылка на изображение</label>
-          <input
-            type="text"
-            name="imageSrc"
-            value={formData.imageSrc}
-            onChange={handleInputChange}
-            className={styles.input}
-          />
+          <label className={styles.label}>Изображение</label>
+
+          {previewUrl ? (
+            <>
+              <div className={styles.imagePreview}>
+                <img
+                  src={previewUrl}
+                  alt="Превью"
+                  className={styles.previewImage}
+                />
+              </div>
+              <div className={styles.fileInfoContainer}>
+                <div className={styles.fileName}>
+                  {fileName || "Изображение"}
+                </div>
+                <button
+                  type="button"
+                  onClick={handleDeleteImage}
+                  className={styles.deleteFileButton}
+                >
+                  Удалить
+                </button>
+              </div>
+              <input type="hidden" name="imageSrc" value={formData.imageSrc} />
+            </>
+          ) : (
+            <>
+              <input
+                type="file"
+                onChange={handleFileChange}
+                className={styles.fileInput}
+                accept="image/*"
+              />
+              {file && fileName && (
+                <div className={styles.fileInfoContainer}>
+                  <div className={styles.fileName}>{fileName}</div>
+                  <button
+                    type="button"
+                    onClick={() => {
+                      setFile(null);
+                      setFileName(null);
+                      setPreviewUrl(null);
+                    }}
+                    className={styles.deleteFileButton}
+                  >
+                    Удалить
+                  </button>
+                </div>
+              )}
+            </>
+          )}
         </div>
 
         <div className={styles.buttonGroup}>
@@ -182,12 +270,12 @@ const EditNew = ({ news }: EditNewProps) => {
             disabled={isLoading}
             className={styles.submitButton}
           >
-            {isLoading ? 'Сохранение...' : 'Сохранить'}
+            {isLoading ? "Сохранение..." : "Сохранить"}
           </button>
-          
+
           <button
             type="button"
-            onClick={() => router.push('/dashboard/news')}
+            onClick={() => router.push("/dashboard/news")}
             className={styles.cancelButton}
           >
             Отмена
@@ -195,7 +283,7 @@ const EditNew = ({ news }: EditNewProps) => {
         </div>
       </form>
     </div>
-  )
-}
+  );
+};
 
-export default EditNew
+export default EditNew;

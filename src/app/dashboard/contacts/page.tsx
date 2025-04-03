@@ -1,4 +1,5 @@
-import getContacts from "@/services/getContacts";
+
+import { getContacts } from "@/services/getContacts";
 import ContactsClient from "./client";
 
 export default async function ContactsPage() {

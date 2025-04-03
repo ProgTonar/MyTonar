@@ -1,0 +1,2338 @@
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[7].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[7].use[5]!./src/styles/MainPage/footer.module.scss ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+@font-face {
+  font-family: "GolosText";
+  src: url("/fonts/GolosText-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "GolosText";
+  src: url("/fonts/GolosText-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+.footer_title-1__QIh6w {
+  font-family: "GolosText", sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 32px;
+}
+
+.footer_title-2__mtHYs {
+  font-family: "GolosText", sans-serif;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 36px;
+}
+
+.footer_title-3__8AaXu {
+  font-family: "GolosText", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.footer_title-4__ysG27 {
+  font-family: "GolosText", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.footer_title-5__1Fw0S, .footer_footer__info__E6QbQ, .footer_footer__menu__vaxQ_ a {
+  font-family: "GolosText", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.footer_title-6__MBbeb {
+  font-family: "GolosText", sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 15.6px;
+}
+
+.footer_head-1___S_xy {
+  font-family: "GolosText", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 27px;
+}
+
+.footer_text__o1KTB {
+  font-family: "GolosText", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.footer_text-2__TLRCH {
+  font-family: "GolosText", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 29x;
+}
+
+.footer_description-13-regular__9_BuR {
+  font-family: "GolosText", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 17px;
+}
+
+.footer_description-11-medium__PBPiR {
+  font-family: "GolosText", sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 13.2px;
+}
+
+.footer_button-14-medium__aeTBM {
+  font-family: "GolosText", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.8px;
+}
+
+.footer_button-14-regular__oCFA9 {
+  font-family: "GolosText", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.footer_button-13-medium__3LIf_ {
+  font-family: "GolosText", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 15.6px;
+}
+
+.footer_button-16-medium__x7RV1 {
+  font-family: "GolosText", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 15.6px;
+}
+
+.footer_plates-14-medium__69QF0 {
+  font-family: "GolosText", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.footer_plates-14-regular__x5tBx {
+  font-family: "GolosText", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.footer_pagination-16-regular__N_72F {
+  font-family: "GolosText", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.footer_download-footer-13__ShPvm, .footer_text__mobile__RcIVG {
+  font-family: "GolosText", sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 14px;
+}
+
+.footer_table-header-18__XfS6J {
+  font-family: "GolosText", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.footer_table-header-20__a40Iy {
+  font-family: "GolosText", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.footer_footer__main__yFFBx {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  width: 100%;
+  max-width: 1100px;
+}
+@media (max-width: 1200px) {
+  .footer_footer__main__yFFBx {
+    display: none;
+    padding: 20px;
+    max-width: 100%;
+  }
+}
+
+.footer_footer__item__jD9WS {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 48px;
+  border-bottom: 1px solid #B3C3D2;
+  padding-bottom: 20px;
+  width: 100%;
+}
+@media (max-width: 1200px) {
+  .footer_footer__item__jD9WS {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+}
+
+.footer_footer__img__AFuqI {
+  position: relative;
+  left: 90px;
+  z-index: 100;
+}
+@media (max-width: 1200px) {
+  .footer_footer__img__AFuqI {
+    display: none;
+  }
+}
+
+.footer_footer__rustore__vshAX {
+  display: none;
+}
+@media (max-width: 1200px) {
+  .footer_footer__rustore__vshAX {
+    display: block;
+  }
+}
+
+.footer_footer__icon__tqwrz {
+  display: flex;
+  flex-direction: row;
+  gap: 18px;
+}
+@media (max-width: 1200px) {
+  .footer_footer__icon__tqwrz {
+    gap: 12px;
+  }
+}
+
+.footer_footer__menu__vaxQ_ {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 50px;
+  width: 100%;
+}
+@media (max-width: 1200px) {
+  .footer_footer__menu__vaxQ_ {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+  }
+}
+
+.footer_footer__menu__vaxQ_ a {
+  text-decoration: none;
+  color: #1a202c;
+  white-space: nowrap;
+}
+@media (max-width: 1200px) {
+  .footer_footer__menu__vaxQ_ a {
+    padding-right: 0;
+  }
+}
+
+.footer_footer__info__E6QbQ {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #273C50;
+  padding-top: 20px;
+  width: 100%;
+}
+@media (max-width: 1200px) {
+  .footer_footer__info__E6QbQ {
+    flex-direction: column;
+    gap: 16px;
+    align-items: flex-start;
+  }
+}
+
+.footer_footer__qr__Ll41t {
+  padding-left: 30px;
+}
+@media (max-width: 1200px) {
+  .footer_footer__qr__Ll41t {
+    display: none;
+  }
+}
+
+.footer_text__mobile__RcIVG {
+  display: none;
+}
+@media (max-width: 1200px) {
+  .footer_text__mobile__RcIVG {
+    display: block;
+    margin-top: 20px;
+    color: #196BDF;
+  }
+}
+/*!********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[7].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[7].use[5]!./src/styles/MainPage/main.module.scss ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+@font-face {
+  font-family: "GolosText";
+  src: url("/fonts/GolosText-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "GolosText";
+  src: url("/fonts/GolosText-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+.main_title-1__DoTHu {
+  font-family: "GolosText", sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 32px;
+}
+
+.main_title-2__zpSnm {
+  font-family: "GolosText", sans-serif;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 36px;
+}
+
+.main_title-3__wrv_g {
+  font-family: "GolosText", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.main_title-4__JuNdw {
+  font-family: "GolosText", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.main_title-5__kPEiM {
+  font-family: "GolosText", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.main_title-6__Q3HcT {
+  font-family: "GolosText", sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 15.6px;
+}
+
+.main_head-1__IVG7q {
+  font-family: "GolosText", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 27px;
+}
+
+.main_text__hfc0m {
+  font-family: "GolosText", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.main_text-2__C2Jq1 {
+  font-family: "GolosText", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 29x;
+}
+
+.main_description-13-regular__RGec0 {
+  font-family: "GolosText", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 17px;
+}
+
+.main_description-11-medium__g_j1O {
+  font-family: "GolosText", sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 13.2px;
+}
+
+.main_button-14-medium__l7DYZ, .main_mobileText__FTtkM {
+  font-family: "GolosText", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.8px;
+}
+
+.main_button-14-regular__14Xqi {
+  font-family: "GolosText", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.main_button-13-medium__339_G {
+  font-family: "GolosText", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 15.6px;
+}
+
+.main_button-16-medium__S9wXH {
+  font-family: "GolosText", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 15.6px;
+}
+
+.main_plates-14-medium__Zr9J1 {
+  font-family: "GolosText", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.main_plates-14-regular__P8c0_ {
+  font-family: "GolosText", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.main_pagination-16-regular__2QmbY {
+  font-family: "GolosText", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.main_download-footer-13__q3MjR {
+  font-family: "GolosText", sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 14px;
+}
+
+.main_table-header-18__uUgdB {
+  font-family: "GolosText", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.main_table-header-20__ccQAf {
+  font-family: "GolosText", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.main_layout__ZaPwX {
+  display: flex;
+  min-height: 100vh;
+  max-width: 100vw;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.main_content__GJbDq {
+  flex: 1 1;
+  display: flex;
+  flex-direction: column;
+  background-color: #ECF0F6;
+  min-height: 100vh;
+  max-width: 100%;
+  box-sizing: border-box;
+  position: relative;
+  margin-left: 15%;
+  align-items: center;
+  transition: margin-left 0.3s ease;
+}
+@media (max-width: 1200px) {
+  .main_content__GJbDq {
+    min-width: 100%;
+    min-height: 200px;
+    max-width: 100%;
+    margin: 0 auto;
+    margin-left: 0;
+  }
+}
+.main_content__GJbDq.main_sidebarCollapsed__MW_N6 {
+  margin-left: 100px;
+}
+
+.main_navigation__uM46k {
+  max-width: 100%;
+  width: 1200px;
+  padding-top: 24px;
+  background-color: transparent;
+  box-sizing: border-box;
+}
+@media (max-width: 1200px) {
+  .main_navigation__uM46k {
+    display: none;
+  }
+}
+
+.main_container__WH_lf {
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.main_main__rwtek {
+  flex: 1 1;
+  padding: 24px;
+  margin-bottom: 80px;
+  max-width: 100%;
+  width: 1200px;
+}
+@media (max-width: 1200px) {
+  .main_main__rwtek {
+    padding: 0;
+  }
+}
+
+.main_mobileHeader__bT85n {
+  display: none;
+}
+@media (max-width: 1200px) {
+  .main_mobileHeader__bT85n {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px 5px;
+    width: 100%;
+  }
+}
+
+.main_mobileProfile__iGJnh {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.main_mobileText__FTtkM {
+  padding-right: 5px;
+}
+
+.main_footer__oy_0L {
+  background: linear-gradient(0deg, rgb(213, 228, 245) 0%, rgb(236, 240, 246) 100%);
+  min-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: -webkit-sticky;
+  position: sticky;
+}
+@media (max-width: 1200px) {
+  .main_footer__oy_0L {
+    justify-content: flex-start;
+  }
+}
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[7].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[7].use[5]!./src/styles/MainPage/header.module.scss ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+@charset "UTF-8";
+@font-face {
+  font-family: "GolosText";
+  src: url("/fonts/GolosText-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "GolosText";
+  src: url("/fonts/GolosText-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+.header_title-1__mx4e3 {
+  font-family: "GolosText", sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 32px;
+}
+
+.header_title-2__eZGvk {
+  font-family: "GolosText", sans-serif;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 36px;
+}
+
+.header_title-3__zMox2 {
+  font-family: "GolosText", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.header_title-4__Q1vr8 {
+  font-family: "GolosText", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.header_title-5__WsIIF {
+  font-family: "GolosText", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.header_title-6__tfM3F {
+  font-family: "GolosText", sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 15.6px;
+}
+
+.header_head-1__d6D1R {
+  font-family: "GolosText", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 27px;
+}
+
+.header_text__xN1Er {
+  font-family: "GolosText", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.header_text-2__Ofkfn {
+  font-family: "GolosText", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 29x;
+}
+
+.header_description-13-regular__rP2sB {
+  font-family: "GolosText", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 17px;
+}
+
+.header_description-11-medium__TbYxC {
+  font-family: "GolosText", sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 13.2px;
+}
+
+.header_button-14-medium__FWPye {
+  font-family: "GolosText", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.8px;
+}
+
+.header_button-14-regular__fPMCz {
+  font-family: "GolosText", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.header_button-13-medium__z6HKD {
+  font-family: "GolosText", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 15.6px;
+}
+
+.header_button-16-medium__X6vLu {
+  font-family: "GolosText", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 15.6px;
+}
+
+.header_plates-14-medium__RAYXz {
+  font-family: "GolosText", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.header_plates-14-regular__rTM6F {
+  font-family: "GolosText", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.header_pagination-16-regular__jrL1h {
+  font-family: "GolosText", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.header_download-footer-13__nhTNQ {
+  font-family: "GolosText", sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 14px;
+}
+
+.header_table-header-18__RZMeg {
+  font-family: "GolosText", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.header_table-header-20___fZzl {
+  font-family: "GolosText", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.header_header__h1MJ_ {
+  width: 100vw;
+  max-width: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 27px;
+  box-sizing: border-box;
+}
+@media (max-width: 1200px) {
+  .header_header__h1MJ_ {
+    display: none;
+  }
+}
+
+.header_searchContainer__nf48V {
+  display: flex;
+  align-items: center;
+  max-width: 400px;
+  width: 100%;
+}
+
+.header_userInfoContainer__OJbLZ {
+  box-sizing: border-box;
+  position: relative;
+}
+
+.header_Button__lzwxj {
+  text-align: center;
+  width: 20%;
+}
+
+/* Мобильная версия */
+.header_mobile_header__WUN8P {
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  max-width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+/*!*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[7].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[7].use[5]!./src/components/UI/Input/SearchInput.module.scss ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+@font-face {
+  font-family: "GolosText";
+  src: url("/fonts/GolosText-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "GolosText";
+  src: url("/fonts/GolosText-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+.SearchInput_title-1__zi4hw {
+  font-family: "GolosText", sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 32px;
+}
+
+.SearchInput_title-2__6BAk6 {
+  font-family: "GolosText", sans-serif;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 36px;
+}
+
+.SearchInput_title-3__Eo8jT {
+  font-family: "GolosText", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.SearchInput_title-4__hXa7p {
+  font-family: "GolosText", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.SearchInput_title-5__88btv {
+  font-family: "GolosText", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.SearchInput_title-6__yQ0JQ {
+  font-family: "GolosText", sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 15.6px;
+}
+
+.SearchInput_head-1__YTTBp {
+  font-family: "GolosText", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 27px;
+}
+
+.SearchInput_text__hJQo_, .SearchInput_searchInput__FmTwY::placeholder, .SearchInput_searchContainer__TfvM_ {
+  font-family: "GolosText", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.SearchInput_text-2__A5H2v {
+  font-family: "GolosText", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 29x;
+}
+
+.SearchInput_description-13-regular__6Rali {
+  font-family: "GolosText", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 17px;
+}
+
+.SearchInput_description-11-medium__o9laI {
+  font-family: "GolosText", sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 13.2px;
+}
+
+.SearchInput_button-14-medium__qaIJd {
+  font-family: "GolosText", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.8px;
+}
+
+.SearchInput_button-14-regular__VIliz {
+  font-family: "GolosText", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.SearchInput_button-13-medium__5w5k5 {
+  font-family: "GolosText", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 15.6px;
+}
+
+.SearchInput_button-16-medium__9_g2q {
+  font-family: "GolosText", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 15.6px;
+}
+
+.SearchInput_plates-14-medium__tA_8d {
+  font-family: "GolosText", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.SearchInput_plates-14-regular__eocf0 {
+  font-family: "GolosText", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.SearchInput_pagination-16-regular__AsTPs {
+  font-family: "GolosText", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.SearchInput_download-footer-13__0PLjf {
+  font-family: "GolosText", sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 14px;
+}
+
+.SearchInput_table-header-18__x0oAS {
+  font-family: "GolosText", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.SearchInput_table-header-20__O4_gy {
+  font-family: "GolosText", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.SearchInput_searchContainer__TfvM_ {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 50%;
+  background-color: white;
+  border-radius: 16px;
+  padding-left: 16px;
+}
+
+.SearchInput_searchInput__FmTwY {
+  width: 100%;
+  height: 44px;
+  background: transparent;
+  border: none;
+  font-size: 14px;
+  color: #1a202c;
+  outline: none;
+}
+.SearchInput_searchInput__FmTwY::placeholder {
+  color: #4a5568;
+}
+/*!*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[7].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[7].use[5]!./src/components/UI/UserInfo/UserInfo.module.scss ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+@font-face {
+  font-family: "GolosText";
+  src: url("/fonts/GolosText-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "GolosText";
+  src: url("/fonts/GolosText-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+.UserInfo_title-1__F9TM1 {
+  font-family: "GolosText", sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 32px;
+}
+
+.UserInfo_title-2__9OiMo {
+  font-family: "GolosText", sans-serif;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 36px;
+}
+
+.UserInfo_title-3__Kirge {
+  font-family: "GolosText", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.UserInfo_title-4__C5keP {
+  font-family: "GolosText", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.UserInfo_title-5__sGeMm {
+  font-family: "GolosText", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.UserInfo_title-6__vsJgk {
+  font-family: "GolosText", sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 15.6px;
+}
+
+.UserInfo_head-1__G28p0 {
+  font-family: "GolosText", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 27px;
+}
+
+.UserInfo_text__rY1_M {
+  font-family: "GolosText", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.UserInfo_text-2__M2Yad {
+  font-family: "GolosText", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 29x;
+}
+
+.UserInfo_description-13-regular__TrIky, .UserInfo_userPosition__DlUAR {
+  font-family: "GolosText", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 17px;
+}
+
+.UserInfo_description-11-medium__F_a3T {
+  font-family: "GolosText", sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 13.2px;
+}
+
+.UserInfo_button-14-medium__difez {
+  font-family: "GolosText", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.8px;
+}
+
+.UserInfo_button-14-regular__aYG7W {
+  font-family: "GolosText", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.UserInfo_button-13-medium__HtxJw {
+  font-family: "GolosText", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 15.6px;
+}
+
+.UserInfo_button-16-medium__PVzv4 {
+  font-family: "GolosText", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 15.6px;
+}
+
+.UserInfo_plates-14-medium__4jkZA, .UserInfo_buttonLogin__H4iqH, .UserInfo_userName__wqcVR {
+  font-family: "GolosText", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.UserInfo_plates-14-regular__kiA2O {
+  font-family: "GolosText", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.UserInfo_pagination-16-regular__Vuosw {
+  font-family: "GolosText", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.UserInfo_download-footer-13__DViRT {
+  font-family: "GolosText", sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 14px;
+}
+
+.UserInfo_table-header-18___pixk {
+  font-family: "GolosText", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.UserInfo_table-header-20__u4gT_ {
+  font-family: "GolosText", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.UserInfo_userInfo__MupcZ {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 8px;
+  min-width: 320px;
+  cursor: pointer;
+  will-change: transform;
+  transition: transform 0.3s ease-in-out;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.UserInfo_userInfo__MupcZ .UserInfo_img__OhE80 {
+  width: 16px;
+  height: 16px;
+  transition: transform 0.2s ease;
+  margin-left: auto;
+}
+
+.UserInfo_user__QjPR0 {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  align-items: center;
+  flex: 1 1;
+  justify-content: flex-end;
+}
+
+.UserInfo_userAvatar__RHJV4 {
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.UserInfo_userDetails__OYU0G {
+  text-align: left;
+  flex: 1 1;
+}
+
+.UserInfo_userName__wqcVR {
+  font-weight: 500;
+  font-size: 14px;
+  color: #1b1b1b;
+  margin-bottom: 2px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.UserInfo_userPosition__DlUAR {
+  font-size: 12px;
+  color: #6f6f6f;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.UserInfo_rotate__zaJyW {
+  transform: rotate(180deg);
+}
+
+.UserInfo_dropdown__VZZH8 {
+  position: absolute;
+  top: calc(100% + 8px);
+  right: 0;
+  background: #ffffff;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+  padding: 8px 0;
+  z-index: 1000;
+}
+
+.UserInfo_buttonLogin__H4iqH {
+  display: flex;
+  justify-content: end;
+}
+.UserInfo_buttonLogin__H4iqH:hover {
+  color: #196BDF;
+}
+/*!***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[7].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[7].use[5]!./src/components/UI/Button/Button.module.scss ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+@font-face {
+  font-family: "GolosText";
+  src: url("/fonts/GolosText-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "GolosText";
+  src: url("/fonts/GolosText-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+.Button_title-1__Q7zXX {
+  font-family: "GolosText", sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 32px;
+}
+
+.Button_title-2__cRFzv {
+  font-family: "GolosText", sans-serif;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 36px;
+}
+
+.Button_title-3__1QHg6 {
+  font-family: "GolosText", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.Button_title-4__0tpHd {
+  font-family: "GolosText", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.Button_title-5__Gw8zt {
+  font-family: "GolosText", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.Button_title-6__9o9UR {
+  font-family: "GolosText", sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 15.6px;
+}
+
+.Button_head-1__sHlEZ {
+  font-family: "GolosText", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 27px;
+}
+
+.Button_text__nSdja, .Button_button__dve9_ {
+  font-family: "GolosText", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.Button_text-2__aPuaL {
+  font-family: "GolosText", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 29x;
+}
+
+.Button_description-13-regular__OgvwD {
+  font-family: "GolosText", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 17px;
+}
+
+.Button_description-11-medium__2_9jI {
+  font-family: "GolosText", sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 13.2px;
+}
+
+.Button_button-14-medium__cPtxW, .Button_button__dve9_ {
+  font-family: "GolosText", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.8px;
+}
+
+.Button_button-14-regular__3gvt8 {
+  font-family: "GolosText", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.Button_button-13-medium__3zGqs {
+  font-family: "GolosText", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 15.6px;
+}
+
+.Button_button-16-medium__TuQ2Y {
+  font-family: "GolosText", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 15.6px;
+}
+
+.Button_plates-14-medium__oVDib {
+  font-family: "GolosText", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.Button_plates-14-regular__crmky {
+  font-family: "GolosText", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.Button_pagination-16-regular__QPYxo {
+  font-family: "GolosText", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.Button_download-footer-13__FNic2 {
+  font-family: "GolosText", sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 14px;
+}
+
+.Button_table-header-18__U_tSF {
+  font-family: "GolosText", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.Button_table-header-20__ssKxS {
+  font-family: "GolosText", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.Button_button__dve9_ {
+  padding: 14px 24px;
+  border: none;
+  border-radius: 16px;
+  cursor: pointer;
+  background-color: white;
+  color: #ED5C2F;
+  transition: all 0.3s ease;
+  max-width: 100%;
+}
+
+.Button_button__dve9_:hover {
+  background-color: #ED5C2F;
+  color: white;
+}
+
+.Button_button__dve9_:focus {
+  outline: none;
+  border: 2px solid #ED5C2F;
+  color: #ED5C2F;
+  background-color: white;
+}
+
+.Button_button__dve9_:disabled {
+  background-color: white;
+  color: #B3C3D2;
+  cursor: not-allowed;
+}
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[7].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[7].use[5]!./src/components/UI/DropDownMenu/dropDown.module.scss ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+@font-face {
+  font-family: "GolosText";
+  src: url("/fonts/GolosText-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "GolosText";
+  src: url("/fonts/GolosText-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+.dropDown_title-1___i5cn {
+  font-family: "GolosText", sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 32px;
+}
+
+.dropDown_title-2__ooov8 {
+  font-family: "GolosText", sans-serif;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 36px;
+}
+
+.dropDown_title-3___Eek7 {
+  font-family: "GolosText", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.dropDown_title-4__ZP4YG {
+  font-family: "GolosText", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.dropDown_title-5__WZIRk {
+  font-family: "GolosText", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.dropDown_title-6__B3XfN {
+  font-family: "GolosText", sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 15.6px;
+}
+
+.dropDown_head-1__0IRey {
+  font-family: "GolosText", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 27px;
+}
+
+.dropDown_text__ElDrH, .dropDown_menuItem__ofbs1 {
+  font-family: "GolosText", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.dropDown_text-2__CLZr1 {
+  font-family: "GolosText", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 29x;
+}
+
+.dropDown_description-13-regular__OpEmm {
+  font-family: "GolosText", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 17px;
+}
+
+.dropDown_description-11-medium__zD9po {
+  font-family: "GolosText", sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 13.2px;
+}
+
+.dropDown_button-14-medium__qhavk {
+  font-family: "GolosText", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.8px;
+}
+
+.dropDown_button-14-regular__zeUgS {
+  font-family: "GolosText", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.dropDown_button-13-medium__Rlh_U {
+  font-family: "GolosText", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 15.6px;
+}
+
+.dropDown_button-16-medium__ygTji {
+  font-family: "GolosText", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 15.6px;
+}
+
+.dropDown_plates-14-medium__Y3iYq {
+  font-family: "GolosText", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.dropDown_plates-14-regular__oFD8i {
+  font-family: "GolosText", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.dropDown_pagination-16-regular__sL2Xo {
+  font-family: "GolosText", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.dropDown_download-footer-13__2dAFt {
+  font-family: "GolosText", sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 14px;
+}
+
+.dropDown_table-header-18__87Lgp {
+  font-family: "GolosText", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.dropDown_table-header-20__KWN8Q {
+  font-family: "GolosText", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.dropDown_dropdownContainer__xJvfN {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  z-index: 1000;
+  margin-top: 4px;
+}
+
+.dropDown_dropdown__DAK8C {
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+  padding: 8px;
+  min-width: 200px;
+  animation: dropDown_dropdownAppear__wPKqv 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@keyframes dropDown_dropdownAppear__wPKqv {
+  from {
+    opacity: 0;
+    transform: translateY(-8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.dropDown_menuItem__ofbs1 {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 16px;
+  cursor: pointer;
+  border-radius: 8px;
+  color: #1a202c;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.dropDown_menuItem__ofbs1 .dropDown_icon__Fcc_M {
+  filter: brightness(0) saturate(100%) invert(19%) sepia(14%) saturate(1111%) hue-rotate(176deg) brightness(94%) contrast(88%);
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+.dropDown_menuItem__ofbs1:hover {
+  background-color: #D6E0EA;
+  color: #196BDF;
+}
+.dropDown_menuItem__ofbs1:hover .dropDown_icon__Fcc_M {
+  transform: translateX(-4px);
+  filter: brightness(0) saturate(100%) invert(37%) sepia(74%) saturate(1045%) hue-rotate(199deg) brightness(91%) contrast(107%);
+}
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[7].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[7].use[5]!./src/styles/MainPage/sidebar.module.scss ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+@charset "UTF-8";
+@font-face {
+  font-family: "GolosText";
+  src: url("/fonts/GolosText-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "GolosText";
+  src: url("/fonts/GolosText-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+.sidebar_title-1__t_EN2 {
+  font-family: "GolosText", sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 32px;
+}
+
+.sidebar_title-2__k_8n9 {
+  font-family: "GolosText", sans-serif;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 36px;
+}
+
+.sidebar_title-3__kXhcv {
+  font-family: "GolosText", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.sidebar_title-4__CWzrM {
+  font-family: "GolosText", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.sidebar_title-5__bM6GD {
+  font-family: "GolosText", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.sidebar_title-6__UpfpC {
+  font-family: "GolosText", sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 15.6px;
+}
+
+.sidebar_head-1__HtWF1 {
+  font-family: "GolosText", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 27px;
+}
+
+.sidebar_text__E7U1s, .sidebar_container__vxNOi {
+  font-family: "GolosText", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.sidebar_text-2__UF_Jy {
+  font-family: "GolosText", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 29x;
+}
+
+.sidebar_description-13-regular___vFEC {
+  font-family: "GolosText", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 17px;
+}
+
+.sidebar_description-11-medium__4Ke87 {
+  font-family: "GolosText", sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 13.2px;
+}
+
+.sidebar_button-14-medium__JHR8r, .sidebar_menuItem__WU6dD {
+  font-family: "GolosText", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.8px;
+}
+
+.sidebar_button-14-regular__FW0AO {
+  font-family: "GolosText", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.sidebar_button-13-medium__9ypEz {
+  font-family: "GolosText", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 15.6px;
+}
+
+.sidebar_button-16-medium__n5NXu {
+  font-family: "GolosText", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 15.6px;
+}
+
+.sidebar_plates-14-medium__8vT8T {
+  font-family: "GolosText", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.sidebar_plates-14-regular__uXJNc {
+  font-family: "GolosText", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.sidebar_pagination-16-regular___OIxp {
+  font-family: "GolosText", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.sidebar_download-footer-13__O4S8w {
+  font-family: "GolosText", sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 14px;
+}
+
+.sidebar_table-header-18__HonSN {
+  font-family: "GolosText", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.sidebar_table-header-20__eOVuC {
+  font-family: "GolosText", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.sidebar_container__vxNOi {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 15%;
+  height: 100vh;
+  background-color: #f9fbff;
+  box-shadow: 0px 2px 10px 0px rgba(145, 175, 252, 0.2509803922);
+  transition: width 0.3s ease;
+  z-index: 100;
+}
+@media (max-width: 1200px) {
+  .sidebar_container__vxNOi {
+    display: none;
+  }
+}
+
+.sidebar_collapsed__63USh {
+  width: 100px;
+}
+.sidebar_collapsed__63USh .sidebar_logo__RMIdW img {
+  width: 40px;
+  height: auto;
+}
+.sidebar_collapsed__63USh .sidebar_menuItem__WU6dD {
+  justify-content: center;
+  padding: 15px 10px;
+  margin: 10px 20px;
+}
+.sidebar_collapsed__63USh .sidebar_menuItem__WU6dD .sidebar_icon__5Gbkf {
+  margin-right: 0;
+}
+
+.sidebar_logo__RMIdW {
+  text-align: center;
+  padding-top: 27px;
+}
+.sidebar_logo__RMIdW img {
+  transition: all 0.3s ease;
+}
+
+.sidebar_menu__ksfw_ {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 100px);
+  overflow-y: auto;
+}
+.sidebar_menu__ksfw_::-webkit-scrollbar {
+  width: 4px;
+}
+.sidebar_menu__ksfw_::-webkit-scrollbar-track {
+  background: transparent;
+}
+.sidebar_menu__ksfw_::-webkit-scrollbar-thumb {
+  background: #B3C3D2;
+  border-radius: 2px;
+}
+
+.sidebar_menu__ksfw_ ul {
+  list-style: none;
+  padding: 0;
+  margin: 30px 0 0 0;
+}
+
+.sidebar_menuItem__WU6dD {
+  display: flex;
+  align-items: center;
+  padding: 15px 20px;
+  margin: 10px 20px;
+  border-radius: 16px;
+  color: #1a202c;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.sidebar_menuItem__WU6dD .sidebar_icon__5Gbkf {
+  width: 18px;
+  height: 18px;
+  margin-right: 16px;
+  filter: brightness(0) saturate(100%) invert(19%) sepia(14%) saturate(1111%) hue-rotate(176deg) brightness(94%) contrast(88%);
+  transition: all 0.3s ease;
+}
+.sidebar_menuItem__WU6dD:hover, .sidebar_menuItem__WU6dD.sidebar_active__4vQy5 {
+  background-color: #D6E0EA;
+  color: #196BDF;
+}
+.sidebar_menuItem__WU6dD:hover .sidebar_icon__5Gbkf, .sidebar_menuItem__WU6dD.sidebar_active__4vQy5 .sidebar_icon__5Gbkf {
+  filter: brightness(0) saturate(100%) invert(37%) sepia(74%) saturate(1045%) hue-rotate(199deg) brightness(91%) contrast(107%);
+}
+.sidebar_menuItem__WU6dD:hover:not(.sidebar_collapsed__63USh .sidebar_menuItem__WU6dD) .sidebar_icon__5Gbkf {
+  transform: translateX(-4px);
+}
+
+.sidebar_arrowItem__cVPtM {
+  color: #49667E;
+  display: flex;
+  align-items: center;
+  padding: 15px 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  gap: 16px;
+  margin-top: auto;
+}
+.sidebar_arrowItem__cVPtM .sidebar_arrowIcon__fG0h9 {
+  transform: rotate(0deg);
+  transition: transform 0.3s ease;
+}
+.sidebar_arrowItem__cVPtM:hover:not(.sidebar_collapsed__63USh .sidebar_arrowItem__cVPtM) .sidebar_arrowIcon__fG0h9 {
+  transform: rotate(0deg) translateX(-4px);
+}
+
+.sidebar_rotated__G1RpY {
+  transform: rotate(180deg) !important;
+}
+
+/* Мобильное меню */
+.sidebar_content__p4elt {
+  display: none;
+}
+@media (max-width: 1200px) {
+  .sidebar_content__p4elt {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 75px;
+    padding: 10px;
+    position: fixed;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    box-sizing: border-box;
+    box-shadow: 0px 2px 10px 0px rgba(145, 175, 252, 0.2509803922);
+    z-index: 1000;
+  }
+}
+
+.sidebar_section__LCgfm {
+  position: relative;
+  width: 20%;
+}
+
+.sidebar_menu__Items__L9qAl {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  cursor: pointer;
+}
+.sidebar_menu__Items__L9qAl span {
+  text-align: center;
+  font-size: 11px;
+  line-height: 11px;
+}
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[7].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[7].use[5]!./src/components/UI/SubMenu/SubMenu.module.scss ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+@font-face {
+  font-family: "GolosText";
+  src: url("/fonts/GolosText-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "GolosText";
+  src: url("/fonts/GolosText-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+.SubMenu_title-1__g6mWZ {
+  font-family: "GolosText", sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 32px;
+}
+
+.SubMenu_title-2__ytysQ {
+  font-family: "GolosText", sans-serif;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 36px;
+}
+
+.SubMenu_title-3__xKq2N {
+  font-family: "GolosText", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.SubMenu_title-4__bm_gU {
+  font-family: "GolosText", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.SubMenu_title-5__3wAGR {
+  font-family: "GolosText", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.SubMenu_title-6__YgoYq {
+  font-family: "GolosText", sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 15.6px;
+}
+
+.SubMenu_head-1__6X5FN {
+  font-family: "GolosText", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 27px;
+}
+
+.SubMenu_text__0URP8 {
+  font-family: "GolosText", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.SubMenu_text-2__9Pm3v {
+  font-family: "GolosText", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 29x;
+}
+
+.SubMenu_description-13-regular__etqq9 {
+  font-family: "GolosText", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 17px;
+}
+
+.SubMenu_description-11-medium__ab803 {
+  font-family: "GolosText", sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 13.2px;
+}
+
+.SubMenu_button-14-medium__hQXrA {
+  font-family: "GolosText", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.8px;
+}
+
+.SubMenu_button-14-regular__8wo_v, .SubMenu_link__cjaZf span, .SubMenu_social__6LI_B span {
+  font-family: "GolosText", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.SubMenu_button-13-medium__7d_kO {
+  font-family: "GolosText", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 15.6px;
+}
+
+.SubMenu_button-16-medium__bVYyD {
+  font-family: "GolosText", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 15.6px;
+}
+
+.SubMenu_plates-14-medium__4BOIG {
+  font-family: "GolosText", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.SubMenu_plates-14-regular__VFd_I {
+  font-family: "GolosText", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.SubMenu_pagination-16-regular__BlqKE, .SubMenu_menuItem__VKELb {
+  font-family: "GolosText", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.SubMenu_download-footer-13__X7qfP {
+  font-family: "GolosText", sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 14px;
+}
+
+.SubMenu_table-header-18__AySf9 {
+  font-family: "GolosText", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.SubMenu_table-header-20__3vDOw {
+  font-family: "GolosText", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.SubMenu_content__97Ry3 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #F9FBFF;
+  padding: 30px;
+  z-index: 100;
+  transition: all 0.3s ease;
+  overflow: hidden;
+}
+
+.SubMenu_social__6LI_B {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 50px;
+  border-bottom: 0.7 solid #B3C3D2;
+  padding-bottom: 20px;
+}
+.SubMenu_social__6LI_B span {
+  color: #4a5568;
+}
+.SubMenu_social__6LI_B .SubMenu_icon__GbWsf {
+  display: flex;
+  gap: 15px;
+}
+
+.SubMenu_menu__FMiHy {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.SubMenu_menu__FMiHy ul {
+  list-style: none;
+  padding: 0;
+}
+
+.SubMenu_menuItem__VKELb {
+  display: flex;
+  align-items: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: #1a202c;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border-bottom: 0.7 solid #B3C3D2;
+}
+.SubMenu_menuItem__VKELb .SubMenu_icon__GbWsf {
+  width: 18px;
+  height: 18px;
+  margin-right: 16px;
+  filter: brightness(0) saturate(100%) invert(19%) sepia(14%) saturate(1111%) hue-rotate(176deg) brightness(94%) contrast(88%);
+  transition: all 0.3s ease;
+}
+.SubMenu_menuItem__VKELb:hover, .SubMenu_menuItem__VKELb.SubMenu_active__ftiSR {
+  color: #196BDF;
+}
+.SubMenu_menuItem__VKELb:hover .SubMenu_icon__GbWsf, .SubMenu_menuItem__VKELb.SubMenu_active__ftiSR .SubMenu_icon__GbWsf {
+  filter: brightness(0) saturate(100%) invert(37%) sepia(74%) saturate(1045%) hue-rotate(199deg) brightness(91%) contrast(107%);
+}
+
+.SubMenu_link__cjaZf {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 30px;
+}
+.SubMenu_link__cjaZf span {
+  color: #4a5568;
+}
+/*!*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[7].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[7].use[5]!./src/components/UI/Breadcrumbs/Breadcrumbs.module.scss ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+@font-face {
+  font-family: "GolosText";
+  src: url("/fonts/GolosText-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "GolosText";
+  src: url("/fonts/GolosText-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+.Breadcrumbs_title-1__SfjQ5 {
+  font-family: "GolosText", sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 32px;
+}
+
+.Breadcrumbs_title-2__unBLh {
+  font-family: "GolosText", sans-serif;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 36px;
+}
+
+.Breadcrumbs_title-3__3qWsJ {
+  font-family: "GolosText", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.Breadcrumbs_title-4__iPoXD {
+  font-family: "GolosText", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.Breadcrumbs_title-5__53dU5 {
+  font-family: "GolosText", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.Breadcrumbs_title-6__40hGv {
+  font-family: "GolosText", sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 15.6px;
+}
+
+.Breadcrumbs_head-1__J9i_d {
+  font-family: "GolosText", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 27px;
+}
+
+.Breadcrumbs_text__kGUZq {
+  font-family: "GolosText", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.Breadcrumbs_text-2__TeGIN {
+  font-family: "GolosText", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 29x;
+}
+
+.Breadcrumbs_description-13-regular__gBRn4, .Breadcrumbs_breadcrumbItem__9nDt_ {
+  font-family: "GolosText", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 17px;
+}
+
+.Breadcrumbs_description-11-medium__PTEcb {
+  font-family: "GolosText", sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 13.2px;
+}
+
+.Breadcrumbs_button-14-medium__SC7Gd {
+  font-family: "GolosText", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.8px;
+}
+
+.Breadcrumbs_button-14-regular__BTDRI {
+  font-family: "GolosText", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.Breadcrumbs_button-13-medium__enbxg {
+  font-family: "GolosText", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 15.6px;
+}
+
+.Breadcrumbs_button-16-medium__0h2_x {
+  font-family: "GolosText", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 15.6px;
+}
+
+.Breadcrumbs_plates-14-medium__dBS2Y {
+  font-family: "GolosText", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.Breadcrumbs_plates-14-regular__XG7u6 {
+  font-family: "GolosText", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.Breadcrumbs_pagination-16-regular__OksG9 {
+  font-family: "GolosText", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.Breadcrumbs_download-footer-13__wGmaZ {
+  font-family: "GolosText", sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 14px;
+}
+
+.Breadcrumbs_table-header-18__yga7y {
+  font-family: "GolosText", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.Breadcrumbs_table-header-20__Q3Tyh {
+  font-family: "GolosText", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.Breadcrumbs_breadcrumbs__dgs_l {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #196BDF;
+  font-size: 14px;
+}
+
+.Breadcrumbs_breadcrumbItem__9nDt_ {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.Breadcrumbs_link__1yhpZ {
+  color: #196BDF;
+  transition: color 0.3s ease;
+  text-decoration: none;
+}
+.Breadcrumbs_link__1yhpZ:hover {
+  color: #145FC4;
+}
+.Breadcrumbs_link__1yhpZ.Breadcrumbs_current__WeurF {
+  color: #49667E;
+  pointer-events: none;
+}
+
+.Breadcrumbs_arrow__tft_I {
+  opacity: 0.6;
+  margin: 0 4px;
+}

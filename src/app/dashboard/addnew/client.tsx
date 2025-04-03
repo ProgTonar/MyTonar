@@ -1,133 +1,160 @@
-'use client'
+"use client";
 
-import { useState, useEffect, useRef } from 'react'
-import { useRouter } from 'next/navigation'
-import styles from './addnew.module.scss'
-import Quill from 'quill'
-import "quill/dist/quill.snow.css"
-import axios from 'axios'
-
+import { useState, useEffect, useRef } from "react";
+import { useRouter } from "next/navigation";
+import styles from "./addnew.module.scss";
+import "quill/dist/quill.snow.css";
+import axios from "axios";
+import { Quill } from "react-quill";
+import { toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const AddNews = () => {
-  const router = useRouter()
-  const editorRef = useRef<HTMLDivElement>(null)
-  const quillRef = useRef<any>(null)
-  const [isLoading, setIsLoading] = useState(false)
-  const [imageUrl, setImageUrl] = useState('')
-  const [isUploading, setIsUploading] = useState(false)
+  const router = useRouter();
+  const editorRef = useRef<HTMLDivElement>(null);
+  const quillRef = useRef<any>(null);
+  const [isLoading, setIsLoading] = useState(false);
+  const [selectedFile, setSelectedFile] = useState<File | null>(null);
+  const [previewUrl, setPreviewUrl] = useState("");
   const [formData, setFormData] = useState({
-    title: '',
-    subtitle: '',
-    content: '',
-    description: '',
-    imageSrc: ''
-  })
+    title: "",
+    subtitle: "",
+    content: "",
+    description: "",
+    imageSrc: "",
+  });
+  const [fileName, setFileName] = useState<string | null>(null);
+  const [imageUrl, setImageUrl] = useState<string>("");
+  const [isUploading, setIsUploading] = useState(false);
 
   useEffect(() => {
-    if (editorRef.current && !quillRef.current) {
-      const toolbarOptions = [
-        ['bold', 'italic', 'underline', 'strike'],
-        ['blockquote', 'code-block'],
-        [{ 'list': 'ordered'}, { 'list': 'bullet' }],
-        [{ 'script': 'sub'}, { 'script': 'super' }],
-        [{ 'indent': '-1'}, { 'indent': '+1' }],
-        [{ 'header': [1, 2, 3, 4, 5, 6, false] }],
-        [{ 'color': [] }, { 'background': [] }],
-        [{ 'font': [] }],
-        [{ 'align': [] }],
-        ['clean']
-      ];
-
-      quillRef.current = new Quill(editorRef.current, {
-        modules: {
-          toolbar: toolbarOptions
-        },
-        theme: 'snow'
-      });
-
-      quillRef.current.on('text-change', () => {
-        if (quillRef.current) {
-          setFormData(prev => ({
-            ...prev,
-            content: quillRef.current?.root.innerHTML || ''
-          }))
-        }
-      })
+    if (!editorRef.current || quillRef.current) {
+      return;
     }
+
+    const toolbarOptions = [
+      ["bold", "italic", "underline", "strike"],
+      ["blockquote", "code-block"],
+      [{ list: "ordered" }, { list: "bullet" }],
+      [{ script: "sub" }, { script: "super" }],
+      [{ indent: "-1" }, { indent: "+1" }],
+      [{ header: [1, 2, 3, 4, 5, 6, false] }],
+      [{ color: [] }, { background: [] }],
+      [{ font: [] }],
+      [{ align: [] }],
+      ["clean"],
+    ];
+
+    const quill = new Quill(editorRef.current, {
+      modules: {
+        toolbar: toolbarOptions,
+      },
+      theme: "snow",
+    });
+
+    const handleTextChange = () => {
+      setFormData((prev) => ({
+        ...prev,
+        content: quill.root.innerHTML || "",
+      }));
+    };
+
+    quill.on("text-change", handleTextChange);
+    quillRef.current = quill;
 
     return () => {
       if (quillRef.current) {
-        quillRef.current = null
+        quillRef.current.off("text-change", handleTextChange);
+        quillRef.current = null;
+
+        const container = editorRef.current;
+        if (container) {
+          container.innerHTML = "";
+        }
       }
-    }
-  }, [])
+    };
+  }, []);
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    const { name, value } = e.target
-    setFormData(prev => ({ ...prev, [name]: value }))
-  }
+    const { name, value } = e.target;
+    setFormData((prev) => ({ ...prev, [name]: value }));
+  };
 
-  const uploadImage = async (file: File) => {
-    const formData = new FormData();
-    formData.append('image', file);
-    setIsUploading(true)
-    try {
-      const response = await axios.post('http://localhost:9092/api/images/upload', formData, 
-        {
-          headers: {
-            'Content-Type': 'multipart/form-data',
-          },
-          withCredentials: true
-        } 
-
-      )
-      setImageUrl(response.data.image_url)
-    } catch (error) {
-      
+  const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const file = e.target.files?.[0];
+    if (file) {
+      setSelectedFile(file);
+      setFileName(file.name);
+      // Создаем превью для изображения
+      const reader = new FileReader();
+      reader.onloadend = () => {
+        setPreviewUrl(reader.result as string);
+      };
+      reader.readAsDataURL(file);
     }
-  }
+  };
 
-  const handleImageChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    const file = e.target.files?.[0]
-    if (file) uploadImage(file)
-  }
+  const handleDeleteImage = async () => {
+    if (imageUrl) {
+      // Удаление из файлового хранилища
+      try {
+        setIsLoading(true);
+        await axios.delete("http://localhost:9092/api/news/delete_image", {
+          data: { imageUrl },
+          withCredentials: true,
+        });
+        toast.success("Изображение успешно удалено");
+      } catch (error) {
+        console.error("Ошибка при удалении изображения:", error);
+        toast.error("Не удалось удалить изображение");
+      } finally {
+        setIsLoading(false);
+      }
+    }
+
+    // Очистка состояния
+    setPreviewUrl("");
+    setSelectedFile(null);
+    setFileName(null);
+    setImageUrl("");
+  };
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsLoading(true);
-  
+
     try {
-      const token = localStorage.getItem('access_token');
-        
-        if (!token) {
-          throw new Error('Токен авторизации не найден');
-        }
+      const formDataToSend = new FormData();
+      formDataToSend.append("title_one", formData.title);
+      formDataToSend.append("title_two", formData.subtitle);
+      formDataToSend.append("content", formData.content);
+      formDataToSend.append("description", formData.description);
+
+      if (selectedFile) {
+        const fileName = `${Date.now()}.${selectedFile.name.split(".").pop()}`;
+        formDataToSend.append("imageSrc", `${fileName}`);
+        formDataToSend.append("file", selectedFile);
+      }
+
       const response = await axios.post(
-        'http://localhost:9091/api/news_add',
-        {
-          title_one: formData.title,
-          title_two: formData.subtitle,
-          content: formData.content,
-          description: formData.description,
-          imageSrc: imageUrl
-        },
+        "http://localhost:9092/api/news_add",
+        formDataToSend,
         {
           headers: {
-            'Content-Type': 'application/json',
-            Authorization: `Bearer ${token}`
+            "Content-Type": "multipart/form-data",
           },
-          withCredentials: true
+          withCredentials: true,
         }
       );
-  
+
       if (response.status >= 200 && response.status < 300) {
-        router.push('/dashboard/news');
+        router.push("/dashboard/news");
       } else {
-        throw new Error('Ошибка создания новости');
+        throw new Error("Ошибка создания новости");
       }
     } catch (error) {
-      console.error('Ошибка:', error);
-      alert('Не удалось создать новость');
+      console.error("Ошибка:", error);
+      alert("Не удалось создать новость");
     } finally {
       setIsLoading(false);
     }
@@ -136,7 +163,7 @@ const AddNews = () => {
   return (
     <div className={styles.container}>
       <h1 className={styles.title}>Добавить новость</h1>
-      
+
       <form onSubmit={handleSubmit} className={styles.form}>
         <div className={styles.formGroup}>
           <label className={styles.label}>Заголовок</label>
@@ -173,35 +200,50 @@ const AddNews = () => {
           />
         </div>
 
-        
-
         <div className={styles.formGroup}>
           <label className={styles.label}>Содержание</label>
           <div className={styles.editor}>
             <div ref={editorRef}></div>
           </div>
         </div>
+
         <div className={styles.formGroup}>
-          <input
-            type="file"
-            name="imageSrc"
-            value={formData.imageSrc}
-            onChange={handleImageChange}
-            className={styles.input}
-          />
+          <label className={styles.label}>Загрузить изображение</label>
+          {previewUrl ? (
+            <>
+              <div className={styles.imagePreview}>
+                <img
+                  src={previewUrl}
+                  alt="Предпросмотр"
+                  className={styles.previewImage}
+                />
+              </div>
+              <div className={styles.fileInfoContainer}>
+                <div className={styles.fileName}>
+                  {fileName || "Изображение"}
+                </div>
+                <button
+                  type="button"
+                  onClick={handleDeleteImage}
+                  className={styles.deleteFileButton}
+                >
+                  Удалить
+                </button>
+              </div>
+            </>
+          ) : (
+            <>
+              <input
+                type="file"
+                name="imageSrc"
+                onChange={handleFileChange}
+                className={styles.input}
+                accept="image/*"
+              />
+              {isUploading && <div>Загрузка изображения...</div>}
+            </>
+          )}
         </div>
-       
-        {imageUrl && (
-          <div className={styles.formGroup}>
-          <input
-            type="text"
-            name="imageSrc"
-            value={imageUrl}
-            className={styles.input}
-          />
-        </div>
-        )}
-        
 
         <div className={styles.buttonGroup}>
           <button
@@ -209,12 +251,12 @@ const AddNews = () => {
             disabled={isLoading}
             className={styles.submitButton}
           >
-            {isLoading ? 'Создание...' : 'Создать новость'}
+            {isLoading ? "Создание..." : "Создать новость"}
           </button>
-          
+
           <button
             type="button"
-            onClick={() => router.push('/dashboard/news')}
+            onClick={() => router.push("/dashboard/news")}
             className={styles.cancelButton}
           >
             Отмена
@@ -222,7 +264,7 @@ const AddNews = () => {
         </div>
       </form>
     </div>
-  )
-}
+  );
+};
 
-export default AddNews
+export default AddNews;

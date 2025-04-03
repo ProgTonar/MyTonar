@@ -1,13 +1,7 @@
 import { getNewsById } from "@/services/getNewsService";
 import NewClient from "./client";
 
-interface NewPageProps {
-  params: {
-    id: string;
-  };
-}
-
-const NewPage = async ({ params }: NewPageProps) => {
+const NewPage = async ({ params }: { params: Promise<{ id: string }> }) => {
   const { id } = await params;
   const newItem = await getNewsById(id);
 

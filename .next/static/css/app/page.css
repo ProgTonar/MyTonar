@@ -1,0 +1,2656 @@
+/*!******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[7].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[7].use[5]!./src/components/NewsBlock/newsBlock.module.scss ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+@font-face {
+  font-family: "GolosText";
+  src: url("/fonts/GolosText-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "GolosText";
+  src: url("/fonts/GolosText-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+.newsBlock_title-1__tZxkq, .newsBlock_footer__YPvAB {
+  font-family: "GolosText", sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 32px;
+}
+
+.newsBlock_title-2__D_e6u {
+  font-family: "GolosText", sans-serif;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 36px;
+}
+
+.newsBlock_title-3__F_7p0, .newsBlock_headTitle__4ONq3 {
+  font-family: "GolosText", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.newsBlock_title-4__aUSp7, .newsBlock_description__Z38sU {
+  font-family: "GolosText", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.newsBlock_title-5__VTRPw {
+  font-family: "GolosText", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.newsBlock_title-6__Jmjad {
+  font-family: "GolosText", sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 15.6px;
+}
+
+.newsBlock_head-1__Y3OFb {
+  font-family: "GolosText", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 27px;
+}
+
+.newsBlock_text__17RLf, .newsBlock_section__r9obc {
+  font-family: "GolosText", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.newsBlock_text-2__FpqsX {
+  font-family: "GolosText", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 29x;
+}
+
+.newsBlock_description-13-regular__TsJgM {
+  font-family: "GolosText", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 17px;
+}
+
+.newsBlock_description-11-medium__Wg01J {
+  font-family: "GolosText", sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 13.2px;
+}
+
+.newsBlock_button-14-medium__2Z_Kj {
+  font-family: "GolosText", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.8px;
+}
+
+.newsBlock_button-14-regular__WJDmE {
+  font-family: "GolosText", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.newsBlock_button-13-medium__XrGZj {
+  font-family: "GolosText", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 15.6px;
+}
+
+.newsBlock_button-16-medium__ruSWh {
+  font-family: "GolosText", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 15.6px;
+}
+
+.newsBlock_plates-14-medium__5U6HI {
+  font-family: "GolosText", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.newsBlock_plates-14-regular__tLTiQ {
+  font-family: "GolosText", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.newsBlock_pagination-16-regular__52C3L {
+  font-family: "GolosText", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.newsBlock_download-footer-13__ThG1d {
+  font-family: "GolosText", sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 14px;
+}
+
+.newsBlock_table-header-18__Hhc5P {
+  font-family: "GolosText", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.newsBlock_table-header-20__gBQfE {
+  font-family: "GolosText", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.newsBlock_section__r9obc {
+  box-shadow: 0px 2px 10px 0px rgba(145, 175, 252, 0.2509803922);
+  display: flex;
+  flex-direction: row-reverse;
+  border-radius: 16px;
+  min-width: 645px;
+  width: 100%;
+  min-height: 300px;
+  margin: 0 auto;
+  transition: transform 0.3s ease-in-out;
+  will-change: transform;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+}
+@media (max-width: 1200px) {
+  .newsBlock_section__r9obc {
+    min-width: 100%;
+    min-height: 300px;
+  }
+}
+
+.newsBlock_overlay__cM88N {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  width: 85%;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.newsBlock_section__r9obc:hover {
+  transform: scale(1.01);
+}
+
+.newsBlock_head__quFZ1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 30px;
+}
+@media (max-width: 1200px) {
+  .newsBlock_head__quFZ1 {
+    padding: 20px 20px 0;
+  }
+}
+
+.newsBlock_buttonHead__rZ9VI {
+  display: flex;
+  padding: 30px 30px;
+  justify-content: flex-end;
+  width: 15%;
+  height: 25%;
+}
+
+.newsBlock_headIcon__YMeLv {
+  width: 16px;
+  height: 16px;
+  background-color: #1a202c;
+  border-radius: 50%;
+}
+
+.newsBlock_headTitle__4ONq3 {
+  color: #1a202c;
+}
+@media (max-width: 1200px) {
+  .newsBlock_headTitle__4ONq3 {
+    font-size: 15px;
+    line-height: 18px;
+  }
+}
+
+.newsBlock_footer__YPvAB {
+  padding-left: 30px;
+  padding-bottom: 30px;
+  max-width: 400px;
+  color: #041221;
+}
+@media (max-width: 1200px) {
+  .newsBlock_footer__YPvAB {
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0%;
+    padding: 150px 20px 20px;
+  }
+}
+
+.newsBlock_description__Z38sU {
+  color: #4a5568;
+  padding-left: 30px;
+  padding-top: 15px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+@media (max-width: 1200px) {
+  .newsBlock_description__Z38sU {
+    padding-top: 5px;
+    padding-left: 20px;
+  }
+}
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[7].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[7].use[5]!./src/components/UI/ButtonSecond/Button.module.scss ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+@font-face {
+  font-family: "GolosText";
+  src: url("/fonts/GolosText-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "GolosText";
+  src: url("/fonts/GolosText-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+.Button_title-1__OtMMy {
+  font-family: "GolosText", sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 32px;
+}
+
+.Button_title-2__TWHaO {
+  font-family: "GolosText", sans-serif;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 36px;
+}
+
+.Button_title-3__Kl13X {
+  font-family: "GolosText", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.Button_title-4__VpCfp {
+  font-family: "GolosText", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.Button_title-5__deyDK {
+  font-family: "GolosText", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.Button_title-6__izYae {
+  font-family: "GolosText", sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 15.6px;
+}
+
+.Button_head-1__DZYQ6 {
+  font-family: "GolosText", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 27px;
+}
+
+.Button_text__VzlNY {
+  font-family: "GolosText", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.Button_text-2__koJxr {
+  font-family: "GolosText", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 29x;
+}
+
+.Button_description-13-regular__7_Yak {
+  font-family: "GolosText", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 17px;
+}
+
+.Button_description-11-medium__0qNeB {
+  font-family: "GolosText", sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 13.2px;
+}
+
+.Button_button-14-medium__4ZBwi {
+  font-family: "GolosText", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.8px;
+}
+
+.Button_button-14-regular__oatC_ {
+  font-family: "GolosText", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.Button_button-13-medium__uQF_0, .Button_button__amTEM {
+  font-family: "GolosText", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 15.6px;
+}
+
+.Button_button-16-medium__9ho65 {
+  font-family: "GolosText", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 15.6px;
+}
+
+.Button_plates-14-medium__nYZ5S {
+  font-family: "GolosText", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.Button_plates-14-regular__L2zRQ {
+  font-family: "GolosText", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.Button_pagination-16-regular__ZuHwr {
+  font-family: "GolosText", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.Button_download-footer-13__mdGf8 {
+  font-family: "GolosText", sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 14px;
+}
+
+.Button_table-header-18__XObu9 {
+  font-family: "GolosText", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.Button_table-header-20__5LgQ5 {
+  font-family: "GolosText", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.Button_button__amTEM {
+  padding: 8px 14px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.4);
+  color: #196BDF;
+  transition: background-color 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-height: 32px;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.Button_button__amTEM .Button_arrow__7RtXW {
+  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  filter: brightness(0) saturate(100%) invert(37%) sepia(74%) saturate(1045%) hue-rotate(199deg) brightness(91%) contrast(107%);
+  flex-shrink: 0;
+}
+.Button_button__amTEM:hover {
+  background-color: white;
+  color: #196BDF;
+}
+.Button_button__amTEM:hover .Button_arrow__7RtXW {
+  transform: translateX(4px);
+}
+.Button_button__amTEM:focus {
+  outline: none;
+  border: 2px solid #88B8F0;
+  color: #196BDF;
+  background-color: rgba(255, 255, 255, 0.4);
+}
+.Button_button__amTEM:disabled {
+  background-color: white;
+  color: #B3C3D2;
+  cursor: not-allowed;
+}
+.Button_button__amTEM:disabled .Button_arrow__7RtXW {
+  filter: opacity(0.5);
+}
+
+.Button_disabled__Xdi_f {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+/*!*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[7].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[7].use[5]!./src/app/home/home.module.scss ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+@font-face {
+  font-family: "GolosText";
+  src: url("/fonts/GolosText-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "GolosText";
+  src: url("/fonts/GolosText-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+.home_title-1__N7GDV {
+  font-family: "GolosText", sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 32px;
+}
+
+.home_title-2__wbzqb {
+  font-family: "GolosText", sans-serif;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 36px;
+}
+
+.home_title-3__eu1zw {
+  font-family: "GolosText", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.home_title-4__cch7j {
+  font-family: "GolosText", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.home_title-5__hoWYv {
+  font-family: "GolosText", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.home_title-6__tJ_bG {
+  font-family: "GolosText", sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 15.6px;
+}
+
+.home_head-1__BQ5K0 {
+  font-family: "GolosText", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 27px;
+}
+
+.home_text__ybjty {
+  font-family: "GolosText", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.home_text-2__zqjJi {
+  font-family: "GolosText", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 29x;
+}
+
+.home_description-13-regular__K8Eg4 {
+  font-family: "GolosText", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 17px;
+}
+
+.home_description-11-medium__vtvBg {
+  font-family: "GolosText", sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 13.2px;
+}
+
+.home_button-14-medium__H5GT9 {
+  font-family: "GolosText", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.8px;
+}
+
+.home_button-14-regular__m_SB2 {
+  font-family: "GolosText", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.home_button-13-medium__HeQFW {
+  font-family: "GolosText", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 15.6px;
+}
+
+.home_button-16-medium__L3fGB {
+  font-family: "GolosText", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 15.6px;
+}
+
+.home_plates-14-medium___L_BP {
+  font-family: "GolosText", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.home_plates-14-regular__Azd2u {
+  font-family: "GolosText", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.home_pagination-16-regular__SonTQ {
+  font-family: "GolosText", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.home_download-footer-13__Nbi_r {
+  font-family: "GolosText", sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 14px;
+}
+
+.home_table-header-18__YWCnA {
+  font-family: "GolosText", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.home_table-header-20__qTWB_ {
+  font-family: "GolosText", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.home_content__sQASO {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  box-sizing: border-box;
+}
+@media (max-width: 1200px) {
+  .home_content__sQASO {
+    padding: 5px;
+  }
+}
+/*!*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[7].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[7].use[5]!./src/components/UI/SelectNavigate/SelectNavigate.module.scss ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+@font-face {
+  font-family: "GolosText";
+  src: url("/fonts/GolosText-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "GolosText";
+  src: url("/fonts/GolosText-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+.SelectNavigate_title-1__RMIBX {
+  font-family: "GolosText", sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 32px;
+}
+
+.SelectNavigate_title-2__Tzmcz {
+  font-family: "GolosText", sans-serif;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 36px;
+}
+
+.SelectNavigate_title-3__zNheP {
+  font-family: "GolosText", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.SelectNavigate_title-4__k52p_ {
+  font-family: "GolosText", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.SelectNavigate_title-5__mNBk_ {
+  font-family: "GolosText", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.SelectNavigate_title-6__C8kU_ {
+  font-family: "GolosText", sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 15.6px;
+}
+
+.SelectNavigate_head-1__TQkAp {
+  font-family: "GolosText", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 27px;
+}
+
+.SelectNavigate_text__QDcK9, .SelectNavigate_placeholder__kZ7Gs, .SelectNavigate_selectedValue__ReDX9 {
+  font-family: "GolosText", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.SelectNavigate_text-2__NMWdD {
+  font-family: "GolosText", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 29x;
+}
+
+.SelectNavigate_description-13-regular__1aFC9 {
+  font-family: "GolosText", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 17px;
+}
+
+.SelectNavigate_description-11-medium__grqpw {
+  font-family: "GolosText", sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 13.2px;
+}
+
+.SelectNavigate_button-14-medium__TZIbF {
+  font-family: "GolosText", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.8px;
+}
+
+.SelectNavigate_button-14-regular__uR0L_ {
+  font-family: "GolosText", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.SelectNavigate_button-13-medium__6kBtk {
+  font-family: "GolosText", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 15.6px;
+}
+
+.SelectNavigate_button-16-medium__ronuX {
+  font-family: "GolosText", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 15.6px;
+}
+
+.SelectNavigate_plates-14-medium__nxUmT {
+  font-family: "GolosText", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.SelectNavigate_plates-14-regular___zdL9 {
+  font-family: "GolosText", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.SelectNavigate_pagination-16-regular__JRLPy, .SelectNavigate_routePoint__Ct954 {
+  font-family: "GolosText", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.SelectNavigate_download-footer-13__38ZwG {
+  font-family: "GolosText", sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 14px;
+}
+
+.SelectNavigate_table-header-18__r0oWB {
+  font-family: "GolosText", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.SelectNavigate_table-header-20__jsC4J {
+  font-family: "GolosText", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.SelectNavigate_selectContainer__JH3cA {
+  position: relative;
+  width: 100%;
+}
+
+.SelectNavigate_select__bCcVj {
+  background-color: #ECF0F6;
+  border-radius: 16px;
+  padding: 12px 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: all 0.3s ease;
+}
+.SelectNavigate_select__bCcVj:hover {
+  background-color: #D6E0EA;
+}
+.SelectNavigate_select__bCcVj.SelectNavigate_open__Nr1gt {
+  border-radius: 16px 16px 0 0;
+  background-color: #D6E0EA;
+}
+
+.SelectNavigate_selectedValue__ReDX9 {
+  flex: 1 1;
+}
+
+.SelectNavigate_placeholder__kZ7Gs {
+  color: #49667E;
+}
+
+.SelectNavigate_routeDisplay__AXghS {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.SelectNavigate_routePoint__Ct954 {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #1a202c;
+}
+.SelectNavigate_routePoint__Ct954:first-child {
+  color: #1a202c;
+}
+
+.SelectNavigate_circle__QvOh_ {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #00A764;
+  flex-shrink: 0;
+}
+
+.SelectNavigate_routeArrow__zBAQd {
+  flex-shrink: 0;
+}
+
+.SelectNavigate_arrow__TjpFJ {
+  transition: transform 0.3s ease;
+}
+.SelectNavigate_arrow__TjpFJ.SelectNavigate_rotated__RbpNw {
+  transform: rotate(180deg);
+}
+
+.SelectNavigate_dropdown__yq4b8 {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  margin-top: 4px;
+  background-color: white;
+  border-radius: 16px;
+  overflow: hidden;
+  z-index: 10;
+  max-height: 300px;
+  overflow-y: auto;
+  border: 1px solid #C5D2DE;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+  padding: 5px;
+}
+.SelectNavigate_dropdown__yq4b8::-webkit-scrollbar {
+  width: 4px;
+}
+.SelectNavigate_dropdown__yq4b8::-webkit-scrollbar-track {
+  background: transparent;
+}
+.SelectNavigate_dropdown__yq4b8::-webkit-scrollbar-thumb {
+  background: #B3C3D2;
+  border-radius: 2px;
+}
+
+.SelectNavigate_option__LwLr9 {
+  padding: 12px 16px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border-top: 1px solid #C5D2DE;
+  background-color: white;
+  border-radius: 16px;
+}
+.SelectNavigate_option__LwLr9:first-child {
+  border-top: none;
+}
+.SelectNavigate_option__LwLr9:hover {
+  background-color: #ECF0F6;
+}
+.SelectNavigate_option__LwLr9.SelectNavigate_selected__RZ3hO {
+  background-color: #E1F2FF;
+}
+.SelectNavigate_option__LwLr9.SelectNavigate_selected__RZ3hO .SelectNavigate_routePoint__Ct954:first-child {
+  color: #1a202c;
+}
+/*!***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[7].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[7].use[5]!./src/components/UI/YandexMap/Map.module.scss ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+@font-face {
+  font-family: "GolosText";
+  src: url("/fonts/GolosText-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "GolosText";
+  src: url("/fonts/GolosText-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+.Map_title-1__hNpKs {
+  font-family: "GolosText", sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 32px;
+}
+
+.Map_title-2__MokRT {
+  font-family: "GolosText", sans-serif;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 36px;
+}
+
+.Map_title-3__sVF6a {
+  font-family: "GolosText", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.Map_title-4___PzOz {
+  font-family: "GolosText", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.Map_title-5__8GOy3 {
+  font-family: "GolosText", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.Map_title-6__TYWpj {
+  font-family: "GolosText", sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 15.6px;
+}
+
+.Map_head-1__GIgDy {
+  font-family: "GolosText", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 27px;
+}
+
+.Map_text__zvFYc {
+  font-family: "GolosText", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.Map_text-2__AHAFI {
+  font-family: "GolosText", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 29x;
+}
+
+.Map_description-13-regular__VM2mS {
+  font-family: "GolosText", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 17px;
+}
+
+.Map_description-11-medium__ZJxqG {
+  font-family: "GolosText", sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 13.2px;
+}
+
+.Map_button-14-medium__6uwqu {
+  font-family: "GolosText", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.8px;
+}
+
+.Map_button-14-regular__cEUep {
+  font-family: "GolosText", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.Map_button-13-medium__3ZxwB {
+  font-family: "GolosText", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 15.6px;
+}
+
+.Map_button-16-medium__fxkQ1 {
+  font-family: "GolosText", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 15.6px;
+}
+
+.Map_plates-14-medium__SCdUZ {
+  font-family: "GolosText", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.Map_plates-14-regular__fz2e_ {
+  font-family: "GolosText", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.Map_pagination-16-regular__5Q2qu {
+  font-family: "GolosText", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.Map_download-footer-13__ao472 {
+  font-family: "GolosText", sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 14px;
+}
+
+.Map_table-header-18__R2QN7 {
+  font-family: "GolosText", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.Map_table-header-20___9FPR {
+  font-family: "GolosText", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.Map_map__section__wY_fU {
+  position: relative;
+  border-radius: 16px;
+  overflow: hidden;
+  width: 570px;
+  height: 540px;
+}
+@media (max-width: 1200px) {
+  .Map_map__section__wY_fU {
+    max-width: 100%;
+    max-height: 336px;
+  }
+}
+
+.Map_map__content__WMpev {
+  opacity: 0;
+  animation: Map_fadeIn__ZVeRV 0.5s ease-in-out forwards;
+}
+
+@keyframes Map_fadeIn__ZVeRV {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/*!***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[7].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[7].use[5]!./src/components/UI/Loader/Loader.module.scss ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+@font-face {
+  font-family: "GolosText";
+  src: url("/fonts/GolosText-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "GolosText";
+  src: url("/fonts/GolosText-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+.Loader_title-1__rvh8_ {
+  font-family: "GolosText", sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 32px;
+}
+
+.Loader_title-2__bTzE8 {
+  font-family: "GolosText", sans-serif;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 36px;
+}
+
+.Loader_title-3__2rfKC {
+  font-family: "GolosText", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.Loader_title-4__wxBY9 {
+  font-family: "GolosText", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.Loader_title-5__31mJe {
+  font-family: "GolosText", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.Loader_title-6__go10d {
+  font-family: "GolosText", sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 15.6px;
+}
+
+.Loader_head-1__yIP_v {
+  font-family: "GolosText", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 27px;
+}
+
+.Loader_text__zDSNt {
+  font-family: "GolosText", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.Loader_text-2__WX2S6 {
+  font-family: "GolosText", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 29x;
+}
+
+.Loader_description-13-regular__QDuvU {
+  font-family: "GolosText", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 17px;
+}
+
+.Loader_description-11-medium__W1bS6 {
+  font-family: "GolosText", sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 13.2px;
+}
+
+.Loader_button-14-medium__q_ZI2 {
+  font-family: "GolosText", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.8px;
+}
+
+.Loader_button-14-regular__p4jAd {
+  font-family: "GolosText", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.Loader_button-13-medium__jx30b {
+  font-family: "GolosText", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 15.6px;
+}
+
+.Loader_button-16-medium__nA2QF {
+  font-family: "GolosText", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 15.6px;
+}
+
+.Loader_plates-14-medium__YlR5R {
+  font-family: "GolosText", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.Loader_plates-14-regular__Xbf4E {
+  font-family: "GolosText", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.Loader_pagination-16-regular__xT0AV {
+  font-family: "GolosText", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.Loader_download-footer-13__rqT41 {
+  font-family: "GolosText", sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 14px;
+}
+
+.Loader_table-header-18__O1Gi5 {
+  font-family: "GolosText", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.Loader_table-header-20__BhZJp {
+  font-family: "GolosText", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.Loader_loaderContainer__vMnff {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-radius: 16px;
+  gap: 16px;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+  animation: Loader_fadeOut__Hwhg4 0.5s ease-in-out forwards;
+  animation-play-state: paused;
+}
+
+.Loader_loader__S7gdN {
+  display: flex;
+  gap: 8px;
+}
+
+.Loader_circle__pixYS {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #196BDF;
+  animation: Loader_bounce__Fq06s 0.5s ease-in-out infinite;
+}
+.Loader_circle__pixYS:nth-child(2) {
+  animation-delay: 0.1s;
+}
+.Loader_circle__pixYS:nth-child(3) {
+  animation-delay: 0.2s;
+}
+
+.Loader_text__zDSNt {
+  color: #1a202c;
+}
+
+@keyframes Loader_bounce__Fq06s {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+@keyframes Loader_fadeOut__Hwhg4 {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[7].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[7].use[5]!./src/components/Buses/buses.module.scss ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+@font-face {
+  font-family: "GolosText";
+  src: url("/fonts/GolosText-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "GolosText";
+  src: url("/fonts/GolosText-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+.buses_title-1__9mCQG {
+  font-family: "GolosText", sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 32px;
+}
+
+.buses_title-2__sBtPf {
+  font-family: "GolosText", sans-serif;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 36px;
+}
+
+.buses_title-3__m_O_p, .buses_title__j_sDi, .buses_arrival_time__PetKn, .buses_stops__y6Jge > div:first-child, .buses_navigate__HpyV1 > div:first-child {
+  font-family: "GolosText", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.buses_title-4__xjYsM {
+  font-family: "GolosText", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.buses_title-5__1Zkdw, .buses_no_route__c9v8s {
+  font-family: "GolosText", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.buses_title-6__iiUcd {
+  font-family: "GolosText", sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 15.6px;
+}
+
+.buses_head-1__LnH1H {
+  font-family: "GolosText", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 27px;
+}
+
+.buses_text__A_JPY {
+  font-family: "GolosText", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.buses_text-2__9Ebr1 {
+  font-family: "GolosText", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 29x;
+}
+
+.buses_description-13-regular__9aF4O {
+  font-family: "GolosText", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 17px;
+}
+
+.buses_description-11-medium__F1TvI {
+  font-family: "GolosText", sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 13.2px;
+}
+
+.buses_button-14-medium__kFtYU {
+  font-family: "GolosText", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.8px;
+}
+
+.buses_button-14-regular__W9l__ {
+  font-family: "GolosText", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.buses_button-13-medium__jbmU_ {
+  font-family: "GolosText", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 15.6px;
+}
+
+.buses_button-16-medium__9Dlzt {
+  font-family: "GolosText", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 15.6px;
+}
+
+.buses_plates-14-medium__b9h_7 {
+  font-family: "GolosText", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.buses_plates-14-regular__s0J3J {
+  font-family: "GolosText", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.buses_pagination-16-regular__VYVVR, .buses_stop_name__xu4eQ {
+  font-family: "GolosText", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.buses_download-footer-13__D1Zc_ {
+  font-family: "GolosText", sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 14px;
+}
+
+.buses_table-header-18__MEl_b {
+  font-family: "GolosText", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.buses_table-header-20__Oigh_ {
+  font-family: "GolosText", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.buses_section__map__Q6Q2Q {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 30px;
+  border-radius: 26px;
+  box-shadow: 0px 2px 10px 0px rgba(145, 175, 252, 0.2509803922);
+}
+@media (max-width: 1200px) {
+  .buses_section__map__Q6Q2Q {
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+}
+
+.buses_disable__transform__M_SNm:hover {
+  transform: none;
+}
+
+.buses_section__bus__IQ27h {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+}
+@media (max-width: 1200px) {
+  .buses_section__bus__IQ27h {
+    flex-direction: column;
+  }
+}
+
+.buses_select__section__6G6fY {
+  flex: 1 1;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  min-width: 320px;
+}
+
+.buses_navigate__HpyV1 > div:first-child {
+  color: #1a202c;
+  margin-bottom: 16px;
+}
+
+.buses_stops__y6Jge > div:first-child {
+  color: #1a202c;
+  margin-bottom: 16px;
+}
+
+.buses_stops_list__38GSM {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  background-color: #ECF0F6;
+  border-radius: 16px;
+  min-height: 370px;
+  padding: 10px 10px;
+}
+
+.buses_stop_item__FEd3O {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 12px 30px 12px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border-width: 75px;
+  border-bottom: 0.7px solid #C5D2DE;
+}
+.buses_stop_item__FEd3O:hover {
+  background-color: #D6E0EA;
+  border-radius: 16px;
+}
+.buses_stop_item__FEd3O.buses_selected__zumuM {
+  background-color: #E1F2FF;
+  color: #196BDF;
+  border-radius: 16px;
+}
+.buses_stop_item__FEd3O.buses_selected__zumuM .buses_arrival_time__PetKn {
+  color: #196BDF;
+}
+
+.buses_stop_info__l8YWU {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.buses_stop_number__DSdCN {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #00A764;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  color: #49667E;
+  flex-shrink: 0;
+}
+.buses_selected__zumuM .buses_stop_number__DSdCN {
+  background-color: #196BDF;
+  color: white;
+}
+
+.buses_stop_name__xu4eQ {
+  color: #152738;
+}
+
+.buses_arrival_time__PetKn {
+  color: #1a202c;
+}
+
+.buses_no_route__c9v8s {
+  color: #152738;
+  text-align: center;
+  padding: 24px;
+}
+
+.buses_title__j_sDi {
+  padding-bottom: 30px;
+  color: #1a202c;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+@media (max-width: 1200px) {
+  .buses_title__j_sDi {
+    font-size: 15px;
+    line-height: 18px;
+  }
+}
+
+.buses_title__icon__vvzjo {
+  width: 16px;
+  height: 16px;
+  background-color: #1a202c;
+  border-radius: 50%;
+}
+
+.buses_disabled__title__DY4cH {
+  display: none;
+}
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[7].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[7].use[5]!./src/components/UI/ButtonDefault/ButtonDefault.module.scss ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+@font-face {
+  font-family: "GolosText";
+  src: url("/fonts/GolosText-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "GolosText";
+  src: url("/fonts/GolosText-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+.ButtonDefault_title-1__q9_MW {
+  font-family: "GolosText", sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 32px;
+}
+
+.ButtonDefault_title-2__ESSBk {
+  font-family: "GolosText", sans-serif;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 36px;
+}
+
+.ButtonDefault_title-3__cLvzF {
+  font-family: "GolosText", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.ButtonDefault_title-4__kVBrz {
+  font-family: "GolosText", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.ButtonDefault_title-5__MDIFz {
+  font-family: "GolosText", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.ButtonDefault_title-6__g6yqP {
+  font-family: "GolosText", sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 15.6px;
+}
+
+.ButtonDefault_head-1__6UKId {
+  font-family: "GolosText", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 27px;
+}
+
+.ButtonDefault_text__rDGUz, .ButtonDefault_button__JXPw4 {
+  font-family: "GolosText", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.ButtonDefault_text-2__tpdto {
+  font-family: "GolosText", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 29x;
+}
+
+.ButtonDefault_description-13-regular__YfD03 {
+  font-family: "GolosText", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 17px;
+}
+
+.ButtonDefault_description-11-medium__2nFCp {
+  font-family: "GolosText", sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 13.2px;
+}
+
+.ButtonDefault_button-14-medium__fy6dw, .ButtonDefault_button__JXPw4 {
+  font-family: "GolosText", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.8px;
+}
+
+.ButtonDefault_button-14-regular__7RQLd {
+  font-family: "GolosText", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.ButtonDefault_button-13-medium__B4f5f {
+  font-family: "GolosText", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 15.6px;
+}
+
+.ButtonDefault_button-16-medium__RZsaf {
+  font-family: "GolosText", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 15.6px;
+}
+
+.ButtonDefault_plates-14-medium__PcbdX {
+  font-family: "GolosText", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.ButtonDefault_plates-14-regular__24I8z {
+  font-family: "GolosText", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.ButtonDefault_pagination-16-regular__zZj97 {
+  font-family: "GolosText", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.ButtonDefault_download-footer-13__J9w8J {
+  font-family: "GolosText", sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 14px;
+}
+
+.ButtonDefault_table-header-18__wCHp0 {
+  font-family: "GolosText", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.ButtonDefault_table-header-20__z1WFa {
+  font-family: "GolosText", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.ButtonDefault_button__JXPw4 {
+  padding: 14px 24px 14px 24px;
+  max-width: 100%;
+  border: 2px solid #196BDF;
+  border-radius: 16px;
+  cursor: pointer;
+  background-color: #196BDF;
+  color: white;
+  transition: all 0.3s ease;
+  box-sizing: border-box;
+}
+
+.ButtonDefault_button__JXPw4:hover {
+  background-color: #145FC4;
+  color: white;
+}
+
+.ButtonDefault_button__JXPw4:focus {
+  border: 2px solid #88B8F0;
+}
+
+.ButtonDefault_button__JXPw4:disabled {
+  background-color: #C5D2DE;
+  border: 2px solid #C5D2DE;
+  color: white;
+  cursor: not-allowed;
+}
+/*!******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[7].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[7].use[5]!./src/components/InfoBlock/infoBlock.module.scss ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+@charset "UTF-8";
+@font-face {
+  font-family: "GolosText";
+  src: url("/fonts/GolosText-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "GolosText";
+  src: url("/fonts/GolosText-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+.infoBlock_title-1__qQg32 {
+  font-family: "GolosText", sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 32px;
+}
+
+.infoBlock_title-2__HgoUT {
+  font-family: "GolosText", sans-serif;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 36px;
+}
+
+.infoBlock_title-3__ghWCP, .infoBlock_headTitle__Zi8fs {
+  font-family: "GolosText", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.infoBlock_title-4__K5gDy, .infoBlock_portal_title__Vzreb, .infoBlock_description__xDQOK {
+  font-family: "GolosText", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.infoBlock_title-5__r_Zfa {
+  font-family: "GolosText", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.infoBlock_title-6__meSLx {
+  font-family: "GolosText", sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 15.6px;
+}
+
+.infoBlock_head-1__xSq6H {
+  font-family: "GolosText", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 27px;
+}
+
+.infoBlock_text__sCHHz {
+  font-family: "GolosText", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.infoBlock_text-2__UlLH0 {
+  font-family: "GolosText", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 29x;
+}
+
+.infoBlock_description-13-regular__L3WDq {
+  font-family: "GolosText", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 17px;
+}
+
+.infoBlock_description-11-medium__b9KXf {
+  font-family: "GolosText", sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 13.2px;
+}
+
+.infoBlock_button-14-medium__R6hKF {
+  font-family: "GolosText", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.8px;
+}
+
+.infoBlock_button-14-regular__bkwaf {
+  font-family: "GolosText", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.infoBlock_button-13-medium__KjgXv {
+  font-family: "GolosText", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 15.6px;
+}
+
+.infoBlock_button-16-medium__0ggI8 {
+  font-family: "GolosText", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 15.6px;
+}
+
+.infoBlock_plates-14-medium__QT9dX {
+  font-family: "GolosText", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.infoBlock_plates-14-regular__sjrNa {
+  font-family: "GolosText", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.infoBlock_pagination-16-regular__nPY4n, .infoBlock_portal_description__96kvU {
+  font-family: "GolosText", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.infoBlock_download-footer-13__m9wxt {
+  font-family: "GolosText", sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 14px;
+}
+
+.infoBlock_table-header-18__4Xkm_ {
+  font-family: "GolosText", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.infoBlock_table-header-20__QEXFx {
+  font-family: "GolosText", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.infoBlock_section__iSUgL {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+@media (max-width: 1200px) {
+  .infoBlock_section__iSUgL {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+
+.infoBlock_list__vq4hE {
+  width: 30%;
+  background-color: white;
+  min-height: 260px;
+  border-radius: 26px;
+  will-change: transform;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0px 2px 10px 0px rgba(145, 175, 252, 0.2509803922);
+  cursor: pointer;
+}
+@media (max-width: 1200px) {
+  .infoBlock_list__vq4hE {
+    margin-top: 20px;
+    width: 100%;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.1);
+    margin-left: 0;
+    gap: 0;
+    justify-content: normal;
+    min-height: auto;
+  }
+}
+
+.infoBlock_head__9pxbZ {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 30px;
+  padding-left: 30px;
+}
+@media (max-width: 1200px) {
+  .infoBlock_head__9pxbZ {
+    flex-direction: column;
+    align-items: start;
+    padding-top: 20px;
+  }
+}
+
+.infoBlock_headIcon__FJfd_ {
+  width: 16px;
+  height: 16px;
+  background-color: #1a202c;
+  border-radius: 50%;
+}
+
+.infoBlock_headTitle__Zi8fs {
+  color: #1a202c;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+@media (max-width: 1200px) {
+  .infoBlock_headTitle__Zi8fs {
+    font-size: 15px;
+    line-height: 18px;
+  }
+}
+
+.infoBlock_description__xDQOK {
+  color: #4a5568;
+  padding-left: 30px;
+  padding-bottom: 60px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+@media (max-width: 1200px) {
+  .infoBlock_description__xDQOK {
+    padding-bottom: 20px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    padding-top: 10px;
+  }
+}
+
+.infoBlock_button__ftUG6 {
+  align-self: flex-start;
+  padding-left: 30px;
+  padding-bottom: 30px;
+}
+@media (max-width: 1200px) {
+  .infoBlock_button__ftUG6 {
+    display: none;
+  }
+}
+
+/* Секция столовая */
+.infoBlock_dining__pSRhu {
+  width: 70%;
+  background-color: white;
+  border-radius: 26px;
+  margin-left: 15px;
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+  box-shadow: 0px 2px 10px 0px rgba(145, 175, 252, 0.2509803922);
+}
+@media (max-width: 1200px) {
+  .infoBlock_dining__pSRhu {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.1);
+    margin-left: 0;
+    gap: 0;
+  }
+}
+
+.infoBlock_menuDiner__b5pNl {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+}
+@media (max-width: 1200px) {
+  .infoBlock_menuDiner__b5pNl {
+    width: 100%;
+  }
+}
+
+.infoBlock_detail___ldxc {
+  width: 70%;
+  padding-right: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+@media (max-width: 1200px) {
+  .infoBlock_detail___ldxc {
+    width: 100%;
+    padding-right: 0;
+    padding-bottom: 20px;
+    gap: 5px;
+  }
+}
+
+/* Порталы */
+.infoBlock_portal__2qbTZ {
+  background-color: white;
+  border-radius: 26px;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  box-shadow: 0px 2px 10px 0px rgba(145, 175, 252, 0.2509803922);
+}
+@media (max-width: 1200px) {
+  .infoBlock_portal__2qbTZ {
+    padding: 20px;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.1);
+    max-height: none;
+  }
+}
+
+.infoBlock_portal_title__Vzreb {
+  color: #053b74;
+  padding-left: 30px;
+  padding-top: 30px;
+}
+@media (max-width: 1200px) {
+  .infoBlock_portal_title__Vzreb {
+    padding-left: 20px;
+    padding-top: 20px;
+  }
+}
+
+.infoBlock_portal_description__96kvU {
+  color: #4a5568;
+  padding-left: 30px;
+}
+@media (max-width: 1200px) {
+  .infoBlock_portal_description__96kvU {
+    padding-left: 20px;
+  }
+}
+
+.infoBlock_portal_item__Nrdif {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 282px);
+  grid-auto-flow: column;
+  grid-auto-rows: 200px;
+  grid-gap: 10px;
+  gap: 10px;
+  padding-top: 30px;
+  cursor: pointer;
+  justify-content: start;
+}
+@media (max-width: 1200px) {
+  .infoBlock_portal_item__Nrdif {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    grid-auto-rows: auto;
+    grid-auto-flow: row;
+  }
+}
+
+.infoBlock_portal_icon__ZMQYk {
+  width: 50px;
+  height: 50px;
+  background-color: #e1e8f0;
+  border-radius: 12px;
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+
+.infoBlock_item_block__M9QWP {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #ECF0F6;
+  border-radius: 16px;
+  width: 282px;
+  height: 200px;
+}
+@media (max-width: 1200px) {
+  .infoBlock_item_block__M9QWP {
+    width: 100%;
+    height: auto;
+  }
+}
+.infoBlock_item_block__M9QWP:hover {
+  background-color: #E1F2FF;
+}
+.infoBlock_item_block__M9QWP:focus {
+  border: 3px solid #88B8F0;
+}
+
+.infoBlock_disabled_block__3v3UG {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: none;
+  border-radius: 16px;
+  border: 1px dashed #B3C3D2;
+  width: 282px;
+  height: 200px;
+}
+@media (max-width: 1200px) {
+  .infoBlock_disabled_block__3v3UG {
+    width: 100%;
+    height: auto;
+  }
+}
+/*!************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[7].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[7].use[5]!./src/components/UI/BlockExpenses/expenses.module.scss ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+@font-face {
+  font-family: "GolosText";
+  src: url("/fonts/GolosText-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "GolosText";
+  src: url("/fonts/GolosText-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+.expenses_title-1__bgmX7, .expenses_expenses_sum__WIQSS {
+  font-family: "GolosText", sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 32px;
+}
+
+.expenses_title-2__tZQiO {
+  font-family: "GolosText", sans-serif;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 36px;
+}
+
+.expenses_title-3__PXoDq {
+  font-family: "GolosText", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.expenses_title-4__xj6vX, .expenses_expenses_title__gmPIX {
+  font-family: "GolosText", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.expenses_title-5__AYA8D {
+  font-family: "GolosText", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.expenses_title-6__pp7rO {
+  font-family: "GolosText", sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 15.6px;
+}
+
+.expenses_head-1__SqhWw {
+  font-family: "GolosText", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 27px;
+}
+
+.expenses_text__9d6r8 {
+  font-family: "GolosText", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.expenses_text-2__znD6f {
+  font-family: "GolosText", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 29x;
+}
+
+.expenses_description-13-regular__zSGOB {
+  font-family: "GolosText", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 17px;
+}
+
+.expenses_description-11-medium__x7_Qs {
+  font-family: "GolosText", sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 13.2px;
+}
+
+.expenses_button-14-medium__e7rY_ {
+  font-family: "GolosText", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.8px;
+}
+
+.expenses_button-14-regular__SylvW {
+  font-family: "GolosText", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.expenses_button-13-medium__c6MVx {
+  font-family: "GolosText", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 15.6px;
+}
+
+.expenses_button-16-medium__qQBN0 {
+  font-family: "GolosText", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 15.6px;
+}
+
+.expenses_plates-14-medium__jsRjg {
+  font-family: "GolosText", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.expenses_plates-14-regular__KaZMG {
+  font-family: "GolosText", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.expenses_pagination-16-regular__hzfwB {
+  font-family: "GolosText", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.expenses_download-footer-13__i_6rb {
+  font-family: "GolosText", sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 14px;
+}
+
+.expenses_table-header-18__QY5vt {
+  font-family: "GolosText", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.expenses_table-header-20__M2hTN {
+  font-family: "GolosText", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.expenses_expenses__UaI5k {
+  width: 50%;
+  min-height: 200px;
+  background-color: #ECF0F6;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 15px;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.expenses_expenses__UaI5k:hover {
+  background-color: #E1F2FF;
+}
+.expenses_expenses__UaI5k:focus {
+  border: 3px solid #88B8F0;
+}
+@media (max-width: 1200px) {
+  .expenses_expenses__UaI5k {
+    margin-left: 20px;
+    justify-content: normal;
+    min-height: 140px;
+  }
+}
+
+.expenses_expenses_title__gmPIX {
+  color: #053b74;
+  padding-top: 15px;
+}
+@media (max-width: 1200px) {
+  .expenses_expenses_title__gmPIX {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+  }
+}
+
+.expenses_expenses_sum__WIQSS {
+  color: #1a202c;
+  padding-bottom: 15px;
+}
+@media (max-width: 1200px) {
+  .expenses_expenses_sum__WIQSS {
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 20px;
+    padding-top: 50px;
+  }
+}
+/*!******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[7].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[7].use[5]!./src/components/UI/BlockCheks/cheks.module.scss ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+@font-face {
+  font-family: "GolosText";
+  src: url("/fonts/GolosText-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "GolosText";
+  src: url("/fonts/GolosText-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+.cheks_title-1__ze4SR, .cheks_expenses_sum__jh55A {
+  font-family: "GolosText", sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 32px;
+}
+
+.cheks_title-2__bK91q {
+  font-family: "GolosText", sans-serif;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 36px;
+}
+
+.cheks_title-3__CbXWD {
+  font-family: "GolosText", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.cheks_title-4__0NNZq, .cheks_expenses_title__y4KmN {
+  font-family: "GolosText", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.cheks_title-5__XIRB0 {
+  font-family: "GolosText", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.cheks_title-6__gFMGB {
+  font-family: "GolosText", sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 15.6px;
+}
+
+.cheks_head-1__2LGQy {
+  font-family: "GolosText", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 27px;
+}
+
+.cheks_text__RVsNv {
+  font-family: "GolosText", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.cheks_text-2__0UUFl {
+  font-family: "GolosText", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 29x;
+}
+
+.cheks_description-13-regular__kBc2F {
+  font-family: "GolosText", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 17px;
+}
+
+.cheks_description-11-medium__lgsNW {
+  font-family: "GolosText", sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 13.2px;
+}
+
+.cheks_button-14-medium__UqLjY {
+  font-family: "GolosText", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.8px;
+}
+
+.cheks_button-14-regular__0QsoV {
+  font-family: "GolosText", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.cheks_button-13-medium__XNWnD {
+  font-family: "GolosText", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 15.6px;
+}
+
+.cheks_button-16-medium__JI_3r {
+  font-family: "GolosText", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 15.6px;
+}
+
+.cheks_plates-14-medium__HO6av {
+  font-family: "GolosText", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.cheks_plates-14-regular__zlxd2 {
+  font-family: "GolosText", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.cheks_pagination-16-regular__YI2eT {
+  font-family: "GolosText", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.cheks_download-footer-13__Yup9p {
+  font-family: "GolosText", sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 14px;
+}
+
+.cheks_table-header-18__mEHdL {
+  font-family: "GolosText", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.cheks_table-header-20__ySyAi {
+  font-family: "GolosText", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.cheks_expenses__4E_9J {
+  width: 50%;
+  min-height: 200px;
+  background-color: #ECF0F6;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 15px;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.cheks_expenses__4E_9J:hover {
+  background-color: #E1F2FF;
+}
+.cheks_expenses__4E_9J:focus {
+  border: 3px solid #88B8F0;
+}
+@media (max-width: 1200px) {
+  .cheks_expenses__4E_9J {
+    margin-right: 20px;
+    min-height: 140px;
+  }
+}
+
+.cheks_expenses_title__y4KmN {
+  color: #053b74;
+  padding-top: 15px;
+}
+@media (max-width: 1200px) {
+  .cheks_expenses_title__y4KmN {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+  }
+}
+
+.cheks_expenses_sum__jh55A {
+  color: #1a202c;
+  padding-bottom: 15px;
+}

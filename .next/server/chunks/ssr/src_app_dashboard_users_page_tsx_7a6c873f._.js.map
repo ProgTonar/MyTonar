@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///home/andrey/Projects/MyTonarFront/src/app/dashboard/users/page.tsx"],"sourcesContent":["'use client'\n\nimport { IUser } from \"@/type/Types\";\n\ninterface UserClientProps {\n    users: IUser[]\n}\n\nexport default function UserClient({users}:UserClientProps) {\n    return (\n        <div>\n            {users.map(user => (\n                user.login\n            ))}\n        </div>\n    );\n}"],"names":[],"mappings":";;;;AAAA;;AAQe,SAAS,WAAW,EAAC,KAAK,EAAiB;IACtD,qBACI,8OAAC;kBACI,MAAM,GAAG,CAAC,CAAA,OACP,KAAK,KAAK;;;;;;AAI1B","debugId":null}},
-    {"offset": {"line": 22, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
-}

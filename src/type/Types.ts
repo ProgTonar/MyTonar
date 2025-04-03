@@ -1,6 +1,6 @@
 export interface IRoute {
 	id: number
-	titles: string
+	title: string
 	nameStart: string
 	nameEnd: string
 	dotsStart: { dotX: number; dotY: number }
@@ -12,7 +12,8 @@ export interface IStop {
 	id: number
 	name: string
 	coordinate: { dotX: number; dotY: number }
-	arrivalTime: string
+	arrival_time: string
+	bus_navigation_id: number
 }
 
 export interface INews {
@@ -81,7 +82,7 @@ export interface IPermission {
 
 
   export interface IContacts {
-	id?: number;
+	id: number;
 	name?: string;
 	job_title?: string
 	v_phonenumber?: string

@@ -1,15 +1,13 @@
-import React from 'react';
-import styles from './dashboard.module.scss';
+"use client";
 
-
+import React from "react";
+import styles from "./dashboard.module.scss";
 
 export default function DashboardLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
-
-
   return (
     <div className={styles.dashboardContainer}>
       <aside className={styles.sidebar}>
@@ -23,6 +21,9 @@ export default function DashboardLayout({
             </li>
             <li>
               <a href="/dashboard/contacts">Телефоны</a>
+            </li>
+            <li>
+              <a href="/dashboard/busnavi">Автобусы</a>
             </li>
             <li>
               <a href="/dashboard/users">Пользователи</a>
@@ -39,9 +40,7 @@ export default function DashboardLayout({
           </ul>
         </nav>
       </aside>
-      <main className={styles.content}>
-        {children}
-      </main>
+      <main className={styles.content}>{children}</main>
     </div>
   );
 }

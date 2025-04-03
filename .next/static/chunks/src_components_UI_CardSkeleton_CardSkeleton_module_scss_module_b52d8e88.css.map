@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/src/components/UI/CardSkeleton/CardSkeleton.module.scss.module.css"],"sourcesContent":["@keyframes shimmer{0%{background-position:-200% 0}100%{background-position:200% 0}}.skeleton{width:100%;max-width:300px;padding:24px;background:#fff;border-radius:8px;display:flex;flex-direction:column;align-items:center;gap:20px;box-shadow:0 2px 4px rgba(0,0,0,.1)}.avatar{width:120px;height:120px;border-radius:50%;background:linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);background-size:200% 100%;animation:shimmer 1.5s infinite}.content{width:100%;display:flex;flex-direction:column;align-items:center;gap:16px}.name{height:24px;width:80%;background:linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);background-size:200% 100%;animation:shimmer 1.5s infinite;border-radius:4px}.info{width:100%;display:flex;flex-direction:column;gap:12px}.text{height:16px;background:linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);background-size:200% 100%;animation:shimmer 1.5s infinite;border-radius:4px}.text:first-child{width:100%}.text:last-child{width:70%;margin:0 auto}"],"names":[],"mappings":"AAAA;;;;;;;;;;AAAmF;;;;;;;;;;;;;AAAuL;;;;;;;;;AAAsL;;;;;;;;AAAmF;;;;;;;;;AAAiL;;;;;;;AAA6D;;;;;;;;AAAuK;;;;AAA6B"}},
-    {"offset": {"line": 73, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
-}

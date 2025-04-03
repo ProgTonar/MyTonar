@@ -1,7 +1,8 @@
-'use client'
+'use client';
 
 import { useState, useEffect } from 'react';
 import axios from 'axios';
+import Cookies from 'js-cookie';
 
 interface NewsPermissionsState {
   isLoading: boolean;
@@ -10,6 +11,7 @@ interface NewsPermissionsState {
   isAdmin: boolean;
   message: string | null;
 }
+
 export function useNewsPermissions(): NewsPermissionsState {
   const [state, setState] = useState<NewsPermissionsState>({
     isLoading: true,
@@ -20,11 +22,10 @@ export function useNewsPermissions(): NewsPermissionsState {
   });
 
   useEffect(() => {
-    if (typeof window === 'undefined') return;
-    
     const getUserRoles = async () => {
       try {
-        const token = localStorage.getItem('access_token');
+        // Получаем токен из куки
+        const token = Cookies.get('access_token');
         
         if (!token) {
           setState({
@@ -75,8 +76,11 @@ export function useNewsPermissions(): NewsPermissionsState {
       }
     };
 
-    getUserRoles();
+    // Проверяем, что код выполняется на клиенте
+    if (typeof window !== 'undefined') {
+      getUserRoles();
+    }
   }, []);
 
   return state;
-} 
+}

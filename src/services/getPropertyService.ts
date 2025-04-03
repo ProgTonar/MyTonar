@@ -15,7 +15,6 @@ export default async function getProperty(tableId: string){
         }
         
      )
-     console.log(response.data.data)
      return response.data.data
     } catch (error) {
        console.error('Ошибка получения данных:', error)

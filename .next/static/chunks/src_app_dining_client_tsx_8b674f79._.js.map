@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///home/andrey/Projects/MyTonarFront/src/app/dining/client.tsx"],"sourcesContent":["\"use client\";\n\nconst DiningRoom = () => {\n  return <div>Меню столовой</div>;\n};\n\nexport default DiningRoom;\n"],"names":[],"mappings":";;;;AAAA;;AAEA,MAAM,aAAa;IACjB,qBAAO,6LAAC;kBAAI;;;;;;AACd;KAFM;uCAIS","debugId":null}},
-    {"offset": {"line": 29, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
-}

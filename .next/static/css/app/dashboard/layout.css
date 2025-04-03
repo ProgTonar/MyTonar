@@ -1,0 +1,248 @@
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[7].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[7].use[5]!./src/app/dashboard/dashboard.module.scss ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+@font-face {
+  font-family: "GolosText";
+  src: url("/fonts/GolosText-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "GolosText";
+  src: url("/fonts/GolosText-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+.dashboard_title-1__zYLo8 {
+  font-family: "GolosText", sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 32px;
+}
+
+.dashboard_title-2__AjJvQ {
+  font-family: "GolosText", sans-serif;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 36px;
+}
+
+.dashboard_title-3__RI9wL {
+  font-family: "GolosText", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.dashboard_title-4__RM0Ph {
+  font-family: "GolosText", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.dashboard_title-5__4Be3l {
+  font-family: "GolosText", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.dashboard_title-6__DjZwI {
+  font-family: "GolosText", sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 15.6px;
+}
+
+.dashboard_head-1__BMF3K {
+  font-family: "GolosText", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 27px;
+}
+
+.dashboard_text__1IjSK {
+  font-family: "GolosText", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.dashboard_text-2__p2Aib {
+  font-family: "GolosText", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 29x;
+}
+
+.dashboard_description-13-regular__7iBEo {
+  font-family: "GolosText", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 17px;
+}
+
+.dashboard_description-11-medium__FBS9p {
+  font-family: "GolosText", sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 13.2px;
+}
+
+.dashboard_button-14-medium____Ksh {
+  font-family: "GolosText", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.8px;
+}
+
+.dashboard_button-14-regular__47IUy {
+  font-family: "GolosText", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.dashboard_button-13-medium__gw9z4 {
+  font-family: "GolosText", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 15.6px;
+}
+
+.dashboard_button-16-medium__Esmtc {
+  font-family: "GolosText", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 15.6px;
+}
+
+.dashboard_plates-14-medium__EjUmA {
+  font-family: "GolosText", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.dashboard_plates-14-regular__h3Y_t {
+  font-family: "GolosText", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.dashboard_pagination-16-regular__lq4uO {
+  font-family: "GolosText", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.dashboard_download-footer-13__reqO6 {
+  font-family: "GolosText", sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 14px;
+}
+
+.dashboard_table-header-18__5fB3x {
+  font-family: "GolosText", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.dashboard_table-header-20__xgwnl {
+  font-family: "GolosText", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.dashboard_dashboardContainer__ILFez {
+  display: flex;
+  min-height: 100vh;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1000;
+  background-color: #FFFFFF;
+}
+
+.dashboard_sidebar__4ANs5 {
+  width: 250px;
+  background-color: #ECF0F6;
+  padding: 20px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  overflow-y: auto;
+}
+.dashboard_sidebar__4ANs5 ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.dashboard_sidebar__4ANs5 ul li {
+  margin-bottom: 15px;
+}
+.dashboard_sidebar__4ANs5 ul li a {
+  text-decoration: none;
+  color: #1a202c;
+  font-weight: 500;
+  display: block;
+  padding: 10px;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+.dashboard_sidebar__4ANs5 ul li a:hover {
+  background-color: #E1E8F0;
+}
+
+.dashboard_content__omtRk {
+  flex: 1 1;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+@media (max-width: 768px) {
+  .dashboard_sidebar__4ANs5 {
+    width: 200px;
+  }
+  .dashboard_content__omtRk {
+    margin-left: 200px;
+  }
+  .dashboard_sidebarHeader__3UCrR {
+    padding: 16px;
+  }
+  .dashboard_sidebarHeader__3UCrR h2 {
+    font-size: 18px;
+  }
+  .dashboard_navLink__vRXRu {
+    padding: 10px 12px;
+    font-size: 14px;
+  }
+}
+@media (max-width: 640px) {
+  .dashboard_dashboardContainer__ILFez {
+    flex-direction: column;
+  }
+  .dashboard_sidebar__4ANs5 {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .dashboard_content__omtRk {
+    margin-left: 0;
+  }
+  .dashboard_navigation__fn8bq {
+    flex-direction: row;
+    overflow-x: auto;
+    padding: 12px;
+  }
+  .dashboard_navLink__vRXRu {
+    white-space: nowrap;
+  }
+}

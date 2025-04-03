@@ -10,7 +10,7 @@
 
     @media (max-width: 1200px) {
         flex-direction: column;
-        gap: 10;
+        gap: 10px;
         align-items: normal;
     }
 }
@@ -52,6 +52,7 @@
 
          @media (max-width: 1200px) {
             border-radius: 16px;
+            margin-bottom: 10px;
          }
 }
 
@@ -151,6 +152,7 @@
     max-width: 100%;
     @media (max-width: 1200px) {
             border-radius: 16px;
+            margin-bottom: 10px;
         }
 
 
